@@ -1,0 +1,93 @@
+$ribbon-color: $grey-darker !default;
+$ribbon-background-color: $white !default;
+$ribbon-border: 0.1rem solid $grey-lighter !default;
+
+// The ribbon sizes use mixins so they can be used at different breakpoints
+@mixin ribbon-small {
+  font-size: $size-small;
+}
+
+@mixin ribbon-medium {
+  font-size: $size-medium;
+}
+
+@mixin ribbon-large {
+  font-size: $size-large;
+}
+
+.cj-has-ribbon {
+  position: relative;
+}
+
+.cj-has-ribbon-left {
+  position: relative;
+
+  .cj-ribbon {
+    right: auto;
+    left: 0;
+    border-left: none;
+    border-right: $ribbon-border;
+  }
+}
+
+.cj-has-ribbon-bottom {
+  position: relative;
+
+  .cj-ribbon {
+    top: auto;
+    bottom: 0.5em;
+  }
+}
+
+.cj-ribbon {
+  background-color: $ribbon-background-color;
+  border: $ribbon-border;
+  border-right: none;
+  color: $ribbon-color;
+  font-size: $size-normal;
+  justify-content: center;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  top: 0.5em;
+  right: 0;
+  font-weight: 400;
+  z-index: 2;
+
+  @each $name, $pair in $colors {
+    $color: nth($pair, 1);
+    $color-invert: nth($pair, 2);
+
+    &.cj-is-#{$name}:not(.cj-is-outlined) {
+      background-color: $color;
+      border-color: transparent;
+      color: $color-invert !important;
+    }
+
+    &.cj-is-#{$name} {
+      &.cj-is-outlined {
+        background-color: transparent;
+        border-color: $color;
+      }
+    }
+  }
+
+  // Sizes
+  &.cj-is-small {
+    @include ribbon-small;
+  }
+
+  &.cj-is-medium {
+    @include ribbon-medium;
+  }
+
+  &.cj-is-large {
+    @include ribbon-large;
+  }
+
+  &.cj-is-outlined {
+    background-color: transparent;
+  }
+}

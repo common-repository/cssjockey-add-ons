@@ -1,0 +1,3970 @@
+# Copyright (C) 2020 WP Builder
+# This file is distributed under the same license as the WP Builder package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Builder\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: WP Builder Team <support@getwpbuilder.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: config/admin-menu.php:4
+msgid "Core Settings"
+msgstr ""
+
+#: config/admin-menu.php:6
+msgid "Info & Downloads"
+msgstr ""
+
+#: config/admin-menu.php:7, framework/admin-pages/core-global-config.php:15, framework/admin-pages/core-global-config.php:17
+msgid "Global Settings"
+msgstr ""
+
+#: config/admin-menu.php:8
+msgid "UI Style Variables"
+msgstr ""
+
+#: config/admin-menu.php:9
+msgid "Shortcodes"
+msgstr ""
+
+#: config/admin-menu.php:11
+msgid "App Integrations"
+msgstr ""
+
+#: config/admin-menu.php:12
+msgid "Custom Data"
+msgstr ""
+
+#: config/admin-menu.php:13, framework/admin-pages/core-uninstall.php:10
+msgid "Uninstall"
+msgstr ""
+
+#: config/custom-post-types.php:7, framework/autoload/builder-templates.php:404, framework/html/template-editor.php:22
+msgid "UI Blocks"
+msgstr ""
+
+#: config/custom-post-types.php:8, shortcodes/block/init.php:41
+msgid "UI Block"
+msgstr ""
+
+#: config/custom-post-types.php:10
+msgid "Add New UI Block"
+msgstr ""
+
+#: config/custom-post-types.php:11
+msgid "Edit UI Block"
+msgstr ""
+
+#: config/custom-post-types.php:12
+msgid "New UI Block"
+msgstr ""
+
+#: config/custom-post-types.php:13
+msgid "View UI Block"
+msgstr ""
+
+#: config/custom-post-types.php:14
+msgid "Search UI Blocks"
+msgstr ""
+
+#: config/custom-post-types.php:15
+msgid "No UI Blocks found"
+msgstr ""
+
+#: config/custom-post-types.php:16
+msgid "No UI Blocks found in Trash"
+msgstr ""
+
+#: config/custom-post-types.php:40
+msgid "Templates"
+msgstr ""
+
+#: config/custom-post-types.php:41
+msgid "Template"
+msgstr ""
+
+#: config/custom-post-types.php:43
+msgid "Add New Template"
+msgstr ""
+
+#: config/custom-post-types.php:44, framework/autoload/builder-templates.php:442
+msgid "Edit Template"
+msgstr ""
+
+#: config/custom-post-types.php:45, framework/autoload/builder-templates.php:91
+msgid "New Template"
+msgstr ""
+
+#: config/custom-post-types.php:46
+msgid "View Template"
+msgstr ""
+
+#: config/custom-post-types.php:47
+msgid "Search Templates"
+msgstr ""
+
+#: config/custom-post-types.php:48
+msgid "No Templates found"
+msgstr ""
+
+#: config/custom-post-types.php:49
+msgid "No Templates found in Trash"
+msgstr ""
+
+#: config/custom-post-types.php:72
+msgid "Portfolio"
+msgstr ""
+
+#: config/custom-post-types.php:73
+msgid "Portfolio Item"
+msgstr ""
+
+#: config/custom-post-types.php:75
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: config/custom-post-types.php:76
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: config/custom-post-types.php:77
+msgid "New Portfolio Item"
+msgstr ""
+
+#: config/custom-post-types.php:78
+msgid "View Portfolio Item"
+msgstr ""
+
+#: config/custom-post-types.php:79
+msgid "Search Portfolio"
+msgstr ""
+
+#: config/custom-post-types.php:80
+msgid "No Portfolio found"
+msgstr ""
+
+#: config/custom-post-types.php:81
+msgid "No Portfolio found in Trash"
+msgstr ""
+
+#: config/custom-post-types.php:104
+msgid "Team Members"
+msgstr ""
+
+#: config/custom-post-types.php:105
+msgid "Team Member"
+msgstr ""
+
+#: config/custom-post-types.php:107
+msgid "Add New Team Member"
+msgstr ""
+
+#: config/custom-post-types.php:108
+msgid "Edit Team Member"
+msgstr ""
+
+#: config/custom-post-types.php:109
+msgid "New Team Member"
+msgstr ""
+
+#: config/custom-post-types.php:110
+msgid "View Team Member"
+msgstr ""
+
+#: config/custom-post-types.php:111
+msgid "Search Team Members"
+msgstr ""
+
+#: config/custom-post-types.php:112
+msgid "No Team Members found"
+msgstr ""
+
+#: config/custom-post-types.php:113
+msgid "No Team Members found in Trash"
+msgstr ""
+
+#: config/custom-post-types.php:136, framework/admin-pages/core-welcome.php:37
+msgid "FAQs"
+msgstr ""
+
+#: config/custom-post-types.php:137
+msgid "FAQ"
+msgstr ""
+
+#: config/custom-post-types.php:139
+msgid "Add New FAQ"
+msgstr ""
+
+#: config/custom-post-types.php:140
+msgid "Edit FAQ"
+msgstr ""
+
+#: config/custom-post-types.php:141
+msgid "New FAQ"
+msgstr ""
+
+#: config/custom-post-types.php:142
+msgid "View FAQ"
+msgstr ""
+
+#: config/custom-post-types.php:143
+msgid "Search FAQs"
+msgstr ""
+
+#: config/custom-post-types.php:144
+msgid "No FAQs found"
+msgstr ""
+
+#: config/custom-post-types.php:145
+msgid "No FAQs found in Trash"
+msgstr ""
+
+#: config/custom-post-types.php:168
+msgid "Testimonials"
+msgstr ""
+
+#: config/custom-post-types.php:169
+msgid "Testimonial"
+msgstr ""
+
+#: config/custom-post-types.php:171
+msgid "Add New Testimonial"
+msgstr ""
+
+#: config/custom-post-types.php:172
+msgid "Edit Testimonial"
+msgstr ""
+
+#: config/custom-post-types.php:173
+msgid "New Testimonial"
+msgstr ""
+
+#: config/custom-post-types.php:174
+msgid "View Testimonial"
+msgstr ""
+
+#: config/custom-post-types.php:175
+msgid "Search Testimonials"
+msgstr ""
+
+#: config/custom-post-types.php:176
+msgid "No Testimonials found"
+msgstr ""
+
+#: config/custom-post-types.php:177
+msgid "No Testimonials found in Trash"
+msgstr ""
+
+#: config/custom-taxonomies.php:6
+msgid "Groups"
+msgstr ""
+
+#: config/custom-taxonomies.php:7
+msgid "Group"
+msgstr ""
+
+#: config/custom-taxonomies.php:8
+msgid "Search Group"
+msgstr ""
+
+#: config/custom-taxonomies.php:9
+msgid "All Groups"
+msgstr ""
+
+#: config/custom-taxonomies.php:10
+msgid "Parent Group"
+msgstr ""
+
+#: config/custom-taxonomies.php:11
+msgid "Parent Group:"
+msgstr ""
+
+#: config/custom-taxonomies.php:12
+msgid "Edit Group"
+msgstr ""
+
+#: config/custom-taxonomies.php:13
+msgid "Update Group"
+msgstr ""
+
+#: config/custom-taxonomies.php:14
+msgid "Add New Group"
+msgstr ""
+
+#: config/custom-taxonomies.php:15
+msgid "New Group"
+msgstr ""
+
+#: config/custom-taxonomies.php:37
+msgid "Portfolio Categories"
+msgstr ""
+
+#: config/custom-taxonomies.php:38
+msgid "Portfolio Category"
+msgstr ""
+
+#: config/custom-taxonomies.php:39
+msgid "Search Portfolio Category"
+msgstr ""
+
+#: config/custom-taxonomies.php:40
+msgid "All Portfolio Categories"
+msgstr ""
+
+#: config/custom-taxonomies.php:41
+msgid "Parent Portfolio Category"
+msgstr ""
+
+#: config/custom-taxonomies.php:42
+msgid "Parent Portfolio Category:"
+msgstr ""
+
+#: config/custom-taxonomies.php:43
+msgid "Edit Portfolio Category"
+msgstr ""
+
+#: config/custom-taxonomies.php:44
+msgid "Update Portfolio Category"
+msgstr ""
+
+#: config/custom-taxonomies.php:45
+msgid "Add New Portfolio Category"
+msgstr ""
+
+#: config/custom-taxonomies.php:46
+msgid "New Portfolio Category"
+msgstr ""
+
+#: config/custom-taxonomies.php:67
+msgid "FAQs Categories"
+msgstr ""
+
+#: config/custom-taxonomies.php:68
+msgid "FAQs Category"
+msgstr ""
+
+#: config/custom-taxonomies.php:69
+msgid "Search FAQs Category"
+msgstr ""
+
+#: config/custom-taxonomies.php:70
+msgid "All FAQs Categories"
+msgstr ""
+
+#: config/custom-taxonomies.php:71
+msgid "Parent FAQs Category"
+msgstr ""
+
+#: config/custom-taxonomies.php:72
+msgid "Parent FAQs Category:"
+msgstr ""
+
+#: config/custom-taxonomies.php:73
+msgid "Edit FAQs Category"
+msgstr ""
+
+#: config/custom-taxonomies.php:74
+msgid "Update FAQs Category"
+msgstr ""
+
+#: config/custom-taxonomies.php:75
+msgid "Add New FAQs Category"
+msgstr ""
+
+#: config/custom-taxonomies.php:76
+msgid "New FAQs Category"
+msgstr ""
+
+#: config/custom-taxonomies.php:97
+msgid "Designations"
+msgstr ""
+
+#: config/custom-taxonomies.php:98, config/metaboxes/team-metabox.php:38, config/metaboxes/testimonials-metabox.php:53
+msgid "Designation"
+msgstr ""
+
+#: config/custom-taxonomies.php:99
+msgid "Search Designation"
+msgstr ""
+
+#: config/custom-taxonomies.php:100
+msgid "All Designations"
+msgstr ""
+
+#: config/custom-taxonomies.php:101
+msgid "Parent Designation"
+msgstr ""
+
+#: config/custom-taxonomies.php:102
+msgid "Parent Designation:"
+msgstr ""
+
+#: config/custom-taxonomies.php:103
+msgid "Edit Designation"
+msgstr ""
+
+#: config/custom-taxonomies.php:104
+msgid "Update Designation"
+msgstr ""
+
+#: config/custom-taxonomies.php:105
+msgid "Add New Designation"
+msgstr ""
+
+#: config/custom-taxonomies.php:106
+msgid "New Designation"
+msgstr ""
+
+#: config/locale.php:5, framework/admin-pages/core-uninstall.php:19, framework/admin-pages/core-uninstall.php:28, framework/admin-pages/core-uninstall.php:37, framework/admin-pages/core-uninstall.php:46
+msgid "Are you sure?"
+msgstr ""
+
+#: config/locale.php:6
+msgid "This cannot be undone!"
+msgstr ""
+
+#: config/locale.php:7, framework/html/form-field.php:1064, framework/html/form-field.php:1077, framework/traits/helpers/arrays.trait.php:65, framework/traits/helpers/arrays.trait.php:73
+msgid "Yes"
+msgstr ""
+
+#: config/locale.php:8, framework/html/form-field.php:1065, framework/html/form-field.php:1078, framework/traits/helpers/arrays.trait.php:66, framework/traits/helpers/arrays.trait.php:74
+msgid "No"
+msgstr ""
+
+#: config/locale.php:9, config/locale.php:100
+msgid "Cancel"
+msgstr ""
+
+#: config/locale.php:12
+msgid "Error!"
+msgstr ""
+
+#: config/locale.php:13
+msgid "Success!"
+msgstr ""
+
+#: config/locale.php:23, config/locale.php:24, config/locale.php:74, config/locale.php:75
+msgid "Username or Email address"
+msgstr ""
+
+#: config/locale.php:27, config/locale.php:28, config/locale.php:58, config/locale.php:59, framework/html/forms/vue/auth-login-form.php:8, framework/html/forms/vue/auth-register-form.php:12, framework/html/forms/vue/auth-register-form.php:19, framework/html/forms/vue/parts/change-password.php:6
+msgid "Password"
+msgstr ""
+
+#: config/locale.php:31, framework/rest-api/core-auth.php:23, framework/rest-api/core-auth.php:34
+msgid "Login"
+msgstr ""
+
+#: config/locale.php:34
+msgid "Forgot Password?"
+msgstr ""
+
+#: config/locale.php:37, config/locale.php:84
+msgid "New User? Sign Up"
+msgstr ""
+
+#: config/locale.php:42, config/locale.php:43, framework/html/forms/vue/auth-register-form.php:8, framework/html/forms/vue/auth-register-form.php:15, framework/html/forms/vue/contact-form.php:6, framework/html/forms/vue/email-subscription-form.php:9
+msgid "First name"
+msgstr ""
+
+#: config/locale.php:46, config/locale.php:47, framework/html/forms/vue/auth-register-form.php:9, framework/html/forms/vue/auth-register-form.php:16, framework/html/forms/vue/contact-form.php:7, framework/html/forms/vue/email-subscription-form.php:10
+msgid "Last name"
+msgstr ""
+
+#: config/locale.php:50, config/locale.php:51, framework/html/forms/vue/auth-register-form.php:10, framework/html/forms/vue/auth-register-form.php:17
+msgid "Choose a username"
+msgstr ""
+
+#: config/locale.php:54, config/locale.php:55
+msgid "Your email address"
+msgstr ""
+
+#: config/locale.php:62, config/locale.php:63, framework/html/forms/vue/parts/change-password.php:8
+msgid "Confirm password"
+msgstr ""
+
+#: config/locale.php:66
+msgid "Create Account"
+msgstr ""
+
+#: config/locale.php:69, config/locale.php:81
+msgid "Have an account? Sign In"
+msgstr ""
+
+#: config/locale.php:78, framework/html/preview-shortcode.php:54
+msgid "Submit"
+msgstr ""
+
+#: config/locale.php:89, config/locale.php:90
+msgid "New password"
+msgstr ""
+
+#: config/locale.php:93, config/locale.php:94, framework/html/forms/vue/parts/change-password.php:9
+msgid "Type again"
+msgstr ""
+
+#: config/locale.php:97
+msgid "Reset Password"
+msgstr ""
+
+#: config/plugin-info.php:4, config/plugin-info.php:5, config/plugin-info.php:14, config/plugin-info.php:15
+msgid "WP Builder"
+msgstr ""
+
+#: config/plugin-info.php:13
+msgid "Our base framework enables required shareable resources that are used by all our WordPress products."
+msgstr ""
+
+#: config/metaboxes/portfolio-metabox.php:22, config/metaboxes/team-metabox.php:22, config/metaboxes/testimonials-metabox.php:26
+msgid "Additional Information"
+msgstr ""
+
+#: config/metaboxes/portfolio-metabox.php:38
+msgid "Video (iframe)"
+msgstr ""
+
+#: config/metaboxes/portfolio-metabox.php:50
+msgid "Gallery"
+msgstr ""
+
+#: config/metaboxes/portfolio-metabox.php:58
+msgid "Live Project URL"
+msgstr ""
+
+#: config/metaboxes/portfolio-metabox.php:59
+msgid "Add URL to Live Project or to a project demo."
+msgstr ""
+
+#: config/metaboxes/portfolio-metabox.php:69
+msgid "Document"
+msgstr ""
+
+#: config/metaboxes/portfolio-metabox.php:70
+msgid "Upload a document for the users to download."
+msgstr ""
+
+#: config/metaboxes/portfolio-metabox.php:77
+msgid "Client Name"
+msgstr ""
+
+#: config/metaboxes/portfolio-metabox.php:88
+msgid "Project Duration"
+msgstr ""
+
+#: config/metaboxes/portfolio-metabox.php:89
+msgid "Specify the completion period of this project. For e:g 6 Months or 1 Year"
+msgstr ""
+
+#: config/metaboxes/portfolio-metabox.php:99
+msgid "Completion Date"
+msgstr ""
+
+#: config/metaboxes/portfolio-metabox.php:110
+msgid "Technologies"
+msgstr ""
+
+#: config/metaboxes/portfolio-metabox.php:122, config/metaboxes/team-metabox.php:48
+msgid "Skills"
+msgstr ""
+
+#: config/metaboxes/select_template_metabox.php:60, framework/autoload/builder-templates.php:352, framework/autoload/builder-ui-blocks.php:651, framework/autoload/builder-ui-blocks.php:680, framework/autoload/builder-ui-blocks.php:694
+msgid "WP Builder Template"
+msgstr ""
+
+#: config/metaboxes/testimonials-metabox.php:42
+msgid "Star Rating"
+msgstr ""
+
+#: config/metaboxes/testimonials-metabox.php:63
+msgid "Company"
+msgstr ""
+
+#: config/metaboxes/testimonials-metabox.php:74
+msgid "Logo"
+msgstr ""
+
+#: framework/admin-pages/core-custom-data.php:37
+msgid "Email Addresses"
+msgstr ""
+
+#: framework/admin-pages/core-custom-data.php:64
+msgid "Subscription Emails Data"
+msgstr ""
+
+#: framework/admin-pages/core-custom-data.php:83
+msgid "Remove"
+msgstr ""
+
+#: framework/admin-pages/core-custom-data.php:105
+msgid "Download Data"
+msgstr ""
+
+#: framework/admin-pages/core-custom-data.php:106
+msgid "<a class=\"cj-button cj-is-danger\" href=\"%s\" title=\"\">Clear All Data</a>"
+msgstr ""
+
+#: framework/admin-pages/core-custom-data.php:119
+msgid "No Records Found"
+msgstr ""
+
+#: framework/admin-pages/core-global-config.php:23
+msgid "Framework Features"
+msgstr ""
+
+#: framework/admin-pages/core-global-config.php:24
+msgid "Select features you would like to enable."
+msgstr ""
+
+#: framework/admin-pages/core-global-config.php:31
+msgid "Disable Admin Bar for"
+msgstr ""
+
+#: framework/admin-pages/core-global-config.php:32
+msgid "You can choose to disable admin bar for specified roles."
+msgstr ""
+
+#: framework/admin-pages/core-global-config.php:39
+msgid "Combine CSS/JS files"
+msgstr ""
+
+#: framework/admin-pages/core-global-config.php:40
+msgid "If Yes, then all css and js files required for the framework and installed add-ons will be combined into one file."
+msgstr ""
+
+#: framework/admin-pages/core-global-config.php:49
+msgid "WordPress Email Settings"
+msgstr ""
+
+#: framework/admin-pages/core-global-config.php:55
+msgid "From email address"
+msgstr ""
+
+#: framework/admin-pages/core-global-config.php:56
+msgid "If specified, all WordPress emails will be sent via this address."
+msgstr ""
+
+#: framework/admin-pages/core-global-config.php:63
+msgid "From email name"
+msgstr ""
+
+#: framework/admin-pages/core-global-config.php:64
+msgid "If specified, all WordPress emails will be sent with this name in the headers."
+msgstr ""
+
+#: framework/admin-pages/core-install-themes.php:38
+msgid "Step: "
+msgstr ""
+
+#: framework/admin-pages/core-install-themes.php:39
+msgid "Demo Site Installer"
+msgstr ""
+
+#: framework/admin-pages/core-integrations.php:8
+msgid "Third Party Integrations"
+msgstr ""
+
+#: framework/admin-pages/core-integrations.php:16
+msgid "Here you can specify third party configuration which will be used by different WP Builder features."
+msgstr ""
+
+#: framework/admin-pages/core-integrations.php:24
+msgid "Google Services"
+msgstr ""
+
+#: framework/admin-pages/core-integrations.php:30
+msgid "Google API Key"
+msgstr ""
+
+#: framework/admin-pages/core-integrations.php:31
+msgid "Leave this field blank if you theme or any other plugin adds google maps script and you see a conflict in browser console."
+msgstr ""
+
+#: framework/admin-pages/core-integrations.php:38
+msgid "Global reCaptcha (v2)"
+msgstr ""
+
+#: framework/admin-pages/core-integrations.php:39
+msgid "Leave these fields blank if you theme or any other plugin adds google recaptcha script and you see a conflict in browser console."
+msgstr ""
+
+#: framework/admin-pages/core-integrations.php:46
+msgid "Site Key"
+msgstr ""
+
+#: framework/admin-pages/core-integrations.php:47, framework/admin-pages/core-integrations.php:55
+msgid "<a href=\"%s\" tabindex=\"-1\" target=\"_blank\">Click here</a> to get reCaptcha keys."
+msgstr ""
+
+#: framework/admin-pages/core-integrations.php:54
+msgid "Site Secret"
+msgstr ""
+
+#: framework/admin-pages/core-integrations.php:62
+msgid "Theme"
+msgstr ""
+
+#: framework/admin-pages/core-integrations.php:65, framework/traits/helpers/arrays.trait.php:1386
+msgid "Light"
+msgstr ""
+
+#: framework/admin-pages/core-integrations.php:65, framework/traits/helpers/arrays.trait.php:1385
+msgid "Dark"
+msgstr ""
+
+#: framework/admin-pages/core-integrations.php:70
+msgid "Language"
+msgstr ""
+
+#: framework/admin-pages/core-integrations.php:71
+msgid "Specify language, <a href=\"%s\" target=\"_blank\">Click here</a> for language options."
+msgstr ""
+
+#: framework/admin-pages/core-integrations.php:80
+msgid "Unsplash Services"
+msgstr ""
+
+#: framework/admin-pages/core-integrations.php:86
+msgid "Unsplash App ID"
+msgstr ""
+
+#: framework/admin-pages/core-integrations.php:87
+msgid "Specify Unsplash app id."
+msgstr ""
+
+#: framework/admin-pages/core-integrations.php:94
+msgid "Unsplash App Secret"
+msgstr ""
+
+#: framework/admin-pages/core-integrations.php:95
+msgid "Specify Unsplash app secret."
+msgstr ""
+
+#: framework/admin-pages/core-integrations.php:104
+msgid "Pixabay Images"
+msgstr ""
+
+#: framework/admin-pages/core-integrations.php:110
+msgid "Pixabay Api Key"
+msgstr ""
+
+#: framework/admin-pages/core-integrations.php:111
+msgid "Specify Pixabay api key to enable pixabay key features. <a href=\"%s\" target=\"_blank\">Click here</a> to get API Key."
+msgstr ""
+
+#: framework/admin-pages/core-sass.php:11
+msgid "UI Variables saved successfully."
+msgstr ""
+
+#: framework/admin-pages/core-sass.php:31
+msgid "Restore Defaults"
+msgstr ""
+
+#: framework/admin-pages/core-sass.php:37
+msgid "Update UI Styles"
+msgstr ""
+
+#: framework/admin-pages/core-sass.php:46, framework/admin-pages/core-sass.php:60
+msgid "<code>%s</code> is writable."
+msgstr ""
+
+#: framework/admin-pages/core-sass.php:48, framework/admin-pages/core-sass.php:62
+msgid "<code>%s</code> not writable."
+msgstr ""
+
+#: framework/admin-pages/core-sass.php:53, framework/admin-pages/core-sass.php:67, framework/admin-pages/core-sass.php:74
+msgid "<code>%s</code> found."
+msgstr ""
+
+#: framework/admin-pages/core-sass.php:55
+msgid "<code>%s</code> not found."
+msgstr ""
+
+#: framework/admin-pages/core-sass.php:69, framework/admin-pages/core-sass.php:76
+msgid "<code>%s</code> not found. Submit the form below to compile the sass files."
+msgstr ""
+
+#: framework/admin-pages/core-sass.php:84
+msgid "Environment Tests"
+msgstr ""
+
+#: framework/admin-pages/core-sass.php:89
+msgid "Test Results"
+msgstr ""
+
+#: framework/admin-pages/core-sass.php:90
+msgid "WP Builder requires access to create and remove files in <code>wp-content</code> directory. Please fix directory permissions if any of the tests fails."
+msgstr ""
+
+#: framework/admin-pages/core-shortcodes.php:12
+msgid "MISC"
+msgstr ""
+
+#: framework/admin-pages/core-shortcodes.php:83
+msgid "Attribute"
+msgstr ""
+
+#: framework/admin-pages/core-shortcodes.php:84, framework/traits/helpers/arrays.trait.php:1378
+msgid "Info"
+msgstr ""
+
+#: framework/admin-pages/core-shortcodes.php:85, framework/traits/helpers/arrays.trait.php:110, framework/traits/helpers/arrays.trait.php:292
+msgid "Default"
+msgstr ""
+
+#: framework/admin-pages/core-uninstall.php:19
+msgid "All settings will be restored to default values and you will have to configure all settings again."
+msgstr ""
+
+#: framework/admin-pages/core-uninstall.php:19
+msgid "Restore Settings"
+msgstr ""
+
+#: framework/admin-pages/core-uninstall.php:22
+msgid "This will reset all settings saved by the framework and installed add-ons to the default values."
+msgstr ""
+
+#: framework/admin-pages/core-uninstall.php:28
+msgid "All addons and their settings will be removed from this website."
+msgstr ""
+
+#: framework/admin-pages/core-uninstall.php:28
+msgid "Uninstall all Add-ons"
+msgstr ""
+
+#: framework/admin-pages/core-uninstall.php:31
+msgid "This will remove all installed add-ons from this website."
+msgstr ""
+
+#: framework/admin-pages/core-uninstall.php:37
+msgid "All ui blocks will be removed from this website."
+msgstr ""
+
+#: framework/admin-pages/core-uninstall.php:37
+msgid "Uninstall all UI Blocks"
+msgstr ""
+
+#: framework/admin-pages/core-uninstall.php:40, framework/admin-pages/core-uninstall.php:49
+msgid "This will remove all installed ui blocks from this website."
+msgstr ""
+
+#: framework/admin-pages/core-uninstall.php:46
+msgid "All templates will be removed from this website."
+msgstr ""
+
+#: framework/admin-pages/core-uninstall.php:46
+msgid "Uninstall all Templates"
+msgstr ""
+
+#: framework/admin-pages/core-welcome.php:36
+msgid "Documentation"
+msgstr ""
+
+#: framework/admin-pages/core-welcome.php:38, framework/html/admin-dropdown.php:58
+msgid "Help & Support"
+msgstr ""
+
+#: framework/admin-pages/core-welcome.php:39
+msgid "Hire Us"
+msgstr ""
+
+#: framework/admin-pages/core-welcome.php:40
+msgid "Twitter"
+msgstr ""
+
+#: framework/admin-pages/core-welcome.php:41
+msgid "Facebook"
+msgstr ""
+
+#: framework/admin-pages/core-welcome.php:54
+msgid "Framework Version"
+msgstr ""
+
+#: framework/admin-pages/core-welcome.php:63
+msgid "Framework Path"
+msgstr ""
+
+#: framework/admin-pages/core-welcome.php:72
+msgid "Useful Links"
+msgstr ""
+
+#: framework/admin-pages/core-welcome.php:81
+msgid "REST API Personal Token"
+msgstr ""
+
+#: framework/admin-pages/core-welcome.php:83
+msgid "This token has full access to all routes so be careful."
+msgstr ""
+
+#: framework/autoload/addons-setup.php:87
+msgid "<b>%s</b> requires <b>%s</b> to be installed and activated."
+msgstr ""
+
+#: framework/autoload/addons-setup.php:99
+msgid "<p><a href=\"%s\" title=\"WP Builder Cloud\">Click here</a> to install required products via WP Builder Cloud or <a href=\"%s\" title=\"Upload Products\">Click here</a> to upload zip file or restore Envato purchases.</p>"
+msgstr ""
+
+#: framework/autoload/admin-menus.php:36
+msgid "Installed Add-ons"
+msgstr ""
+
+#: framework/autoload/admin-menus.php:62, framework/autoload/admin-menus.php:62
+msgid "WP Builder Cloud"
+msgstr ""
+
+#: framework/autoload/builder-templates.php:78
+msgid "Demo site installation is in progress."
+msgstr ""
+
+#: framework/autoload/builder-templates.php:80
+msgid "<a href=\"%s\">Click here</a> to continue with the installation or <a href=\"%s\">Click here</a> to cancel the installation."
+msgstr ""
+
+#: framework/autoload/builder-templates.php:123
+msgid "<a href=\"%s\">Edit Template</a>"
+msgstr ""
+
+#: framework/autoload/builder-templates.php:131, framework/autoload/builder-templates.php:131, framework/autoload/builder-ui-blocks.php:301, framework/autoload/builder-ui-blocks.php:301
+msgid "Clone"
+msgstr ""
+
+#: framework/autoload/builder-templates.php:132, framework/autoload/builder-templates.php:132
+msgid "Export"
+msgstr ""
+
+#: framework/autoload/builder-templates.php:148, framework/traits/helpers/builder.trait.php:623
+msgid "Copy"
+msgstr ""
+
+#: framework/autoload/builder-templates.php:170, framework/autoload/dev-setup.php:92
+msgid "<p>This template has no UI blocks assigned.</p><p><a href=\"%s\">Show Templates</a></p>"
+msgstr ""
+
+#: framework/autoload/builder-templates.php:425, framework/autoload/builder-templates.php:461
+msgid "No blocks assigned.<br>"
+msgstr ""
+
+#: framework/autoload/builder-templates.php:427, framework/autoload/builder-templates.php:463
+msgid "Add UI Blocks"
+msgstr ""
+
+#: framework/autoload/builder-templates.php:438
+msgid "%s block(s)"
+msgstr ""
+
+#: framework/autoload/builder-templates.php:440
+msgid "Quick Look"
+msgstr ""
+
+#: framework/autoload/builder-templates.php:477, framework/autoload/builder-templates.php:504, framework/autoload/builder-ui-blocks.php:503
+msgid "Screenshot"
+msgstr ""
+
+#: framework/autoload/builder-ui-blocks.php:284
+msgid "<a href=\"%s\">Edit Block</a>"
+msgstr ""
+
+#: framework/autoload/builder-ui-blocks.php:302, framework/autoload/builder-ui-blocks.php:302, framework/rest-api/core-builder.php:471
+msgid "Reset"
+msgstr ""
+
+#: framework/autoload/builder-ui-blocks.php:304, framework/autoload/builder-ui-blocks.php:304
+msgid "Preview"
+msgstr ""
+
+#: framework/autoload/builder-ui-blocks.php:427
+msgid "UI Block Preview"
+msgstr ""
+
+#: framework/autoload/builder-ui-blocks.php:439
+msgid "Something went wrong, please reset this block."
+msgstr ""
+
+#: framework/autoload/builder-ui-blocks.php:449
+msgid "You must specify ui block ID."
+msgstr ""
+
+#: framework/autoload/builder-ui-blocks.php:453
+msgid "Ui block not found."
+msgstr ""
+
+#: framework/autoload/builder-ui-blocks.php:458
+msgid "Ui block class missing."
+msgstr ""
+
+#: framework/autoload/builder-ui-blocks.php:506
+msgid "Shortcode"
+msgstr ""
+
+#: framework/autoload/core-setup.php:76, framework/html/template-editor.php:25
+msgid "Settings"
+msgstr ""
+
+#: framework/autoload/core-setup.php:89, framework/autoload/core-setup.php:107
+msgid "Cheating Hun!"
+msgstr ""
+
+#: framework/autoload/core-setup.php:202
+msgid "<p>We need to compile the UI SCSS Variables as per your brand. <a href=\"%s\">Click here</a> to specify your brand colours and fonts.</p>"
+msgstr ""
+
+#: framework/autoload/core-setup.php:203, framework/autoload/core-setup.php:211
+msgid "Compile UI Styles"
+msgstr ""
+
+#: framework/autoload/core-setup.php:204, framework/autoload/core-setup.php:212
+msgid "SCSS Compiler"
+msgstr ""
+
+#: framework/autoload/core-setup.php:210
+msgid "<p>UI SCSS Variables has changed.</p>"
+msgstr ""
+
+#: framework/autoload/core-setup.php:759
+msgid "Upgrade Now"
+msgstr ""
+
+#: framework/autoload/core-setup.php:761
+msgid "Upgrades available to for: <span class=\"cj-ml-5 cj-text-bold\">%s</span>"
+msgstr ""
+
+#: framework/autoload/core-uninstall.php:23, framework/autoload/core-uninstall.php:38, framework/autoload/core-uninstall.php:54, framework/autoload/core-uninstall.php:68
+msgid "You are not authorised to perform this action."
+msgstr ""
+
+#: framework/autoload/gump-extension.php:80
+msgid "There is no validation rule for %s"
+msgstr ""
+
+#: framework/autoload/gump-extension.php:87, framework/autoload/gump-extension.php:283
+msgid "The %s field is required"
+msgstr ""
+
+#: framework/autoload/gump-extension.php:94
+msgid "The %s field is not a valid email address"
+msgstr ""
+
+#: framework/autoload/gump-extension.php:101
+msgid "The %s field needs to be %s or shorter in length"
+msgstr ""
+
+#: framework/autoload/gump-extension.php:108
+msgid "The %s field needs to be %s or longer in length"
+msgstr ""
+
+#: framework/autoload/gump-extension.php:115
+msgid "The %s field needs to be exactly %s characters in length"
+msgstr ""
+
+#: framework/autoload/gump-extension.php:122
+msgid "The %s field may only contain alpha characters (a-z) without any space"
+msgstr ""
+
+#: framework/autoload/gump-extension.php:129
+msgid "The %s field may only contain alpha-numeric characters"
+msgstr ""
+
+#: framework/autoload/gump-extension.php:136
+msgid "The %s field may only contain alpha-numeric characters, dashes and underscores"
+msgstr ""
+
+#: framework/autoload/gump-extension.php:143
+msgid "The %s field may only contain only alpha-numeric characters and spaces"
+msgstr ""
+
+#: framework/autoload/gump-extension.php:150
+msgid "The %s field may only contain numeric characters"
+msgstr ""
+
+#: framework/autoload/gump-extension.php:157
+msgid "The %s field may only contain a valid integer value"
+msgstr ""
+
+#: framework/autoload/gump-extension.php:164
+msgid "The %s field may only contain a true or false value"
+msgstr ""
+
+#: framework/autoload/gump-extension.php:171
+msgid "The %s field may only contain a float value"
+msgstr ""
+
+#: framework/autoload/gump-extension.php:178
+msgid "The %s field is required to be a valid URL"
+msgstr ""
+
+#: framework/autoload/gump-extension.php:185
+msgid "The %s URL does not exist"
+msgstr ""
+
+#: framework/autoload/gump-extension.php:192
+msgid "The %s field needs to contain a valid IP address"
+msgstr ""
+
+#: framework/autoload/gump-extension.php:199
+msgid "The %s field needs to contain a valid credit card number"
+msgstr ""
+
+#: framework/autoload/gump-extension.php:206
+msgid "The %s field needs to contain a valid IBAN number"
+msgstr ""
+
+#: framework/autoload/gump-extension.php:213
+msgid "The %s field needs to contain a valid human name"
+msgstr ""
+
+#: framework/autoload/gump-extension.php:220
+msgid "The %s field needs to contain one of these values: "
+msgstr ""
+
+#: framework/autoload/gump-extension.php:227
+msgid "The %s field needs contain a value from its drop down list"
+msgstr ""
+
+#: framework/autoload/gump-extension.php:234
+msgid "The %s field contains a value that is not accepted"
+msgstr ""
+
+#: framework/autoload/gump-extension.php:241
+msgid "The %s field needs to be a valid street address"
+msgstr ""
+
+#: framework/autoload/gump-extension.php:248
+msgid "The %s field needs to be a valid date"
+msgstr ""
+
+#: framework/autoload/gump-extension.php:255
+msgid "The %s field needs to be a numeric value, equal to, or higher than "
+msgstr ""
+
+#: framework/autoload/gump-extension.php:262
+msgid "The %s field needs to be a numeric value, equal to, or lower than "
+msgstr ""
+
+#: framework/autoload/gump-extension.php:269
+msgid "The %s field needs to start with "
+msgstr ""
+
+#: framework/autoload/gump-extension.php:276
+msgid "The %s field can have the following extensions "
+msgstr ""
+
+#: framework/autoload/gump-extension.php:290
+msgid "The %s field does not equal %s field"
+msgstr ""
+
+#: framework/autoload/gump-extension.php:297
+msgid "The %s field needs to have an age greater than or equal to "
+msgstr ""
+
+#: framework/autoload/gump-extension.php:305
+msgid "The %s field must be a valid phone number. "
+msgstr ""
+
+#: framework/autoload/gump-extension.php:312
+msgid "The %s field is invalid"
+msgstr ""
+
+#: framework/autoload/migrations.php:67
+msgid "<p class=\"cj-mb-5\">We have <b>rebuilt</b> CSSJockey Add-ons and all our add-ons with the latest coding standards and <b>re-branded</b> CSSJockey Add-ons to WP Builder.</p>"
+msgstr ""
+
+#: framework/autoload/migrations.php:68
+msgid "<p class=\"cj-mb-5\">You <b class=\"cj-color-danger\">must upgrade</b> the following add-ons to their latest version:</p> <p>%s</p>"
+msgstr ""
+
+#: framework/autoload/migrations.php:158
+msgid "%s is upgraded version of %s. Please <a href=\"%s\" class=\"cj-text-bold cj-color-danger\">deactivate</a> %s and use %s add-ons to avoid any conflicts."
+msgstr ""
+
+#: framework/autoload/nav-menu-edit-fields-walker.php:191, framework/html/form-field.php:1046
+msgid "primary"
+msgstr ""
+
+#: framework/autoload/nav-menu-edit-fields-walker.php:192, framework/html/form-field.php:1047
+msgid "success"
+msgstr ""
+
+#: framework/autoload/nav-menu-edit-fields-walker.php:193, framework/html/form-field.php:1050
+msgid "info"
+msgstr ""
+
+#: framework/autoload/nav-menu-edit-fields-walker.php:194, framework/html/form-field.php:1048
+msgid "danger"
+msgstr ""
+
+#: framework/autoload/nav-menu-edit-fields-walker.php:195, framework/html/form-field.php:1049
+msgid "warning"
+msgstr ""
+
+#: framework/autoload/nav-menu-edit-fields-walker.php:196, framework/html/form-field.php:1051, framework/traits/helpers/arrays.trait.php:107
+msgid "dark"
+msgstr ""
+
+#: framework/autoload/nav-menu-edit-fields-walker.php:197, framework/html/form-field.php:1052, framework/traits/helpers/arrays.trait.php:106
+msgid "light"
+msgstr ""
+
+#: framework/autoload/nav-menu-edit-fields-walker.php:300, framework/html/form-field.php:230, framework/traits/helpers/arrays.trait.php:100, framework/traits/helpers/arrays.trait.php:157, framework/traits/helpers/arrays.trait.php:175, framework/traits/helpers/arrays.trait.php:196, framework/traits/helpers/arrays.trait.php:201, framework/traits/helpers/arrays.trait.php:251, framework/traits/helpers/arrays.trait.php:264, framework/traits/helpers/builder.trait.php:976, framework/traits/helpers/forms.trait.php:34, framework/traits/helpers/posts.trait.php:1325, framework/traits/helpers/posts.trait.php:1358, framework/traits/helpers/vendors.trait.php:80, framework/traits/helpers/wordpress.trait.php:781
+msgid "None"
+msgstr ""
+
+#: framework/autoload/nav-menu-setup.php:42
+msgid "Works with all UI Blocks that has navigation menu options."
+msgstr ""
+
+#: framework/autoload/nav-menu-setup.php:58
+msgid "Divider"
+msgstr ""
+
+#: framework/autoload/nav-menu-setup.php:64
+msgid "Button"
+msgstr ""
+
+#: framework/autoload/nav-menu-setup.php:72
+msgid "Social Link"
+msgstr ""
+
+#: framework/autoload/nav-menu-setup.php:80
+msgid "Icon Link"
+msgstr ""
+
+#: framework/autoload/nav-menu-setup.php:90
+msgid "Search Form"
+msgstr ""
+
+#: framework/autoload/nav-menu-setup.php:100
+msgid "Blog (with latest posts)"
+msgstr ""
+
+#: framework/autoload/nav-menu-setup.php:109
+msgid "User or Guest Avatar"
+msgstr ""
+
+#: framework/autoload/nav-menu-setup.php:129
+msgid "WC Cart Link (with icon and total)"
+msgstr ""
+
+#: framework/autoload/nav-menu-setup.php:137
+msgid "WC (mega menu)"
+msgstr ""
+
+#: framework/autoload/nav-menu-setup.php:151
+msgid "No items found."
+msgstr ""
+
+#: framework/autoload/rest-api-support.php:40
+msgid "Please <a href=\"%s\" target=\"_parent\">logout</a> and log in again to configure API access tokens."
+msgstr ""
+
+#: framework/autoload/theme-setup.php:93
+msgid "Default Sidebar"
+msgstr ""
+
+#: framework/autoload/theme-setup.php:95
+msgid "Add widgets here to appear in default sidebar."
+msgstr ""
+
+#: framework/autoload/theme-setup.php:102
+msgid "Blog Sidebar"
+msgstr ""
+
+#: framework/autoload/theme-setup.php:104
+msgid "Add widgets here to appear in blog sidebar."
+msgstr ""
+
+#: framework/autoload/theme-setup.php:111
+msgid "Page Sidebar"
+msgstr ""
+
+#: framework/autoload/theme-setup.php:113
+msgid "Add widgets here to appear in page sidebar."
+msgstr ""
+
+#: framework/autoload/theme-setup.php:246
+msgid "Templates missing for :<br>%s"
+msgstr ""
+
+#: framework/autoload/theme-setup.php:250
+msgid "Create and Assign Blank Templates"
+msgstr ""
+
+#: framework/autoload/theme-setup.php:252
+msgid "Download and Set Pre-built Theme"
+msgstr ""
+
+#: framework/autoload/theme-setup.php:282
+msgid "Continue reading"
+msgstr ""
+
+#: framework/html/admin-dropdown.php:49
+msgid "DEV"
+msgstr ""
+
+#: framework/html/admin-dropdown.php:60
+msgid "Submit a ticket"
+msgstr ""
+
+#: framework/html/admin-dropdown.php:61
+msgid "Customization"
+msgstr ""
+
+#: framework/html/admin-dropdown.php:62
+msgid "Contact Us"
+msgstr ""
+
+#: framework/html/admin-dropdown.php:66
+msgid "Check for Upgrades"
+msgstr ""
+
+#: framework/html/admin-form-font-styles.php:8
+msgid "Select font family"
+msgstr ""
+
+#: framework/html/admin-form-font-styles.php:17, framework/html/admin-form-font-styles.php:30
+msgid "px"
+msgstr ""
+
+#: framework/html/admin-form-font-styles.php:20, framework/html/admin-form-font-styles.php:78
+msgid "Font size"
+msgstr ""
+
+#: framework/html/admin-form-font-styles.php:33, framework/html/admin-form-font-styles.php:89
+msgid "Line height"
+msgstr ""
+
+#: framework/html/admin-form-font-styles.php:44, framework/html/admin-form-font-styles.php:108
+msgid "Font weight"
+msgstr ""
+
+#: framework/html/admin-form-font-styles.php:51
+msgid "transparent"
+msgstr ""
+
+#: framework/html/admin-form-font-styles.php:57, framework/html/admin-form-font-styles.php:116
+msgid "Font style"
+msgstr ""
+
+#: framework/html/admin-form-font-styles.php:65
+msgid "Font align"
+msgstr ""
+
+#: framework/html/admin-form-font-styles.php:71
+msgid "Font family"
+msgstr ""
+
+#: framework/html/admin-form-font-styles.php:100
+msgid "Text color"
+msgstr ""
+
+#: framework/html/admin-form-font-styles.php:124
+msgid "Text align"
+msgstr ""
+
+#: framework/html/admin-form.php:26
+msgid "You must activate <a href=\"%s\">WP Builder Cloud</a> to enable this feature."
+msgstr ""
+
+#: framework/html/admin-form.php:27
+msgid "You can use your WP Builder FREE or PREMIUM license key to activate cloud features."
+msgstr ""
+
+#: framework/html/admin-form.php:161
+msgid "<span class=\"cj-color-danger\">This field only works on frontend.</span>"
+msgstr ""
+
+#: framework/html/admin-page.php:47, framework/html/admin-sub-page.php:36
+msgid "Settings updated."
+msgstr ""
+
+#: framework/html/admin-page.php:59, framework/html/template-editor.php:202
+msgid "Get Pro"
+msgstr ""
+
+#: framework/html/admin-page.php:85, framework/html/admin-sub-page.php:78
+msgid "Save Settings"
+msgstr ""
+
+#: framework/html/admin-page.php:97, framework/html/admin-sub-page.php:57
+msgid "<b>File not found:</b><br>%s"
+msgstr ""
+
+#: framework/html/form-field.php:76, framework/html/nav-menu-items/search-form.php:8
+msgid "Search.."
+msgstr ""
+
+#: framework/html/form-field.php:142
+msgid "Select Start Date"
+msgstr ""
+
+#: framework/html/form-field.php:143
+msgid "Select End Date"
+msgstr ""
+
+#: framework/html/form-field.php:150
+msgid "Select Start Time"
+msgstr ""
+
+#: framework/html/form-field.php:151
+msgid "Select End Time"
+msgstr ""
+
+#: framework/html/form-field.php:154
+msgid "15 minutes"
+msgstr ""
+
+#: framework/html/form-field.php:155
+msgid "30 minutes"
+msgstr ""
+
+#: framework/html/form-field.php:156
+msgid "1 hour"
+msgstr ""
+
+#: framework/html/form-field.php:157
+msgid "2 hours"
+msgstr ""
+
+#: framework/html/form-field.php:215, framework/traits/helpers/arrays.trait.php:172, framework/traits/helpers/arrays.trait.php:282
+msgid "inherit"
+msgstr ""
+
+#: framework/html/form-field.php:246, framework/html/form-field.php:304, framework/html/form-field.php:328, framework/html/form-field.php:352, framework/html/form-field.php:1373
+msgid "Options for this field are not specified, please review field settings."
+msgstr ""
+
+#: framework/html/form-field.php:375, framework/html/form-field.php:398
+msgid "Options for this field are not specified."
+msgstr ""
+
+#: framework/html/form-field.php:441
+msgid "None | Default"
+msgstr ""
+
+#: framework/html/form-field.php:451, framework/traits/helpers/users.trait.php:446, framework/traits/helpers/users.trait.php:512
+msgid "Visitor"
+msgstr ""
+
+#: framework/html/form-field.php:783, framework/html/form-field.php:788
+msgid "Select Files"
+msgstr ""
+
+#: framework/html/form-field.php:783, framework/html/form-field.php:790
+msgid "Select File"
+msgstr ""
+
+#: framework/html/form-field.php:828
+msgid "Upload image"
+msgstr ""
+
+#: framework/html/form-field.php:833
+msgid "Select File(s)"
+msgstr ""
+
+#: framework/html/form-field.php:840
+msgid "Drag or Click to select a file."
+msgstr ""
+
+#: framework/html/form-field.php:854, framework/traits/helpers/forms.trait.php:883
+msgid "Choose a file"
+msgstr ""
+
+#: framework/html/form-field.php:858
+msgid "No file selected."
+msgstr ""
+
+#: framework/html/form-field.php:882
+msgid "Some value"
+msgstr ""
+
+#: framework/html/form-field.php:892
+msgid "Not Allowed!"
+msgstr ""
+
+#: framework/html/form-field.php:920
+msgid "Min"
+msgstr ""
+
+#: framework/html/form-field.php:923
+msgid "Max"
+msgstr ""
+
+#: framework/html/form-field.php:972, framework/html/form-field.php:989
+msgid "Google maps API key is not specified in Global Settings page."
+msgstr ""
+
+#: framework/html/form-field.php:982
+msgid "Latitude|Longitude"
+msgstr ""
+
+#: framework/html/form-field.php:1009
+msgid "Select Icon"
+msgstr ""
+
+#: framework/html/form-field.php:1019, framework/html/form-field.php:1540, framework/traits/helpers/arrays.trait.php:197, framework/traits/helpers/arrays.trait.php:202, framework/traits/helpers/arrays.trait.php:245, framework/traits/helpers/arrays.trait.php:252
+msgid "Left"
+msgstr ""
+
+#: framework/html/form-field.php:1020, framework/html/form-field.php:1539, framework/traits/helpers/arrays.trait.php:198, framework/traits/helpers/arrays.trait.php:203, framework/traits/helpers/arrays.trait.php:246, framework/traits/helpers/arrays.trait.php:253
+msgid "Right"
+msgstr ""
+
+#: framework/html/form-field.php:1022
+msgid "Align"
+msgstr ""
+
+#: framework/html/form-field.php:1032, framework/traits/helpers/arrays.trait.php:293, framework/traits/helpers/arrays.trait.php:298
+msgid "Small"
+msgstr ""
+
+#: framework/html/form-field.php:1033, framework/traits/helpers/arrays.trait.php:294, framework/traits/helpers/arrays.trait.php:299
+msgid "Medium"
+msgstr ""
+
+#: framework/html/form-field.php:1034, framework/traits/helpers/arrays.trait.php:295, framework/traits/helpers/arrays.trait.php:300
+msgid "Large"
+msgstr ""
+
+#: framework/html/form-field.php:1036
+msgid "Button size"
+msgstr ""
+
+#: framework/html/form-field.php:1054
+msgid "Button color"
+msgstr ""
+
+#: framework/html/form-field.php:1067
+msgid "Outlined"
+msgstr ""
+
+#: framework/html/form-field.php:1080
+msgid "Rounded"
+msgstr ""
+
+#: framework/html/form-field.php:1090
+msgid "New Window"
+msgstr ""
+
+#: framework/html/form-field.php:1091
+msgid "Same Window"
+msgstr ""
+
+#: framework/html/form-field.php:1093
+msgid "Open link in"
+msgstr ""
+
+#: framework/html/form-field.php:1213
+msgid "Angle e.g. 90deg or -45deg"
+msgstr ""
+
+#: framework/html/form-field.php:1281, framework/html/form-field.php:1316, framework/html/parts/admin-form-meta-field.php:13
+msgid "Select meta key"
+msgstr ""
+
+#: framework/html/form-field.php:1292, framework/html/form-field.php:1327
+msgid "Specify meta value"
+msgstr ""
+
+#: framework/html/form-field.php:1347
+msgid "Top e.g. 20px"
+msgstr ""
+
+#: framework/html/form-field.php:1348
+msgid "Right e.g. 20px"
+msgstr ""
+
+#: framework/html/form-field.php:1349
+msgid "Bottom e.g. 20px"
+msgstr ""
+
+#: framework/html/form-field.php:1350
+msgid "Left e.g. 20px"
+msgstr ""
+
+#: framework/html/form-field.php:1379
+msgid "Table not defined in the options array."
+msgstr ""
+
+#: framework/html/form-field.php:1405
+msgid "Widescreen Columns"
+msgstr ""
+
+#: framework/html/form-field.php:1408
+msgid "Widescreen: %s"
+msgstr ""
+
+#: framework/html/form-field.php:1413
+msgid "Desktop Columns"
+msgstr ""
+
+#: framework/html/form-field.php:1416
+msgid "Desktop: %s"
+msgstr ""
+
+#: framework/html/form-field.php:1421
+msgid "Tablet Columns"
+msgstr ""
+
+#: framework/html/form-field.php:1424
+msgid "Tablet: %s"
+msgstr ""
+
+#: framework/html/form-field.php:1429
+msgid "Mobile Columns"
+msgstr ""
+
+#: framework/html/form-field.php:1432
+msgid "Mobile: %s"
+msgstr ""
+
+#: framework/html/form-field.php:1471
+msgid "Settings for this field is not defined."
+msgstr ""
+
+#: framework/html/form-field.php:1538
+msgid "Top"
+msgstr ""
+
+#: framework/html/form-field.php:1541
+msgid "Bottom"
+msgstr ""
+
+#: framework/html/form-field.php:1567
+msgid "Address Line 1"
+msgstr ""
+
+#: framework/html/form-field.php:1575
+msgid "Address Line 2"
+msgstr ""
+
+#: framework/html/form-field.php:1586, framework/traits/helpers/forms.trait.php:907
+msgid "Country"
+msgstr ""
+
+#: framework/html/form-field.php:1599
+msgid "State"
+msgstr ""
+
+#: framework/html/form-field.php:1603
+msgid "Please select a country first"
+msgstr ""
+
+#: framework/html/form-field.php:1617
+msgid "City"
+msgstr ""
+
+#: framework/html/form-field.php:1625
+msgid "Zip Code"
+msgstr ""
+
+#: framework/html/preview-shortcode.php:18, framework/traits/helpers/framework.trait.php:925
+msgid "..content goes here.."
+msgstr ""
+
+#: framework/html/preview-shortcode.php:22
+msgid "Shortcode Content"
+msgstr ""
+
+#: framework/html/preview-shortcode.php:68
+msgid "Shortcode Code"
+msgstr ""
+
+#: framework/html/preview-shortcode.php:83
+msgid "Shortcode Options"
+msgstr ""
+
+#: framework/html/render-template.php:48
+msgid "<b>Admin Alert: </b> This block is only visible to %s."
+msgstr ""
+
+#: framework/html/render-template.php:79
+msgid "No ui blocks assigned to this template. <a href=\"%s\" target=\"_blank\" title=\"Edit Template\">(Edit Template)</a>"
+msgstr ""
+
+#: framework/html/render-template.php:88
+msgid "This section is under construction."
+msgstr ""
+
+#: framework/html/template-editor.php:8
+msgid "..loading.."
+msgstr ""
+
+#: framework/html/template-editor.php:45
+msgid "Template Blocks"
+msgstr ""
+
+#: framework/html/template-editor.php:48
+msgid "No ui blocks assigned to this template."
+msgstr ""
+
+#: framework/html/template-editor.php:57
+msgid "Clone & Add"
+msgstr ""
+
+#: framework/html/template-editor.php:85
+msgid "Search installed ui blocks.."
+msgstr ""
+
+#: framework/html/template-editor.php:91, framework/html/template-editor.php:164
+msgid "Nothing found based on your query, try different keywords."
+msgstr ""
+
+#: framework/html/template-editor.php:156
+msgid "Search & download ui blocks.."
+msgstr ""
+
+#: framework/html/template-editor.php:161
+msgid "Type keywords to find and download ui blocks."
+msgstr ""
+
+#: framework/html/template-editor.php:240, framework/rest-api/core-builder.php:470
+msgid "Save & Publish"
+msgstr ""
+
+#: framework/html/template-editor.php:245
+msgid "Draft"
+msgstr ""
+
+#: framework/html/ui-block-preview-admin.php:51
+msgid "Block Settings (Content)"
+msgstr ""
+
+#: framework/html/ui-block-preview-admin.php:62
+msgid "Block Settings (Custom CSS/JS)"
+msgstr ""
+
+#: framework/html/ui-block-preview-admin.php:75
+msgid "Block Details"
+msgstr ""
+
+#: framework/html/ui-block-preview-admin.php:81
+msgid "Copy Shortcode"
+msgstr ""
+
+#: framework/html/ui-block-preview-admin.php:84
+msgid "Edit on Frontend"
+msgstr ""
+
+#: framework/html/ui-block-preview-admin.php:87
+msgid "Reset Settings"
+msgstr ""
+
+#: framework/html/ui-block-preview-admin.php:93
+msgid "Hide Admin Preview"
+msgstr ""
+
+#: framework/html/ui-block-preview-admin.php:95
+msgid "Show Admin Preview"
+msgstr ""
+
+#: framework/html/ui-block-preview-admin.php:97
+msgid "SKU :"
+msgstr ""
+
+#: framework/html/ui-block-preview-admin.php:98
+msgid "Version :"
+msgstr ""
+
+#: framework/html/ui-block-preview-admin.php:100
+msgid "Installation Path :"
+msgstr ""
+
+#: framework/html/ui-block-preview-admin.php:108
+msgid "Block Settings (Display)"
+msgstr ""
+
+#: framework/html/wp-comments-template.php:9
+msgid "<span class=\"cj-icon cj-is-small\"><i class=\"fa fa-angle-left\"></i></span> Previous"
+msgstr ""
+
+#: framework/html/wp-comments-template.php:10
+msgid "Next <span class=\"cj-icon cj-is-small\"><i class=\"fa fa-angle-right\"></i></span>"
+msgstr ""
+
+#: framework/html/wp-comments-template.php:19
+msgid "Join the Conversation"
+msgstr ""
+
+#: framework/html/wp-comments-template.php:21
+msgid "Leave a comment"
+msgstr ""
+
+#. translators: %s: post title
+#: framework/html/wp-comments-template.php:26
+msgctxt "comments title"
+msgid "One reply on &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: 1: number of comments, 2: post title
+#: framework/html/wp-comments-template.php:30
+msgctxt "comments title"
+msgid "<small class=\"cj-fs-16 cj-opacity-70\">%1$s reply on:</small> <br> %2$s"
+msgid_plural "<small class=\"cj-fs-16 cj-opacity-70\">%1$s replies on:</small> <br> %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/html/wp-comments-template.php:52
+msgid "<span class=\"cj-button cj-is-small\">Respond</span>"
+msgstr ""
+
+#: framework/html/wp-comments-template.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:44, framework/rest-api/core-auth.php:54
+msgid "Register"
+msgstr ""
+
+#: framework/rest-api/core-auth.php:64, framework/rest-api/core-auth.php:74
+msgid "Send password email"
+msgstr ""
+
+#: framework/rest-api/core-auth.php:84
+msgid "Change password with token"
+msgstr ""
+
+#: framework/rest-api/core-auth.php:94
+msgid "Verify an email address for a user"
+msgstr ""
+
+#: framework/rest-api/core-auth.php:104
+msgid "Logout"
+msgstr ""
+
+#: framework/rest-api/core-auth.php:114
+msgid "Verify email address with code."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:146, framework/rest-api/core-auth.php:152
+msgid "You must enter your username or email address."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:158
+msgid "You must enter a valid email address."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:164
+msgid "No account found with this email address."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:171
+msgid "No account found with this username."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:178, framework/rest-api/core-auth.php:184
+msgid "You must enter your password."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:192, framework/rest-api/core-auth.php:193, framework/rest-api/core-auth.php:204, framework/rest-api/core-auth.php:611
+msgid "Invalid credentials, please try again."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:206
+msgid "The password you entered is not correct, please try again."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:215, framework/rest-api/core-auth.php:216
+msgid "Invalid username or password."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:236
+msgid "Mobile number already exists."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:241
+msgid "First name field is required."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:244
+msgid "Last name field is required."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:250
+msgid "Username field is required."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:253, framework/rest-api/core-users.php:417
+msgid "Email address field is required."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:256, framework/rest-api/core-auth.php:436
+msgid "Password field is required."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:259
+msgid "Confirm Password field is required."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:262
+msgid "Username already exists."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:265
+msgid "Username is not valid."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:268, framework/rest-api/core-users.php:423
+msgid "Email address already registered."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:271, framework/rest-api/core-forms.php:101, framework/rest-api/core-info.php:328
+msgid "Email address is not valid."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:275, framework/rest-api/core-users.php:369
+msgid "Password does not match."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:294
+msgid "<p>Click the link below to verify your email address and complete registration.</p><p><a href=\"%s\">%s</a></p>"
+msgstr ""
+
+#: framework/rest-api/core-auth.php:300, framework/rest-api/core-auth.php:527
+msgid "Verify your email address"
+msgstr ""
+
+#: framework/rest-api/core-auth.php:306
+msgid "Please check your email for verification link, the link will expire in next 24 hours."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:328
+msgid "Account with this email address is already registered."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:333
+msgid "Account with this username is already registered."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:347
+msgid "Invalid verification key"
+msgstr ""
+
+#: framework/rest-api/core-auth.php:379
+msgid "You must specify username, email address or mobile number."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:387
+msgid "No user found with this username or email address."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:399
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: framework/rest-api/core-auth.php:400
+msgid "<p>Someone has requested a password reset for the following account:</p>"
+msgstr ""
+
+#: framework/rest-api/core-auth.php:401
+msgid "<p><b>Site Name:</b> %s</p>"
+msgstr ""
+
+#: framework/rest-api/core-auth.php:402
+msgid "<p><b>Username:</b> %s</p>"
+msgstr ""
+
+#: framework/rest-api/core-auth.php:403
+msgid "<p>If this was a mistake, just ignore this email and nothing will happen.</p>"
+msgstr ""
+
+#: framework/rest-api/core-auth.php:404
+msgid "<p>To reset your password, visit the following address:</p>"
+msgstr ""
+
+#: framework/rest-api/core-auth.php:414
+msgid "Check your email for the confirmation link."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:427
+msgid "Password changed successfully."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:430, framework/rest-api/core-auth.php:457
+msgid "Invalid key, please try again."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:442
+msgid "Please confirm your password."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:448, framework/rest-api/core-auth.php:449
+msgid "Password fields does not match confirm your password."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:467
+msgid "Key verification failed, please try again."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:474
+msgid "Password changed, You can now login with your new password."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:488, framework/rest-api/core-auth.php:540
+msgid "Please specify an email address."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:494, framework/rest-api/core-auth.php:546
+msgid "Please specify a valid email address."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:501
+msgid "No user found with this email address."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:510
+msgid "%s Team"
+msgstr ""
+
+#: framework/rest-api/core-auth.php:511
+msgid "<p>Dear %s,</p><p>Please use this code to verify your email address.</p><p><span style=\"font-weight: bold; display: inline-block; background: #ededed; padding: 10px;\">%s</span></p><p>Regards,<br>%s</p>"
+msgstr ""
+
+#: framework/rest-api/core-auth.php:531
+msgid "Check your email for verification link."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:552, framework/rest-api/core-auth.php:561
+msgid "Invalid code, please check and try again."
+msgstr ""
+
+#: framework/rest-api/core-auth.php:571
+msgid "Thank you for verifying your email address."
+msgstr ""
+
+#: framework/rest-api/core-builder.php:41
+msgid "Install Products"
+msgstr ""
+
+#: framework/rest-api/core-builder.php:51, framework/rest-api/core-builder.php:62, framework/rest-api/core-builder.php:84, framework/rest-api/core-custom-data.php:25, framework/rest-api/core-custom-data.php:36, framework/rest-api/core-custom-data.php:46, framework/rest-api/core-forms.php:28, framework/rest-api/core-info.php:23
+msgid "Product Info"
+msgstr ""
+
+#: framework/rest-api/core-builder.php:73
+msgid "Get Blocks"
+msgstr ""
+
+#: framework/rest-api/core-builder.php:95, framework/rest-api/core-builder.php:105
+msgid "Get block settings form."
+msgstr ""
+
+#: framework/rest-api/core-builder.php:115
+msgid "Reset block settings."
+msgstr ""
+
+#: framework/rest-api/core-builder.php:125, framework/rest-api/core-builder.php:135
+msgid "Get block html."
+msgstr ""
+
+#: framework/rest-api/core-builder.php:146
+msgid "Get Template"
+msgstr ""
+
+#: framework/rest-api/core-builder.php:157
+msgid "Update Template"
+msgstr ""
+
+#: framework/rest-api/core-builder.php:167, framework/rest-api/core-builder.php:177
+msgid "Import template from json file."
+msgstr ""
+
+#: framework/rest-api/core-builder.php:296
+msgid "Installed, you can refresh this page to reflect changes."
+msgstr ""
+
+#: framework/rest-api/core-builder.php:307
+msgid "You must upload a valid ZIP file."
+msgstr ""
+
+#: framework/rest-api/core-builder.php:395
+msgid "You must upload a valid file. Make sure you have not renamed the file."
+msgstr ""
+
+#: framework/rest-api/core-builder.php:467, framework/traits/helpers/framework.trait.php:435
+msgid "Content"
+msgstr ""
+
+#: framework/rest-api/core-builder.php:468, framework/html/parts/admin-form-css-styles.php:345
+msgid "Layout"
+msgstr ""
+
+#: framework/rest-api/core-builder.php:469
+msgid "CSS/JS"
+msgstr ""
+
+#: framework/rest-api/core-builder.php:472
+msgid "Continue Editing"
+msgstr ""
+
+#: framework/rest-api/core-builder.php:473
+msgid "<span class=\"cj-icon cj-is-small cj-mr-8\"><i class=\"fa fa-lightbulb\"></i></span> <span>You can <b>double click</b> on any edit box to open all settings.</span>"
+msgstr ""
+
+#: framework/rest-api/core-builder.php:545
+msgid "The field block_id is required."
+msgstr ""
+
+#: framework/rest-api/core-builder.php:552
+msgid "No ui block found with the provided block id."
+msgstr ""
+
+#: framework/rest-api/core-builder.php:624
+msgid "Template Name"
+msgstr ""
+
+#: framework/rest-api/core-builder.php:642
+msgid "Assign Template"
+msgstr ""
+
+#: framework/rest-api/core-builder.php:723
+msgid "<b>There are no ui blocks assigned to this template.</b><br>Browse the UI Blocks section in the sidebar and click the plus button to start designing this template."
+msgstr ""
+
+#: framework/rest-api/core-builder.php:835
+msgid "UI Block not found."
+msgstr ""
+
+#: framework/rest-api/core-cloud.php:23
+msgid "Get installed products"
+msgstr ""
+
+#: framework/rest-api/core-cloud.php:34
+msgid "Download and Extract products"
+msgstr ""
+
+#: framework/rest-api/core-cloud.php:44
+msgid "Remove Product"
+msgstr ""
+
+#: framework/rest-api/core-cloud.php:54
+msgid "Check Product Upgrades"
+msgstr ""
+
+#: framework/rest-api/core-cloud.php:64
+msgid "Get upgradable products"
+msgstr ""
+
+#: framework/rest-api/core-cloud.php:104
+msgid "You must specify download_url."
+msgstr ""
+
+#: framework/rest-api/core-cloud.php:122
+msgid "Could not install, please refresh this page to try again or contact our support team for help."
+msgstr ""
+
+#: framework/rest-api/core-cloud.php:132
+msgid "You must specify product_slug."
+msgstr ""
+
+#: framework/rest-api/core-cloud.php:146
+msgid "No product found with specified key."
+msgstr ""
+
+#: framework/rest-api/core-comments.php:23
+msgid "Get Comments"
+msgstr ""
+
+#: framework/rest-api/core-comments.php:34
+msgid "Get a comment"
+msgstr ""
+
+#: framework/rest-api/core-comments.php:45
+msgid "Add a comment"
+msgstr ""
+
+#: framework/rest-api/core-comments.php:55
+msgid "Update comment"
+msgstr ""
+
+#: framework/rest-api/core-comments.php:68
+msgid "Delete comment"
+msgstr ""
+
+#: framework/rest-api/core-comments.php:81
+msgid "Add comment meta"
+msgstr ""
+
+#: framework/rest-api/core-comments.php:94
+msgid "Delete comment meta"
+msgstr ""
+
+#: framework/rest-api/core-comments.php:130, framework/rest-api/core-comments.php:236
+msgid "No post found"
+msgstr ""
+
+#: framework/rest-api/core-comments.php:205, framework/rest-api/core-comments.php:283
+msgid "No comment found"
+msgstr ""
+
+#: framework/rest-api/core-comments.php:224, framework/rest-api/core-posts.php:336, framework/rest-api/core-posts.php:413
+msgid "You must specify post ID or slug."
+msgstr ""
+
+#: framework/rest-api/core-comments.php:225
+msgid "You must specify user ID, user_login or user_email."
+msgstr ""
+
+#: framework/rest-api/core-comments.php:226
+msgid "Comment content field is required"
+msgstr ""
+
+#: framework/rest-api/core-comments.php:240
+msgid "No user found"
+msgstr ""
+
+#: framework/rest-api/core-comments.php:272, framework/rest-api/core-comments.php:304, framework/rest-api/core-comments.php:334, framework/rest-api/core-comments.php:367
+msgid "You must specify comment ID."
+msgstr ""
+
+#: framework/rest-api/core-comments.php:316, framework/rest-api/core-comments.php:347, framework/rest-api/core-comments.php:379
+msgid "Comment not found"
+msgstr ""
+
+#: framework/rest-api/core-comments.php:319
+msgid "Comment removed successfully."
+msgstr ""
+
+#: framework/rest-api/core-comments.php:335, framework/rest-api/core-comments.php:368
+msgid "You must specify meta key."
+msgstr ""
+
+#: framework/rest-api/core-comments.php:336
+msgid "You must specify meta value."
+msgstr ""
+
+#: framework/rest-api/core-comments.php:352
+msgid "Comment meta updated successfully."
+msgstr ""
+
+#: framework/rest-api/core-comments.php:384
+msgid "Comment meta removed successfully."
+msgstr ""
+
+#: framework/rest-api/core-custom-data.php:67, framework/rest-api/core-custom-data.php:80, framework/rest-api/core-custom-data.php:99
+msgid "You must specify data_key."
+msgstr ""
+
+#: framework/rest-api/core-custom-data.php:86
+msgid "You must specify data string or array."
+msgstr ""
+
+#: framework/rest-api/core-dev.php:23, framework/rest-api/core-dev.php:34
+msgid "Products JSON"
+msgstr ""
+
+#: framework/rest-api/core-forms.php:39
+msgid "Process Contact Form"
+msgstr ""
+
+#: framework/rest-api/core-forms.php:64
+msgid "The email address field is required."
+msgstr ""
+
+#: framework/rest-api/core-forms.php:67
+msgid "You must provide a valid email address"
+msgstr ""
+
+#: framework/rest-api/core-forms.php:72
+msgid "Thank You, "
+msgstr ""
+
+#: framework/rest-api/core-forms.php:90, framework/rest-api/core-info.php:317
+msgid "You must specify %s."
+msgstr ""
+
+#: framework/rest-api/core-forms.php:93, framework/rest-api/core-info.php:320
+msgid "%s field is required."
+msgstr ""
+
+#: framework/rest-api/core-forms.php:109, framework/rest-api/core-info.php:336
+msgid "Contact via %s!"
+msgstr ""
+
+#: framework/rest-api/core-forms.php:121, framework/rest-api/core-info.php:348
+msgid "<b>Thank You!</b><br>We have received your message and will get back to you as soon as possible."
+msgstr ""
+
+#: framework/rest-api/core-geo-data.php:23
+msgid "Get Countries"
+msgstr ""
+
+#: framework/rest-api/core-geo-data.php:34
+msgid "Get States by Country Name"
+msgstr ""
+
+#: framework/rest-api/core-geo-data.php:45, framework/rest-api/core-geo-data.php:56
+msgid "Get Real IP Info"
+msgstr ""
+
+#: framework/rest-api/core-geo-data.php:348
+msgid "You must specify the country name."
+msgstr ""
+
+#: framework/rest-api/core-geo-data.php:5655
+msgid "You must specify an address"
+msgstr ""
+
+#: framework/rest-api/core-info.php:34
+msgid "Localization Strings"
+msgstr ""
+
+#: framework/rest-api/core-info.php:45
+msgid "Core compile scss"
+msgstr ""
+
+#: framework/rest-api/core-info.php:56
+msgid "WP Builder Settings"
+msgstr ""
+
+#: framework/rest-api/core-info.php:67
+msgid "Get WP Builder Option"
+msgstr ""
+
+#: framework/rest-api/core-info.php:78
+msgid "Get WordPress Option"
+msgstr ""
+
+#: framework/rest-api/core-info.php:89
+msgid "Update WordPress Option"
+msgstr ""
+
+#: framework/rest-api/core-info.php:99
+msgid "Delete WordPress Option"
+msgstr ""
+
+#: framework/rest-api/core-info.php:109, framework/rest-api/core-info.php:120
+msgid "Get WordPress Transient"
+msgstr ""
+
+#: framework/rest-api/core-info.php:130
+msgid "Delete WordPress Transient"
+msgstr ""
+
+#: framework/rest-api/core-info.php:140
+msgid "Contact Form"
+msgstr ""
+
+#: framework/rest-api/core-info.php:151
+msgid "Import image from URL"
+msgstr ""
+
+#: framework/rest-api/core-info.php:162
+msgid "Core file upload"
+msgstr ""
+
+#: framework/rest-api/core-info.php:173
+msgid "Core generate vue form"
+msgstr ""
+
+#: framework/rest-api/core-info.php:213, framework/rest-api/core-info.php:216, framework/rest-api/core-info.php:226, framework/rest-api/core-info.php:241, framework/rest-api/core-info.php:255, framework/rest-api/core-info.php:266, framework/rest-api/core-info.php:280, framework/rest-api/core-info.php:292
+msgid "You must specify option_name."
+msgstr ""
+
+#: framework/rest-api/core-info.php:231, framework/rest-api/core-info.php:270
+msgid "Nothing found."
+msgstr ""
+
+#: framework/rest-api/core-info.php:244, framework/rest-api/core-info.php:295
+msgid "You must specify option_value."
+msgstr ""
+
+#: framework/rest-api/core-info.php:361
+msgid "You must specify image_url."
+msgstr ""
+
+#: framework/rest-api/core-info.php:389
+msgid "You must specify a file."
+msgstr ""
+
+#: framework/rest-api/core-info.php:436
+msgid "Core CSS compiled successfully."
+msgstr ""
+
+#: framework/rest-api/core-info.php:440
+msgid "Blocks CSS compiled successfully."
+msgstr ""
+
+#: framework/rest-api/core-info.php:444
+msgid "Addons CSS compiled successfully."
+msgstr ""
+
+#: framework/rest-api/core-info.php:451
+msgid "CSS compiled successfully."
+msgstr ""
+
+#: framework/rest-api/core-posts.php:23
+msgid "Get posts"
+msgstr ""
+
+#: framework/rest-api/core-posts.php:34
+msgid "Get post"
+msgstr ""
+
+#: framework/rest-api/core-posts.php:45
+msgid "Get posts by meta"
+msgstr ""
+
+#: framework/rest-api/core-posts.php:56
+msgid "Create a post"
+msgstr ""
+
+#: framework/rest-api/core-posts.php:66
+msgid "Update post"
+msgstr ""
+
+#: framework/rest-api/core-posts.php:76
+msgid "Delete post"
+msgstr ""
+
+#: framework/rest-api/core-posts.php:90
+msgid "Get post terms"
+msgstr ""
+
+#: framework/rest-api/core-posts.php:101
+msgid "Add post term"
+msgstr ""
+
+#: framework/rest-api/core-posts.php:111
+msgid "Delete post term"
+msgstr ""
+
+#: framework/rest-api/core-posts.php:121
+msgid "Get images"
+msgstr ""
+
+#: framework/rest-api/core-posts.php:219
+msgid "You must specify meta_key"
+msgstr ""
+
+#: framework/rest-api/core-posts.php:240
+msgid "You must specify post id or slug."
+msgstr ""
+
+#: framework/rest-api/core-posts.php:283, framework/rest-api/core-posts.php:314
+msgid "You must specify post id or slug to update the post."
+msgstr ""
+
+#: framework/rest-api/core-posts.php:289, framework/rest-api/core-posts.php:320, framework/rest-api/core-posts.php:343, framework/rest-api/core-posts.php:390, framework/rest-api/core-posts.php:427
+msgid "No post found."
+msgstr ""
+
+#: framework/rest-api/core-posts.php:327
+msgid "Post removed successfully."
+msgstr ""
+
+#: framework/rest-api/core-posts.php:356
+msgid "Taxonomy not found."
+msgstr ""
+
+#: framework/rest-api/core-posts.php:414
+msgid "You must specify a taxonomy."
+msgstr ""
+
+#: framework/rest-api/core-posts.php:415
+msgid "You must specify a term to add."
+msgstr ""
+
+#: framework/rest-api/core-terms.php:25
+msgid "Get Taxonomies"
+msgstr ""
+
+#: framework/rest-api/core-terms.php:36
+msgid "Get Taxonomy"
+msgstr ""
+
+#: framework/rest-api/core-terms.php:47
+msgid "Get Terms"
+msgstr ""
+
+#: framework/rest-api/core-terms.php:58
+msgid "Get Term"
+msgstr ""
+
+#: framework/rest-api/core-terms.php:69
+msgid "Add Term"
+msgstr ""
+
+#: framework/rest-api/core-terms.php:79
+msgid "Update Term"
+msgstr ""
+
+#: framework/rest-api/core-terms.php:89
+msgid "Delete Term"
+msgstr ""
+
+#: framework/rest-api/core-terms.php:99
+msgid "Update term meta"
+msgstr ""
+
+#: framework/rest-api/core-terms.php:109
+msgid "Delete term meta"
+msgstr ""
+
+#: framework/rest-api/core-terms.php:235
+msgid "No terms found"
+msgstr ""
+
+#: framework/rest-api/core-terms.php:269, framework/rest-api/core-terms.php:340
+msgid "Term not found."
+msgstr ""
+
+#: framework/rest-api/core-terms.php:295
+msgid "Term already exists"
+msgstr ""
+
+#: framework/rest-api/core-terms.php:328
+msgid "You must specify args[] to update for this term."
+msgstr ""
+
+#: framework/rest-api/core-terms.php:377
+msgid "Term removed successfully."
+msgstr ""
+
+#: framework/rest-api/core-terms.php:381
+msgid "Term not found"
+msgstr ""
+
+#: framework/rest-api/core-terms.php:396, framework/rest-api/core-terms.php:422
+msgid "You must specify term_id or slug."
+msgstr ""
+
+#: framework/rest-api/core-terms.php:397, framework/rest-api/core-terms.php:423, framework/rest-api/core-users.php:311
+msgid "You must specify meta_key."
+msgstr ""
+
+#: framework/rest-api/core-terms.php:398
+msgid "You must specify meta_value."
+msgstr ""
+
+#: framework/rest-api/core-terms.php:406
+msgid "Term meta updated successfully."
+msgstr ""
+
+#: framework/rest-api/core-terms.php:432
+msgid "Term meta removed successfully."
+msgstr ""
+
+#: framework/rest-api/core-users.php:47
+msgid "Get user info"
+msgstr ""
+
+#: framework/rest-api/core-users.php:58, framework/rest-api/core-users.php:68, framework/rest-api/core-users.php:79, framework/rest-api/core-users.php:89
+msgid "Get current user info"
+msgstr ""
+
+#: framework/rest-api/core-users.php:99
+msgid "Get user(s) by meta"
+msgstr ""
+
+#: framework/rest-api/core-users.php:109
+msgid "Create a new user"
+msgstr ""
+
+#: framework/rest-api/core-users.php:119
+msgid "Update user info"
+msgstr ""
+
+#: framework/rest-api/core-users.php:129
+msgid "Delete a user"
+msgstr ""
+
+#: framework/rest-api/core-users.php:139
+msgid "Get user meta"
+msgstr ""
+
+#: framework/rest-api/core-users.php:150
+msgid "Update user meta"
+msgstr ""
+
+#: framework/rest-api/core-users.php:160
+msgid "Delete user meta"
+msgstr ""
+
+#: framework/rest-api/core-users.php:170, framework/rest-api/core-users.php:180
+msgid "Add to user meta array"
+msgstr ""
+
+#: framework/rest-api/core-users.php:274, framework/rest-api/core-users.php:300
+msgid "Invalid access token."
+msgstr ""
+
+#: framework/rest-api/core-users.php:287
+msgid "You must specify a token."
+msgstr ""
+
+#: framework/rest-api/core-users.php:330, framework/rest-api/core-users.php:353, framework/rest-api/core-users.php:395, framework/rest-api/core-users.php:518, framework/rest-api/core-users.php:551
+msgid "No user found."
+msgstr ""
+
+#: framework/rest-api/core-users.php:361
+msgid "Email address belongs to another account."
+msgstr ""
+
+#: framework/rest-api/core-users.php:382
+msgid "Information updated successfully."
+msgstr ""
+
+#: framework/rest-api/core-users.php:406
+msgid "User information updated successfully."
+msgstr ""
+
+#: framework/rest-api/core-users.php:420
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: framework/rest-api/core-users.php:443
+msgid "Missing required fields."
+msgstr ""
+
+#: framework/rest-api/core-users.php:450
+msgid "Admin account cannot be removed."
+msgstr ""
+
+#: framework/rest-api/core-users.php:456
+msgid "No user found with the information provided."
+msgstr ""
+
+#: framework/rest-api/core-users.php:465
+msgid "User removed successfully"
+msgstr ""
+
+#: framework/rest-api/core-users.php:475, framework/rest-api/core-users.php:567, framework/rest-api/core-users.php:573, framework/rest-api/core-users.php:615
+msgid "You must specify a valid user_id."
+msgstr ""
+
+#: framework/rest-api/core-users.php:480, framework/rest-api/core-users.php:578, framework/rest-api/core-users.php:618
+msgid "You must specify a valid meta_key."
+msgstr ""
+
+#: framework/rest-api/core-users.php:488, framework/rest-api/core-users.php:591
+msgid "User not found."
+msgstr ""
+
+#: framework/rest-api/core-users.php:583
+msgid "You must specify data to push."
+msgstr ""
+
+#: framework/rest-api/core-users.php:621
+msgid "You must specify a valid key to remove from data."
+msgstr ""
+
+#: shortcodes/block/init.php:42
+msgid "This shortcode will render the UI Block."
+msgstr ""
+
+#: shortcodes/block/init.php:54
+msgid "Specify UI Block ID"
+msgstr ""
+
+#: framework/autoload/cmb2-custom-fields/aos.php:18
+msgid "Animation Type"
+msgstr ""
+
+#: framework/autoload/cmb2-custom-fields/aos.php:29
+msgid "Animation Easing"
+msgstr ""
+
+#: framework/autoload/cmb2-custom-fields/aos.php:40
+msgid "Animation Speed"
+msgstr ""
+
+#: framework/autoload/cmb2-custom-fields/aos.php:51
+msgid "Animation Delay"
+msgstr ""
+
+#: framework/autoload/cmb2-custom-fields/background.php:31, framework/html/parts/admin-form-css-styles.php:134
+msgid "Background Image"
+msgstr ""
+
+#: framework/autoload/cmb2-custom-fields/background.php:49
+msgid "Gradient Start Color"
+msgstr ""
+
+#: framework/autoload/cmb2-custom-fields/background.php:59
+msgid "Gradient End Color"
+msgstr ""
+
+#: framework/autoload/cmb2-custom-fields/background.php:69
+msgid "Gradient Direction"
+msgstr ""
+
+#: framework/autoload/cmb2-custom-fields/background.php:87, framework/html/parts/admin-form-css-styles.php:127
+msgid "Background Color"
+msgstr ""
+
+#: framework/autoload/cmb2-custom-fields/background.php:106
+msgid "Overlay Style"
+msgstr ""
+
+#: framework/autoload/cmb2-custom-fields/background.php:117
+msgid "Overlay Opacity"
+msgstr ""
+
+#: framework/autoload/cmb2-custom-fields/background.php:137, framework/html/parts/admin-form-css-styles.php:6
+msgid "Text Color"
+msgstr ""
+
+#: framework/autoload/cmb2-custom-fields/background.php:149
+msgid "Headings Color"
+msgstr ""
+
+#: framework/autoload/cmb2-custom-fields/background.php:161
+msgid "Links Color"
+msgstr ""
+
+#: framework/autoload/cmb2-custom-fields/core-border-styles.php:22
+msgid "Border Top Size"
+msgstr ""
+
+#: framework/autoload/cmb2-custom-fields/core-border-styles.php:37
+msgid "Border Top Style"
+msgstr ""
+
+#: framework/autoload/cmb2-custom-fields/core-border-styles.php:49
+msgid "Border Top Color"
+msgstr ""
+
+#: framework/autoload/cmb2-custom-fields/core-border-styles.php:61
+msgid "Border Bottom Size"
+msgstr ""
+
+#: framework/autoload/cmb2-custom-fields/core-border-styles.php:76
+msgid "Border Bottom Style"
+msgstr ""
+
+#: framework/autoload/cmb2-custom-fields/core-border-styles.php:88
+msgid "Border Bottom Color"
+msgstr ""
+
+#: framework/html/nav-menu-items/avatar.php:5
+msgid "Guest"
+msgstr ""
+
+#: framework/html/parts/admin-form-aos.php:5, framework/html/parts/admin-form-field-aos.php:6
+msgid "Animation Type:"
+msgstr ""
+
+#: framework/html/parts/admin-form-aos.php:18, framework/html/parts/admin-form-field-aos.php:19
+msgid "Easing:"
+msgstr ""
+
+#: framework/html/parts/admin-form-aos.php:31, framework/html/parts/admin-form-field-aos.php:32
+msgid "Duration (ms):"
+msgstr ""
+
+#: framework/html/parts/admin-form-aos.php:41, framework/html/parts/admin-form-field-aos.php:42
+msgid "Delay (ms):"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:13, framework/traits/helpers/framework.trait.php:454
+msgid "Font Size"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:21
+msgid "Line Height"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:29
+msgid "Font Weight"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:37
+msgid "Font Style"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:45
+msgid "Text Decoration"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:53
+msgid "Font Variant"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:61
+msgid "Text Transform"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:69
+msgid "Font Family"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:77
+msgid "Text Align"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:85
+msgid "Text Indent"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:93
+msgid "Letter Spacing"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:101
+msgid "Word Spacing"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:109
+msgid "White Space"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:117
+msgid "Text Shadow"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:141
+msgid "Background Position"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:148
+msgid "Background Repeat"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:155, framework/html/parts/admin-form-css-styles.php:162
+msgid "Background Size"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:169
+msgid "Box Shadow"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:176
+msgid "Opacity"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:184
+msgid "Borders"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:195
+msgid "Margin"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:203
+msgid "Padding"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:211
+msgid "Position"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:218
+msgid "Position #"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:226
+msgid "Width"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:234
+msgid "Height"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:242
+msgid "Display"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:250
+msgid "Float"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:258
+msgid "Clear"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:266, framework/traits/helpers/builder.trait.php:360
+msgid "Visibility"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:274
+msgid "Overflow"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:282
+msgid "Overflow X"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:290
+msgid "Overflow Y"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:298
+msgid "Z-Index"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:308, framework/html/parts/admin-form-css-styles.php:348, framework/traits/helpers/builder.trait.php:384
+msgid "Custom CSS"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:315
+msgid "Custom CSS Classes"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:323, framework/html/parts/admin-form-css-styles.php:330
+msgid "CSS Styles"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:339
+msgid "Text Styles"
+msgstr ""
+
+#: framework/html/parts/admin-form-css-styles.php:342
+msgid "Decoration"
+msgstr ""
+
+#: framework/html/parts/admin-form-meta-field.php:10
+msgid "Label"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:61
+msgid "True"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:62
+msgid "False"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:69
+msgid "On"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:70
+msgid "Off"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:75
+msgid "May be"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:78
+msgid "Enable"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:79
+msgid "Disable"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:82
+msgid "Active"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:83
+msgid "Inactive"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:86, framework/traits/helpers/arrays.trait.php:222, framework/traits/helpers/arrays.trait.php:238, framework/traits/helpers/arrays.trait.php:272
+msgid "Normal"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:87
+msgid "Approvals Required"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:88
+msgid "Invitations Only"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:91
+msgid "Allow users to set their passwords while registration."
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:92
+msgid "Generate password automatically and send via email."
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:95
+msgid "Use Gravatar"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:96
+msgid "Allow custom profile picture upload"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:97
+msgid "Use Social Profile Avatar"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:101
+msgid "Login Form"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:102
+msgid "Registration Form"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:103
+msgid "Reset Password Form"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:113
+msgid "Days Left"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:114
+msgid "Countdown Clock"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:125, framework/traits/helpers/arrays.trait.php:132, framework/traits/helpers/arrays.trait.php:137, framework/traits/helpers/arrays.trait.php:142, framework/traits/helpers/arrays.trait.php:165, framework/traits/helpers/arrays.trait.php:219, framework/traits/helpers/arrays.trait.php:235, framework/traits/helpers/arrays.trait.php:244, framework/traits/helpers/arrays.trait.php:257, framework/traits/helpers/arrays.trait.php:269
+msgid "Inherit"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:126
+msgid "Repeat All"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:127
+msgid "Repeat Horizontal"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:128
+msgid "Repeat Vertical"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:129
+msgid "Do not repeat"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:133
+msgid "Cover"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:134
+msgid "Contain"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:138
+msgid "Fixed"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:139, framework/traits/helpers/arrays.trait.php:214
+msgid "Scroll"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:143
+msgid "Top Left"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:144
+msgid "Top Center"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:145
+msgid "Top Right"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:146
+msgid "Bottom Left"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:147
+msgid "Bottom Center"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:148
+msgid "Bottom Right"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:149
+msgid "Center Left"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:150
+msgid "Center Center"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:151
+msgid "Center Right"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:154
+msgid "Solid"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:155
+msgid "Dotted"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:156
+msgid "Dashed"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:158, framework/traits/helpers/arrays.trait.php:207, framework/traits/helpers/arrays.trait.php:212, framework/traits/helpers/forms.trait.php:245
+msgid "Hidden"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:159
+msgid "Double"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:160
+msgid "Groove"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:161
+msgid "Ridge"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:162
+msgid "Inset"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:163
+msgid "Outset"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:164, framework/traits/helpers/arrays.trait.php:268
+msgid "Initial"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:168
+msgid "absolute"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:169
+msgid "fixed"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:170
+msgid "relative"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:171
+msgid "static"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:176
+msgid "Inline"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:177
+msgid "Block"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:178
+msgid "Flex"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:179
+msgid "Inline Block"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:180
+msgid "Inline Flex"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:181
+msgid "Inline Table"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:182
+msgid "List Item"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:183
+msgid "Run In"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:184
+msgid "Table"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:185
+msgid "Table Caption"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:186
+msgid "Table Column Group"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:187
+msgid "Table Header Group"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:188
+msgid "Table Footer Group"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:189
+msgid "Table Row Group"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:190
+msgid "Table Cell"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:191
+msgid "Table Column"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:192
+msgid "Table Row"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:204
+msgid "Both"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:208, framework/traits/helpers/arrays.trait.php:213
+msgid "Visible"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:209
+msgid "Collapse"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:215, framework/traits/helpers/forms.trait.php:244
+msgid "Auto"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:220
+msgid "Bold"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:221
+msgid "Bolder"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:223
+msgid "Lighter"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:224
+msgid "100"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:225
+msgid "200"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:226
+msgid "300"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:227
+msgid "400"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:228
+msgid "500"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:229
+msgid "600"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:230
+msgid "700"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:231
+msgid "800"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:232
+msgid "900"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:236
+msgid "Italic"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:237
+msgid "Oblique"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:247, framework/traits/helpers/arrays.trait.php:254
+msgid "Center"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:248
+msgid "Justify"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:258
+msgid "Underline"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:259
+msgid "Overline"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:260
+msgid "Line Through"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:261, framework/traits/helpers/arrays.trait.php:281
+msgid "initial"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:265
+msgid "Capitalize"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:266
+msgid "Uppercase"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:267
+msgid "Lowercase"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:273
+msgid "Small Caps"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:276
+msgid "normal"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:277
+msgid "nowrap"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:278
+msgid "pre"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:279
+msgid "pre-line"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:280
+msgid "pre-wrap"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:285
+msgid "mini"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:286
+msgid "small"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:287
+msgid "default"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:288
+msgid "medium"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:289
+msgid "large"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:301
+msgid "Full Height"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:304
+msgid "Same window"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:305
+msgid "New window"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:1369
+msgid "Primary"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:1370
+msgid "Primary Dark"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:1371
+msgid "Primary Light"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:1372
+msgid "Success"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:1373
+msgid "Success Dark"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:1374
+msgid "Success Light"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:1375
+msgid "Danger"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:1376
+msgid "Danger Dark"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:1377
+msgid "Danger Light"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:1379
+msgid "Info Dark"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:1380
+msgid "Info Light"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:1381
+msgid "Warning"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:1382
+msgid "Warning Dark"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:1383
+msgid "Warning Light"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:1387
+msgid "Black"
+msgstr ""
+
+#: framework/traits/helpers/arrays.trait.php:1388
+msgid "White"
+msgstr ""
+
+#: framework/traits/helpers/builder.trait.php:363
+msgid "NOTE: If <strong>Visitors Only</strong> option is selected, it would ignore other options and show block only to non-logged in users only."
+msgstr ""
+
+#: framework/traits/helpers/builder.trait.php:370
+msgid "Flexible or Boxed?"
+msgstr ""
+
+#: framework/traits/helpers/builder.trait.php:373
+msgid "Boxed: If boxed, the content of this block will be wrapped in a container otherwise it will be flexible to fit in the parent element."
+msgstr ""
+
+#: framework/traits/helpers/builder.trait.php:393
+msgid "Custom Javascript"
+msgstr ""
+
+#: framework/traits/helpers/builder.trait.php:397
+msgid "Specify custom Javascript code for this UI Block. e.g.<br>"
+msgstr ""
+
+#: framework/traits/helpers/builder.trait.php:1073
+msgid "Entire Website"
+msgstr ""
+
+#: framework/traits/helpers/builder.trait.php:1074
+msgid "Custom Homepage"
+msgstr ""
+
+#: framework/traits/helpers/builder.trait.php:1075
+msgid "Posts Page"
+msgstr ""
+
+#: framework/traits/helpers/builder.trait.php:1076
+msgid "Archives Pages"
+msgstr ""
+
+#: framework/traits/helpers/builder.trait.php:1077
+msgid "Author Pages"
+msgstr ""
+
+#: framework/traits/helpers/builder.trait.php:1078
+msgid "Single Pages"
+msgstr ""
+
+#: framework/traits/helpers/builder.trait.php:1079
+msgid "Single Posts"
+msgstr ""
+
+#: framework/traits/helpers/builder.trait.php:1080
+msgid "Media Page"
+msgstr ""
+
+#: framework/traits/helpers/builder.trait.php:1081
+msgid "Search Page"
+msgstr ""
+
+#: framework/traits/helpers/builder.trait.php:1082
+msgid "404 Page"
+msgstr ""
+
+#: framework/traits/helpers/builder.trait.php:1109
+msgid "%s Archives"
+msgstr ""
+
+#: framework/traits/helpers/builder.trait.php:1110
+msgid "%s Single %ss"
+msgstr ""
+
+#: framework/traits/helpers/builder.trait.php:1124
+msgid "<b>Admin Notice:</b><br>Please select template for this section."
+msgstr ""
+
+#: framework/traits/helpers/filesystem.trait.php:155
+msgid "You must specify source zip file."
+msgstr ""
+
+#: framework/traits/helpers/filesystem.trait.php:160
+msgid "You must specify a destination path."
+msgstr ""
+
+#: framework/traits/helpers/filesystem.trait.php:171
+msgid "There was an error unzipping the file."
+msgstr ""
+
+#: framework/traits/helpers/filesystem.trait.php:181, framework/traits/helpers/filesystem.trait.php:199
+msgid "You must specify a file path."
+msgstr ""
+
+#: framework/traits/helpers/filesystem.trait.php:280
+msgid "File size must be below %s MB."
+msgstr ""
+
+#: framework/traits/helpers/filesystem.trait.php:284
+msgid "Image width must be %s pixels."
+msgstr ""
+
+#: framework/traits/helpers/filesystem.trait.php:287
+msgid "Image height must be %s pixels."
+msgstr ""
+
+#: framework/traits/helpers/filesystem.trait.php:292, framework/traits/helpers/filesystem.trait.php:296, framework/traits/helpers/filesystem.trait.php:299
+msgid "You must upload a valid file. <b>%s</b> is not allowed."
+msgstr ""
+
+#: framework/traits/helpers/forms.trait.php:69
+msgid "Select anchor placement"
+msgstr ""
+
+#: framework/traits/helpers/forms.trait.php:86
+msgid "Select easing type"
+msgstr ""
+
+#. translators: 1: separator, 2: search phrase
+#: framework/traits/helpers/forms.trait.php:300, framework/traits/helpers/wordpress.trait.php:991, framework/traits/helpers/wordpress.trait.php:997
+msgid "%s"
+msgstr ""
+
+#: framework/traits/helpers/forms.trait.php:555
+msgid "Sunday"
+msgstr ""
+
+#: framework/traits/helpers/forms.trait.php:556
+msgid "Monday"
+msgstr ""
+
+#: framework/traits/helpers/forms.trait.php:557
+msgid "Tuesday"
+msgstr ""
+
+#: framework/traits/helpers/forms.trait.php:558
+msgid "Wednesday"
+msgstr ""
+
+#: framework/traits/helpers/forms.trait.php:559
+msgid "Thursday"
+msgstr ""
+
+#: framework/traits/helpers/forms.trait.php:560
+msgid "Friday"
+msgstr ""
+
+#: framework/traits/helpers/forms.trait.php:561
+msgid "Saturday"
+msgstr ""
+
+#: framework/traits/helpers/forms.trait.php:673
+msgid "Body"
+msgstr ""
+
+#: framework/traits/helpers/forms.trait.php:674, framework/traits/helpers/framework.trait.php:468
+msgid "Headings"
+msgstr ""
+
+#: framework/traits/helpers/forms.trait.php:675
+msgid "Code"
+msgstr ""
+
+#: framework/traits/helpers/forms.trait.php:738
+msgid "You must specify \"post_type\" in option params"
+msgstr ""
+
+#: framework/traits/helpers/forms.trait.php:758
+msgid "You must specify \"taxonomy\" in option params"
+msgstr ""
+
+#: framework/traits/helpers/forms.trait.php:819
+msgid "Click or Drag and Drop files here to upload."
+msgstr ""
+
+#: framework/traits/helpers/forms.trait.php:825
+msgid "File size must be less than %s MB."
+msgstr ""
+
+#: framework/traits/helpers/forms.trait.php:829, framework/traits/helpers/forms.trait.php:860
+msgid "You are not allowed to upload more than %s files at once."
+msgstr ""
+
+#: framework/traits/helpers/forms.trait.php:833
+msgid "You are uploading an invalid file."
+msgstr ""
+
+#: framework/traits/helpers/forms.trait.php:836
+msgid "Processing"
+msgstr ""
+
+#: framework/traits/helpers/forms.trait.php:856
+msgid "You must upload a valid image file."
+msgstr ""
+
+#: framework/traits/helpers/forms.trait.php:862
+msgid "Click or Drag and Drop your profile image."
+msgstr ""
+
+#: framework/traits/helpers/forms.trait.php:892
+msgid "Address line 1"
+msgstr ""
+
+#: framework/traits/helpers/forms.trait.php:896
+msgid "Address line 2"
+msgstr ""
+
+#: framework/traits/helpers/forms.trait.php:899
+msgid "city"
+msgstr ""
+
+#: framework/traits/helpers/forms.trait.php:903
+msgid "State / Province / Region"
+msgstr ""
+
+#: framework/traits/helpers/forms.trait.php:911
+msgid "Postal / Zipcode"
+msgstr ""
+
+#: framework/traits/helpers/forms.trait.php:1011
+msgid "Add Another"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:442
+msgid "Body font family"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:448
+msgid "Code font family"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:461
+msgid "Small Font Size"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:475
+msgid "Headings font family"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:481
+msgid "Headings font weight"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:489
+msgid "H1 Size"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:496
+msgid "H2 Size"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:503
+msgid "H3 Size"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:510
+msgid "H4 Size"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:517
+msgid "H5 Size"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:524
+msgid "H6 Size"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:530
+msgid "Titles"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:537
+msgid "Title font family"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:543
+msgid "Title font weight"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:551, framework/traits/helpers/framework.trait.php:589
+msgid "Title Font Size"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:557
+msgid "Sub-Title font family"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:563
+msgid "Sub-Title font weight"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:570
+msgid "Sub-Title Opacity"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:595
+msgid "Brand"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:602
+msgid "Color primary"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:608
+msgid "Color primary invert"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:614
+msgid "Color success"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:620
+msgid "Color success invert"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:626
+msgid "Color danger"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:632
+msgid "Color danger invert"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:638
+msgid "Color info"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:644
+msgid "Color info invert"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:650
+msgid "Color warning"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:656
+msgid "Color warning invert"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:662
+msgid "Color dark"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:668
+msgid "Color dark invert"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:674
+msgid "Color light"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:680
+msgid "Color light invert"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:686, framework/traits/helpers/framework.trait.php:693
+msgid "Radius"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:700
+msgid "Radius small"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:707
+msgid "Radius large"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:714
+msgid "Input radius"
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:1639
+msgid "Installation Successful."
+msgstr ""
+
+#: framework/traits/helpers/framework.trait.php:1817, framework/traits/helpers/framework.trait.php:1837
+msgid "File (%s) not found."
+msgstr ""
+
+#: framework/traits/helpers/posts.trait.php:21
+msgid "Post title field is required."
+msgstr ""
+
+#: framework/traits/helpers/posts.trait.php:22
+msgid "Post content field is required."
+msgstr ""
+
+#: framework/traits/helpers/posts.trait.php:53
+msgid "Post with this title already exists."
+msgstr ""
+
+#: framework/traits/helpers/posts.trait.php:243
+msgid "No comments"
+msgstr ""
+
+#: framework/traits/helpers/posts.trait.php:245
+msgid "1 Comment"
+msgstr ""
+
+#: framework/traits/helpers/posts.trait.php:247
+msgid "%s Comments"
+msgstr ""
+
+#: framework/traits/helpers/posts.trait.php:374
+msgid "<a href=\"%s\" target=\"_blank\" rel=\"nofollow\"> | Edit %s</a>"
+msgstr ""
+
+#: framework/traits/helpers/users.trait.php:445, framework/traits/helpers/users.trait.php:511
+msgid "Everyone"
+msgstr ""
+
+#: framework/traits/helpers/vendors.trait.php:99, framework/traits/helpers/vendors.trait.php:120
+msgid "Google services key not specified in global settings."
+msgstr ""
+
+#: framework/traits/helpers/wordpress.trait.php:118
+msgid "Password must be at least 6 characters long and must contain one number, one uppercase letter, one lowercase letter and a special character."
+msgstr ""
+
+#: framework/traits/helpers/wordpress.trait.php:585
+msgid "Home"
+msgstr ""
+
+#: framework/traits/helpers/wordpress.trait.php:586
+msgid "Blog"
+msgstr ""
+
+#: framework/traits/helpers/wordpress.trait.php:587
+msgid "Archive by Category \"%s\""
+msgstr ""
+
+#: framework/traits/helpers/wordpress.trait.php:588
+msgid "Archive for \"%s\""
+msgstr ""
+
+#: framework/traits/helpers/wordpress.trait.php:589
+msgid "Search Results for \"%s\""
+msgstr ""
+
+#: framework/traits/helpers/wordpress.trait.php:590
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#: framework/traits/helpers/wordpress.trait.php:591
+msgid "Articles Posted by %s"
+msgstr ""
+
+#: framework/traits/helpers/wordpress.trait.php:592
+msgid "Error 404"
+msgstr ""
+
+#: framework/traits/helpers/wordpress.trait.php:820, framework/traits/helpers/wordpress.trait.php:820, framework/traits/helpers/wordpress.trait.php:824, framework/traits/helpers/wordpress.trait.php:824
+msgid "Select Menu"
+msgstr ""
+
+#: framework/traits/helpers/wordpress.trait.php:1214
+msgid "Name"
+msgstr ""
+
+#: framework/traits/helpers/wordpress.trait.php:1215, framework/html/forms/vue/auth-register-form.php:11, framework/html/forms/vue/auth-register-form.php:18, framework/html/forms/vue/contact-form.php:8, framework/html/forms/vue/email-subscription-form.php:11
+msgid "Email address"
+msgstr ""
+
+#: framework/traits/helpers/wordpress.trait.php:1216
+msgid "Website"
+msgstr ""
+
+#: framework/html/forms/vue/auth-login-form.php:6, framework/html/forms/vue/auth-register-form.php:22, framework/html/forms/vue/parts/change-password.php:10, framework/html/forms/vue/parts/reset-password.php:8
+msgid "Sign In"
+msgstr ""
+
+#: framework/html/forms/vue/auth-login-form.php:7, framework/html/forms/vue/parts/reset-password.php:6
+msgid "Username or email address"
+msgstr ""
+
+#: framework/html/forms/vue/auth-login-form.php:9
+msgid "Forgot password?"
+msgstr ""
+
+#: framework/html/forms/vue/auth-login-form.php:12, framework/html/forms/vue/auth-register-form.php:6
+msgid "Create an account"
+msgstr ""
+
+#: framework/html/forms/vue/auth-login-form.php:15
+msgid "Enter your username or email address"
+msgstr ""
+
+#: framework/html/forms/vue/auth-login-form.php:16
+msgid "Enter your password"
+msgstr ""
+
+#: framework/html/forms/vue/auth-register-form.php:13, framework/html/forms/vue/auth-register-form.php:20
+msgid "Confirm Password"
+msgstr ""
+
+#: framework/html/forms/vue/contact-form.php:5
+msgid "Send message"
+msgstr ""
+
+#: framework/html/forms/vue/contact-form.php:9
+msgid "Message"
+msgstr ""
+
+#: framework/html/forms/vue/contact-form.php:10, framework/html/forms/vue/email-subscription-form.php:12
+msgid "Enter your first name"
+msgstr ""
+
+#: framework/html/forms/vue/contact-form.php:11, framework/html/forms/vue/email-subscription-form.php:13
+msgid "Enter your last name"
+msgstr ""
+
+#: framework/html/forms/vue/contact-form.php:12, framework/html/forms/vue/email-subscription-form.php:14
+msgid "Enter your email address"
+msgstr ""
+
+#: framework/html/forms/vue/contact-form.php:13
+msgid "Enter your message here"
+msgstr ""
+
+#: framework/html/forms/vue/email-subscription-form.php:5
+msgid "<b>Thank you!</b><br>We will send you important updates via email."
+msgstr ""
+
+#: framework/html/forms/vue/email-subscription-form.php:8
+msgid "Subscribe"
+msgstr ""
+
+#: framework/html/forms/vue/parts/change-password.php:5
+msgid "Change Password"
+msgstr ""
+
+#: framework/html/forms/vue/parts/change-password.php:7
+msgid "Enter a new password"
+msgstr ""
+
+#: framework/html/forms/vue/parts/reset-password.php:5
+msgid "Send verification email"
+msgstr ""
+
+#: framework/html/forms/vue/parts/reset-password.php:7
+msgid "Enter your user or email address"
+msgstr ""

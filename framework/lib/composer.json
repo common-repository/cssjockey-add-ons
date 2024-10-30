@@ -1,0 +1,8 @@
+{
+  "require": {
+    "phelium/recaptcha": "^1.0",
+    "scssphp/scssphp": "1.0.5",
+    "matthiasmullie/minify": "^1.3",
+    "erusev/parsedown": "^1.7"
+  }
+}

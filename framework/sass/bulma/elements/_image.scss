@@ -1,0 +1,115 @@
+$dimensions: 16 24 32 48 64 96 128 !default;
+
+.cj-image {
+  display: block;
+  position: relative;
+
+  img {
+    display: block;
+    height: auto;
+    width: 100%;
+
+    &.cj-is-rounded {
+      border-radius: $radius-rounded;
+    }
+  }
+
+  &.cj-is-fullwidth {
+    width: 100%;
+  }
+
+  // Ratio
+  &.cj-is-square,
+  &.cj-is-1by1,
+  &.cj-is-5by4,
+  &.cj-is-4by3,
+  &.cj-is-3by2,
+  &.cj-is-5by3,
+  &.cj-is-16by9,
+  &.cj-is-2by1,
+  &.cj-is-3by1,
+  &.cj-is-4by5,
+  &.cj-is-3by4,
+  &.cj-is-2by3,
+  &.cj-is-3by5,
+  &.cj-is-9by16,
+  &.cj-is-1by2,
+  &.cj-is-1by3 {
+    img,
+    .cj-has-ratio {
+      @extend %overlay;
+
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  &.cj-is-square,
+  &.cj-is-1by1 {
+    padding-top: 100%;
+  }
+
+  &.cj-is-5by4 {
+    padding-top: 80%;
+  }
+
+  &.cj-is-4by3 {
+    padding-top: 75%;
+  }
+
+  &.cj-is-3by2 {
+    padding-top: 66.6666%;
+  }
+
+  &.cj-is-5by3 {
+    padding-top: 60%;
+  }
+
+  &.cj-is-16by9 {
+    padding-top: 56.25%;
+  }
+
+  &.cj-is-2by1 {
+    padding-top: 50%;
+  }
+
+  &.cj-is-3by1 {
+    padding-top: 33.3333%;
+  }
+
+  &.cj-is-4by5 {
+    padding-top: 125%;
+  }
+
+  &.cj-is-3by4 {
+    padding-top: 133.3333%;
+  }
+
+  &.cj-is-2by3 {
+    padding-top: 150%;
+  }
+
+  &.cj-is-3by5 {
+    padding-top: 166.6666%;
+  }
+
+  &.cj-is-9by16 {
+    padding-top: 177.7777%;
+  }
+
+  &.cj-is-1by2 {
+    padding-top: 200%;
+  }
+
+  &.cj-is-1by3 {
+    padding-top: 300%;
+  }
+
+  // Sizes
+  @each $dimension in $dimensions {
+    &.cj-is-#{$dimension}x#{$dimension} {
+      height: $dimension * 1px;
+      width: $dimension * 1px;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+.cj-tabs-container{
+  .cj-tab-content{
+    display: none;
+    &.cj-is-active{
+      display: block;
+    }
+  }
+}

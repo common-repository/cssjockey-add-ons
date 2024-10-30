@@ -1,0 +1,23 @@
+.cj-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $black;
+  z-index: 0;
+
+  @each $name, $pair in $colors {
+    $color: nth($pair, 1);
+    $color-invert: nth($pair, 2);
+    &.cj-is-#{$name}, &.cj-overlay-#{$name} {
+      background-color: $color !important;
+    }
+  }
+}
+
+
+.cj-overlay-content {
+  position: relative;
+  z-index: 1;
+}

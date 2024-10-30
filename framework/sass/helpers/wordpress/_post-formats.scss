@@ -1,0 +1,83 @@
+dt.wp-caption-dt:empty {
+  display: none;
+}
+
+.format-chat {
+  @include clearfix;
+
+  p {
+    float: left;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: $primary;
+    color: $primary-invert;
+    @include border-radius($radius-large);
+    display: inline-block;
+    clear: left;
+  }
+}
+
+.format-link {
+  .cj-content {
+    @include box;
+    padding: 15px;
+
+    a {
+      &:before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: bold;
+        content: '\f0c1';
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+.format-status {
+  .cj-content {
+    @include box;
+    background-color: $warning;
+    color: $warning-invert;
+    padding: 15px;
+
+    p {
+      &:before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: bold;
+        content: '\f4ad';
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+.format-video {
+  .cj-content {
+    iframe {
+      width: 100%;
+      min-height: 600px;
+    }
+  }
+}
+
+blockquote {
+  margin-left: 50px;
+  border-left: none;
+  @include border-radius($radius-large);
+  font-family: $family-headings;
+  font-size: $heading-size-6;
+  font-style: italic;
+  position: relative;
+
+  &:before {
+    position: absolute;
+    top: 5px;
+    left: -50px;
+    z-index: 0;
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+    content: '\f10d';
+    font-size: $heading-size-3;
+    @include opacity(30);
+  }
+}

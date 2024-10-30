@@ -1,0 +1,13 @@
+.cj-section {
+  &.cj-is-small {
+    padding: 6rem 1.5rem;
+  }
+}
+
+.cj-hero {
+  &.cj-is-small {
+    .cj-hero-body {
+      padding: 6rem 1.5rem;
+    }
+  }
+}

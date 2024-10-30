@@ -1,0 +1,1679 @@
+.cj-bd {
+  outline: 1px solid $border !important;
+}
+
+.cj-bd-top {
+  border-top: 1px solid $border;
+}
+
+.cj-bd-bottom {
+  border-bottom: 1px solid $border;
+}
+
+.cj-bd-right {
+  position: relative;
+
+  &:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 1px;
+    background: $border;
+  }
+}
+
+.cj-bd-left {
+  position: relative;
+
+  &:before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 1px;
+    background: $border;
+  }
+}
+
+@for $i from 0 through 10 {
+  .cj-bd-size-#{$i} {
+    border-width: $i + 0px !important;
+    outline-width: $i + 0px !important;
+
+    &:before {
+      width: $i + 0px !important;
+    }
+
+    &:after {
+      width: $i + 0px !important;
+    }
+  }
+}
+
+.cj-bd-none {
+  border: none;
+  outline: none;
+}
+
+.cj-bd-top-none {
+  border-top: none;
+}
+
+.cj-bd-bottom-none {
+  border-bottom: none;
+}
+
+.cj-bd-left-none {
+  &:before {
+    display: none
+  }
+}
+
+.cj-bd-right-none {
+  &:after {
+    display: none
+  }
+}
+
+@include respond-to('xl') {
+  .cj-bd-xl {
+    outline: 1px solid $border;
+  }
+
+  .cj-bd-top-xl {
+    border-top: 1px solid $border;
+  }
+
+  .cj-bd-bottom-xl {
+    border-bottom: 1px solid $border;
+  }
+
+  .cj-bd-right-xl {
+    position: relative;
+
+    &:after {
+      content: ' ';
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 1px;
+      background: $border;
+    }
+  }
+
+  .cj-bd-left-xl {
+    position: relative;
+
+    &:before {
+      content: ' ';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 1px;
+      background: $border;
+    }
+  }
+
+  @for $i from 0 through 10 {
+    .cj-bd-size-#{$i}-xl {
+      border-width: $i + 0px !important;
+      outline-width: $i + 0px !important;
+
+      &:before {
+        width: $i + 0px !important;
+      }
+
+      &:after {
+        width: $i + 0px !important;
+      }
+    }
+  }
+
+  .cj-bd-none-xl {
+    border: none;
+    outline: none;
+  }
+
+  .cj-bd-top-none-xl {
+    border-top: none;
+  }
+
+  .cj-bd-bottom-none-xl {
+    border-bottom: none;
+  }
+
+  .cj-bd-left-none-xl {
+    &:before {
+      display: none
+    }
+  }
+
+  .cj-bd-right-none-xl {
+    &:after {
+      display: none
+    }
+  }
+}
+
+@include respond-to('lg') {
+  .cj-bd-lg {
+    outline: 1px solid $border;
+  }
+
+  .cj-bd-top-lg {
+    border-top: 1px solid $border;
+  }
+
+  .cj-bd-bottom-lg {
+    border-bottom: 1px solid $border;
+  }
+
+  .cj-bd-right-lg {
+    position: relative;
+
+    &:after {
+      content: ' ';
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 1px;
+      background: $border;
+    }
+  }
+
+  .cj-bd-left-lg {
+    position: relative;
+
+    &:before {
+      content: ' ';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 1px;
+      background: $border;
+    }
+  }
+
+  @for $i from 0 through 10 {
+    .cj-bd-size-#{$i}-lg {
+      border-width: $i + 0px !important;
+      outline-width: $i + 0px !important;
+
+      &:before {
+        width: $i + 0px !important;
+      }
+
+      &:after {
+        width: $i + 0px !important;
+      }
+    }
+  }
+
+  .cj-bd-none-lg {
+    border: none;
+    outline: none;
+  }
+
+  .cj-bd-top-none-lg {
+    border-top: none;
+  }
+
+  .cj-bd-bottom-none-lg {
+    border-bottom: none;
+  }
+
+  .cj-bd-left-none-lg {
+    &:before {
+      display: none
+    }
+  }
+
+  .cj-bd-right-none-lg {
+    &:after {
+      display: none
+    }
+  }
+}
+
+@include respond-to('md') {
+  .cj-bd-md {
+    outline: 1px solid $border;
+  }
+
+  .cj-bd-top-md {
+    border-top: 1px solid $border;
+  }
+
+  .cj-bd-bottom-md {
+    border-bottom: 1px solid $border;
+  }
+
+  .cj-bd-right-md {
+    position: relative;
+
+    &:after {
+      content: ' ';
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 1px;
+      background: $border;
+    }
+  }
+
+  .cj-bd-left-md {
+    position: relative;
+
+    &:before {
+      content: ' ';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 1px;
+      background: $border;
+    }
+  }
+
+  @for $i from 0 through 10 {
+    .cj-bd-size-#{$i}-md {
+      border-width: $i + 0px !important;
+      outline-width: $i + 0px !important;
+
+      &:before {
+        width: $i + 0px !important;
+      }
+
+      &:after {
+        width: $i + 0px !important;
+      }
+    }
+  }
+
+  .cj-bd-none-md {
+    border: none;
+    outline: none;
+  }
+
+  .cj-bd-top-none-md {
+    border-top: none;
+  }
+
+  .cj-bd-bottom-none-md {
+    border-bottom: none;
+  }
+
+  .cj-bd-left-none-md {
+    &:before {
+      display: none
+    }
+  }
+
+  .cj-bd-right-none-md {
+    &:after {
+      display: none
+    }
+  }
+}
+
+@include respond-to('sm') {
+  .cj-bd-sm {
+    outline: 1px solid $border;
+  }
+
+  .cj-bd-top-sm {
+    border-top: 1px solid $border;
+  }
+
+  .cj-bd-bottom-sm {
+    border-bottom: 1px solid $border;
+  }
+
+  .cj-bd-right-sm {
+    position: relative;
+
+    &:after {
+      content: ' ';
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 1px;
+      background: $border;
+    }
+  }
+
+  .cj-bd-left-sm {
+    position: relative;
+
+    &:before {
+      content: ' ';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 1px;
+      background: $border;
+    }
+  }
+
+  @for $i from 0 through 10 {
+    .cj-bd-size-#{$i}-sm {
+      border-width: $i + 0px !important;
+      outline-width: $i + 0px !important;
+
+      &:before {
+        width: $i + 0px !important;
+      }
+
+      &:after {
+        width: $i + 0px !important;
+      }
+    }
+  }
+
+  .cj-bd-none-sm {
+    border: none;
+    outline: none;
+  }
+
+  .cj-bd-top-none-sm {
+    border-top: none;
+  }
+
+  .cj-bd-bottom-none-sm {
+    border-bottom: none;
+  }
+
+  .cj-bd-left-none-sm {
+    &:before {
+      display: none
+    }
+  }
+
+  .cj-bd-right-none-sm {
+    &:after {
+      display: none
+    }
+  }
+}
+
+@include respond-to('xs') {
+  .cj-bd-xs {
+    outline: 1px solid $border;
+  }
+
+  .cj-bd-top-xs {
+    border-top: 1px solid $border;
+  }
+
+  .cj-bd-bottom-xs {
+    border-bottom: 1px solid $border;
+  }
+
+  .cj-bd-right-xs {
+    position: relative;
+
+    &:after {
+      content: ' ';
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 1px;
+      background: $border;
+    }
+  }
+
+  .cj-bd-left-xs {
+    position: relative;
+
+    &:before {
+      content: ' ';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 1px;
+      background: $border;
+    }
+  }
+
+  @for $i from 0 through 10 {
+    .cj-bd-size-#{$i}-xs {
+      border-width: $i + 0px !important;
+      outline-width: $i + 0px !important;
+
+      &:before {
+        width: $i + 0px !important;
+      }
+
+      &:after {
+        width: $i + 0px !important;
+      }
+    }
+  }
+
+  .cj-bd-none-xs {
+    border: none;
+    outline: none;
+  }
+
+  .cj-bd-top-none-xs {
+    border-top: none;
+  }
+
+  .cj-bd-bottom-none-xs {
+    border-bottom: none;
+  }
+
+  .cj-bd-left-none-xs {
+    &:before {
+      display: none
+    }
+  }
+
+  .cj-bd-right-none-xs {
+    &:after {
+      display: none
+    }
+  }
+}
+
+/* Colors */
+
+/************* Border White Color *****************/
+.cj-bd-white {
+  border-color: $white !important;
+  outline-color: $white !important;
+
+  &:before {
+    background-color: $white;
+  }
+
+  &:after {
+    background-color: $white;
+  }
+}
+
+.cj-bd-top-white {
+  border-top-color: $white !important;
+
+  &:before {
+    background-color: $white;
+  }
+
+  &:after {
+    background-color: $white;
+  }
+}
+
+.cj-bd-left-white {
+  border-left-color: $white !important;
+
+  &:before {
+    background-color: $white;
+  }
+
+  &:after {
+    background-color: $white;
+  }
+}
+
+.cj-bd-right-white {
+  border-right-color: $white !important;
+
+  &:before {
+    background-color: $white;
+  }
+
+  &:after {
+    background-color: $white;
+  }
+}
+
+.cj-bd-bottom-white {
+  border-bottom-color: $white !important;
+
+  &:before {
+    background-color: $white;
+  }
+
+  &:after {
+    background-color: $white;
+  }
+}
+
+/************* Border Light Color *****************/
+.cj-bd-light {
+  border-color: $border !important;
+  outline-color: $border !important;
+
+  &:before {
+    background-color: $border;
+  }
+
+  &:after {
+    background-color: $border;
+  }
+}
+
+.cj-bd-top-light {
+  border-top-color: $border !important;
+
+  &:before {
+    background-color: $border;
+  }
+
+  &:after {
+    background-color: $border;
+  }
+}
+
+.cj-bd-left-light {
+  border-left-color: $border !important;
+
+  &:before {
+    background-color: $border;
+  }
+
+  &:after {
+    background-color: $border;
+  }
+}
+
+.cj-bd-right-light {
+  border-right-color: $border !important;
+
+  &:before {
+    background-color: $border;
+  }
+
+  &:after {
+    background-color: $border;
+  }
+}
+
+.cj-bd-bottom-light {
+  border-bottom-color: $border !important;
+
+  &:before {
+    background-color: $border;
+  }
+
+  &:after {
+    background-color: $border;
+  }
+}
+
+
+/************* Border Dark Color *****************/
+.cj-bd-dark {
+  border-color: $dark !important;
+  outline-color: $dark !important;
+
+  &:before {
+    background-color: $dark;
+  }
+
+  &:after {
+    background-color: $dark;
+  }
+}
+
+.cj-bd-top-dark {
+  border-top-color: $dark !important;
+
+  &:before {
+    background-color: $dark;
+  }
+
+  &:after {
+    background-color: $dark;
+  }
+}
+
+.cj-bd-left-dark {
+  border-left-color: $dark !important;
+
+  &:before {
+    background-color: $dark;
+  }
+
+  &:after {
+    background-color: $dark;
+  }
+}
+
+.cj-bd-right-dark {
+  border-right-color: $dark !important;
+
+  &:before {
+    background-color: $dark;
+  }
+
+  &:after {
+    background-color: $dark;
+  }
+}
+
+.cj-bd-bottom-dark {
+  border-bottom-color: $dark !important;
+
+  &:before {
+    background-color: $dark;
+  }
+
+  &:after {
+    background-color: $dark;
+  }
+}
+
+
+/************* Border Primary Color *****************/
+.cj-bd-primary {
+  border-color: $primary !important;
+  outline-color: $primary !important;
+
+  &:before {
+    background-color: $primary;
+  }
+
+  &:after {
+    background-color: $primary;
+  }
+}
+
+.cj-bd-top-primary {
+  border-top-color: $primary !important;
+
+  &:before {
+    background-color: $primary;
+  }
+
+  &:after {
+    background-color: $primary;
+  }
+}
+
+.cj-bd-left-primary {
+  border-left-color: $primary !important;
+
+  &:before {
+    background-color: $primary;
+  }
+
+  &:after {
+    background-color: $primary;
+  }
+}
+
+.cj-bd-right-primary {
+  border-right-color: $primary !important;
+
+  &:before {
+    background-color: $primary;
+  }
+
+  &:after {
+    background-color: $primary;
+  }
+}
+
+.cj-bd-bottom-primary {
+  border-bottom-color: $primary !important;
+
+  &:before {
+    background-color: $primary;
+  }
+
+  &:after {
+    background-color: $primary;
+  }
+}
+
+/************* Border Primary Dark Color *****************/
+.cj-bd-primary-dark {
+  border-color: $primary-dark !important;
+  outline-color: $primary-dark !important;
+
+  &:before {
+    background-color: $primary-dark;
+  }
+
+  &:after {
+    background-color: $primary-dark;
+  }
+}
+
+.cj-bd-top-primary-dark {
+  border-top-color: $primary-dark !important;
+
+  &:before {
+    background-color: $primary-dark;
+  }
+
+  &:after {
+    background-color: $primary-dark;
+  }
+}
+
+.cj-bd-left-primary-dark {
+  border-left-color: $primary-dark !important;
+
+  &:before {
+    background-color: $primary-dark;
+  }
+
+  &:after {
+    background-color: $primary-dark;
+  }
+}
+
+.cj-bd-right-primary-dark {
+  border-right-color: $primary-dark !important;
+
+  &:before {
+    background-color: $primary-dark;
+  }
+
+  &:after {
+    background-color: $primary-dark;
+  }
+}
+
+.cj-bd-bottom-primary-dark {
+  border-bottom-color: $primary-dark !important;
+
+  &:before {
+    background-color: $primary-dark;
+  }
+
+  &:after {
+    background-color: $primary-dark;
+  }
+}
+
+/************* Border Primary Light Color *****************/
+.cj-bd-primary-light {
+  border-color: $primary-light !important;
+  outline-color: $primary-light !important;
+
+  &:before {
+    background-color: $primary-light;
+  }
+
+  &:after {
+    background-color: $primary-light;
+  }
+}
+
+.cj-bd-top-primary-light {
+  border-top-color: $primary-light !important;
+
+  &:before {
+    background-color: $primary-light;
+  }
+
+  &:after {
+    background-color: $primary-light;
+  }
+}
+
+.cj-bd-left-primary-light {
+  border-left-color: $primary-light !important;
+
+  &:before {
+    background-color: $primary-light;
+  }
+
+  &:after {
+    background-color: $primary-light;
+  }
+}
+
+.cj-bd-right-primary-light {
+  border-right-color: $primary-light !important;
+
+  &:before {
+    background-color: $primary-light;
+  }
+
+  &:after {
+    background-color: $primary-light;
+  }
+}
+
+.cj-bd-bottom-primary-light {
+  border-bottom-color: $primary-light !important;
+
+  &:before {
+    background-color: $primary-light;
+  }
+
+  &:after {
+    background-color: $primary-light;
+  }
+}
+
+
+/************* Border Success Color *****************/
+.cj-bd-success {
+  border-color: $success !important;
+  outline-color: $success !important;
+
+  &:before {
+    background-color: $success;
+  }
+
+  &:after {
+    background-color: $success;
+  }
+}
+
+.cj-bd-top-success {
+  border-top-color: $success !important;
+
+  &:before {
+    background-color: $success;
+  }
+
+  &:after {
+    background-color: $success;
+  }
+}
+
+.cj-bd-left-success {
+  border-left-color: $success !important;
+
+  &:before {
+    background-color: $success;
+  }
+
+  &:after {
+    background-color: $success;
+  }
+}
+
+.cj-bd-right-success {
+  border-right-color: $success !important;
+
+  &:before {
+    background-color: $success;
+  }
+
+  &:after {
+    background-color: $success;
+  }
+}
+
+.cj-bd-bottom-success {
+  border-bottom-color: $success !important;
+
+  &:before {
+    background-color: $success;
+  }
+
+  &:after {
+    background-color: $success;
+  }
+}
+
+/************* Border Success Dark Color *****************/
+.cj-bd-success-dark {
+  border-color: $success-dark !important;
+  outline-color: $success-dark !important;
+
+  &:before {
+    background-color: $success-dark;
+  }
+
+  &:after {
+    background-color: $success-dark;
+  }
+}
+
+.cj-bd-top-success-dark {
+  border-top-color: $success-dark !important;
+
+  &:before {
+    background-color: $success-dark;
+  }
+
+  &:after {
+    background-color: $success-dark;
+  }
+}
+
+.cj-bd-left-success-dark {
+  border-left-color: $success-dark !important;
+
+  &:before {
+    background-color: $success-dark;
+  }
+
+  &:after {
+    background-color: $success-dark;
+  }
+}
+
+.cj-bd-right-success-dark {
+  border-right-color: $success-dark !important;
+
+  &:before {
+    background-color: $success-dark;
+  }
+
+  &:after {
+    background-color: $success-dark;
+  }
+}
+
+.cj-bd-bottom-success-dark {
+  border-bottom-color: $success-dark !important;
+
+  &:before {
+    background-color: $success-dark;
+  }
+
+  &:after {
+    background-color: $success-dark;
+  }
+}
+
+
+/************* Border Success Light Color *****************/
+.cj-bd-success-light {
+  border-color: $success-light !important;
+  outline-color: $success-light !important;
+
+  &:before {
+    background-color: $success-light;
+  }
+
+  &:after {
+    background-color: $success-light;
+  }
+}
+
+.cj-bd-top-success-light {
+  border-top-color: $success-light !important;
+
+  &:before {
+    background-color: $success-light;
+  }
+
+  &:after {
+    background-color: $success-light;
+  }
+}
+
+.cj-bd-left-success-light {
+  border-left-color: $success-light !important;
+
+  &:before {
+    background-color: $success-light;
+  }
+
+  &:after {
+    background-color: $success-light;
+  }
+}
+
+.cj-bd-right-success-light {
+  border-right-color: $success-light !important;
+
+  &:before {
+    background-color: $success-light;
+  }
+
+  &:after {
+    background-color: $success-light;
+  }
+}
+
+.cj-bd-bottom-success-light {
+  border-bottom-color: $success-light !important;
+
+  &:before {
+    background-color: $success-light;
+  }
+
+  &:after {
+    background-color: $success-light;
+  }
+}
+
+
+/************* Border Info Color *****************/
+.cj-bd-info {
+  border-color: $info !important;
+  outline-color: $info !important;
+
+  &:before {
+    background-color: $info;
+  }
+
+  &:after {
+    background-color: $info;
+  }
+}
+
+.cj-bd-top-info {
+  border-top-color: $info !important;
+
+  &:before {
+    background-color: $info;
+  }
+
+  &:after {
+    background-color: $info;
+  }
+}
+
+.cj-bd-left-info {
+  border-left-color: $info !important;
+
+  &:before {
+    background-color: $info;
+  }
+
+  &:after {
+    background-color: $info;
+  }
+}
+
+.cj-bd-right-info {
+  border-right-color: $info !important;
+
+  &:before {
+    background-color: $info;
+  }
+
+  &:after {
+    background-color: $info;
+  }
+}
+
+.cj-bd-bottom-info {
+  border-bottom-color: $info !important;
+
+  &:before {
+    background-color: $info;
+  }
+
+  &:after {
+    background-color: $info;
+  }
+}
+
+/************* Border Info Dark Color *****************/
+.cj-bd-info-dark {
+  border-color: $info-dark !important;
+  outline-color: $info-dark !important;
+
+  &:before {
+    background-color: $info-dark;
+  }
+
+  &:after {
+    background-color: $info-dark;
+  }
+}
+
+.cj-bd-top-info-dark {
+  border-top-color: $info-dark !important;
+
+  &:before {
+    background-color: $info-dark;
+  }
+
+  &:after {
+    background-color: $info-dark;
+  }
+}
+
+.cj-bd-left-info-dark {
+  border-left-color: $info-dark !important;
+
+  &:before {
+    background-color: $info-dark;
+  }
+
+  &:after {
+    background-color: $info-dark;
+  }
+}
+
+.cj-bd-right-info-dark {
+  border-right-color: $info-dark !important;
+
+  &:before {
+    background-color: $info-dark;
+  }
+
+  &:after {
+    background-color: $info-dark;
+  }
+}
+
+.cj-bd-bottom-info-dark {
+  border-bottom-color: $info-dark !important;
+
+  &:before {
+    background-color: $info-dark;
+  }
+
+  &:after {
+    background-color: $info-dark;
+  }
+}
+
+
+/************* Border Info Light Color *****************/
+.cj-bd-info-light {
+  border-color: $info-light !important;
+  outline-color: $info-light !important;
+
+  &:before {
+    background-color: $info-light;
+  }
+
+  &:after {
+    background-color: $info-light;
+  }
+}
+
+.cj-bd-top-info-light {
+  border-top-color: $info-light !important;
+
+  &:before {
+    background-color: $info-light;
+  }
+
+  &:after {
+    background-color: $info-light;
+  }
+}
+
+.cj-bd-left-info-light {
+  border-left-color: $info-light !important;
+
+  &:before {
+    background-color: $info-light;
+  }
+
+  &:after {
+    background-color: $info-light;
+  }
+}
+
+.cj-bd-right-info-light {
+  border-right-color: $info-light !important;
+
+  &:before {
+    background-color: $info-light;
+  }
+
+  &:after {
+    background-color: $info-light;
+  }
+}
+
+.cj-bd-bottom-info-light {
+  border-bottom-color: $info-light !important;
+
+  &:before {
+    background-color: $info-light;
+  }
+
+  &:after {
+    background-color: $info-light;
+  }
+}
+
+
+/************* Border Warning Color *****************/
+.cj-bd-warning {
+  border-color: $warning !important;
+  outline-color: $warning !important;
+
+  &:before {
+    background-color: $warning;
+  }
+
+  &:after {
+    background-color: $warning;
+  }
+}
+
+.cj-bd-top-warning {
+  border-top-color: $warning !important;
+
+  &:before {
+    background-color: $warning;
+  }
+
+  &:after {
+    background-color: $warning;
+  }
+}
+
+.cj-bd-left-warning {
+  border-left-color: $warning !important;
+
+  &:before {
+    background-color: $warning;
+  }
+
+  &:after {
+    background-color: $warning;
+  }
+}
+
+.cj-bd-right-warning {
+  border-right-color: $warning !important;
+
+  &:before {
+    background-color: $warning;
+  }
+
+  &:after {
+    background-color: $warning;
+  }
+}
+
+.cj-bd-bottom-warning {
+  border-bottom-color: $warning !important;
+
+  &:before {
+    background-color: $warning;
+  }
+
+  &:after {
+    background-color: $warning;
+  }
+}
+
+/************* Border Warning Dark Color *****************/
+.cj-bd-warning-dark {
+  border-color: $warning-dark !important;
+  outline-color: $warning-dark !important;
+
+  &:before {
+    background-color: $warning-dark;
+  }
+
+  &:after {
+    background-color: $warning-dark;
+  }
+}
+
+.cj-bd-top-warning-dark {
+  border-top-color: $warning-dark !important;
+
+  &:before {
+    background-color: $warning-dark;
+  }
+
+  &:after {
+    background-color: $warning-dark;
+  }
+}
+
+.cj-bd-left-warning-dark {
+  border-left-color: $warning-dark !important;
+
+  &:before {
+    background-color: $warning-dark;
+  }
+
+  &:after {
+    background-color: $warning-dark;
+  }
+}
+
+.cj-bd-right-warning-dark {
+  border-right-color: $warning-dark !important;
+
+  &:before {
+    background-color: $warning-dark;
+  }
+
+  &:after {
+    background-color: $warning-dark;
+  }
+}
+
+.cj-bd-bottom-warning-dark {
+  border-bottom-color: $warning-dark !important;
+
+  &:before {
+    background-color: $warning-dark;
+  }
+
+  &:after {
+    background-color: $warning-dark;
+  }
+}
+
+
+/************* Border Warning Light Color *****************/
+.cj-bd-warning-light {
+  border-color: $warning-light !important;
+  outline-color: $warning-light !important;
+
+  &:before {
+    background-color: $warning-light;
+  }
+
+  &:after {
+    background-color: $warning-light;
+  }
+}
+
+.cj-bd-top-warning-light {
+  border-top-color: $warning-light !important;
+
+  &:before {
+    background-color: $warning-light;
+  }
+
+  &:after {
+    background-color: $warning-light;
+  }
+}
+
+.cj-bd-left-warning-light {
+  border-left-color: $warning-light !important;
+
+  &:before {
+    background-color: $warning-light;
+  }
+
+  &:after {
+    background-color: $warning-light;
+  }
+}
+
+.cj-bd-right-warning-light {
+  border-right-color: $warning-light !important;
+
+  &:before {
+    background-color: $warning-light;
+  }
+
+  &:after {
+    background-color: $warning-light;
+  }
+}
+
+.cj-bd-bottom-warning-light {
+  border-bottom-color: $warning-light !important;
+
+  &:before {
+    background-color: $warning-light;
+  }
+
+  &:after {
+    background-color: $warning-light;
+  }
+}
+
+
+/************* Border Danger Color *****************/
+.cj-bd-danger {
+  border-color: $danger !important;
+  outline-color: $danger !important;
+
+  &:before {
+    background-color: $danger;
+  }
+
+  &:after {
+    background-color: $danger;
+  }
+}
+
+.cj-bd-top-danger {
+  border-top-color: $danger !important;
+
+  &:before {
+    background-color: $danger;
+  }
+
+  &:after {
+    background-color: $danger;
+  }
+}
+
+.cj-bd-left-danger {
+  border-left-color: $danger !important;
+
+  &:before {
+    background-color: $danger;
+  }
+
+  &:after {
+    background-color: $danger;
+  }
+}
+
+.cj-bd-right-danger {
+  border-right-color: $danger !important;
+
+  &:before {
+    background-color: $danger;
+  }
+
+  &:after {
+    background-color: $danger;
+  }
+}
+
+.cj-bd-bottom-danger {
+  border-bottom-color: $danger !important;
+
+  &:before {
+    background-color: $danger;
+  }
+
+  &:after {
+    background-color: $danger;
+  }
+}
+
+/************* Border Danger Dark Color *****************/
+.cj-bd-danger-dark {
+  border-color: $danger-dark !important;
+  outline-color: $danger-dark !important;
+
+  &:before {
+    background-color: $danger-dark;
+  }
+
+  &:after {
+    background-color: $danger-dark;
+  }
+}
+
+.cj-bd-top-danger-dark {
+  border-top-color: $danger-dark !important;
+
+  &:before {
+    background-color: $danger-dark;
+  }
+
+  &:after {
+    background-color: $danger-dark;
+  }
+}
+
+.cj-bd-left-danger-dark {
+  border-left-color: $danger-dark !important;
+
+  &:before {
+    background-color: $danger-dark;
+  }
+
+  &:after {
+    background-color: $danger-dark;
+  }
+}
+
+.cj-bd-right-danger-dark {
+  border-right-color: $danger-dark !important;
+
+  &:before {
+    background-color: $danger-dark;
+  }
+
+  &:after {
+    background-color: $danger-dark;
+  }
+}
+
+.cj-bd-bottom-danger-dark {
+  border-bottom-color: $danger-dark !important;
+
+  &:before {
+    background-color: $danger-dark;
+  }
+
+  &:after {
+    background-color: $danger-dark;
+  }
+}
+
+
+/************* Border Danger Light Color *****************/
+.cj-bd-danger-light {
+  border-color: $danger-light !important;
+  outline-color: $danger-light !important;
+
+  &:before {
+    background-color: $danger-light;
+  }
+
+  &:after {
+    background-color: $danger-light;
+  }
+}
+
+.cj-bd-top-danger-light {
+  border-top-color: $danger-light !important;
+
+  &:before {
+    background-color: $danger-light;
+  }
+
+  &:after {
+    background-color: $danger-light;
+  }
+}
+
+.cj-bd-left-danger-light {
+  border-left-color: $danger-light !important;
+
+  &:before {
+    background-color: $danger-light;
+  }
+
+  &:after {
+    background-color: $danger-light;
+  }
+}
+
+.cj-bd-right-danger-light {
+  border-right-color: $danger-light !important;
+
+  &:before {
+    background-color: $danger-light;
+  }
+
+  &:after {
+    background-color: $danger-light;
+  }
+}
+
+.cj-bd-bottom-danger-light {
+  border-bottom-color: $danger-light !important;
+
+  &:before {
+    background-color: $danger-light;
+  }
+
+  &:after {
+    background-color: $danger-light;
+  }
+}
+
+/************* Border Black Color *****************/
+.cj-bd-black {
+  border-color: $black !important;
+  outline-color: $black !important;
+
+  &:before {
+    background-color: $black;
+  }
+
+  &:after {
+    background-color: $black;
+  }
+}
+
+.cj-bd-top-black {
+  border-top-color: $black !important;
+
+  &:before {
+    background-color: $black;
+  }
+
+  &:after {
+    background-color: $black;
+  }
+}
+
+.cj-bd-left-black {
+  border-left-color: $black !important;
+
+  &:before {
+    background-color: $black;
+  }
+
+  &:after {
+    background-color: $black;
+  }
+}
+
+.cj-bd-right-black {
+  border-right-color: $black !important;
+
+  &:before {
+    background-color: $black;
+  }
+
+  &:after {
+    background-color: $black;
+  }
+}
+
+.cj-bd-bottom-black {
+  border-bottom-color: $black !important;
+
+  &:before {
+    background-color: $black;
+  }
+
+  &:after {
+    background-color: $black;
+  }
+}

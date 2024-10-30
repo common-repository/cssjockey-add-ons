@@ -1,0 +1,17 @@
+.cj-navigation {
+  text-align: center;
+  font-size: 0;
+
+  a,
+  span {
+    @include font-size(16px);
+    padding: 10px;
+    display: inline-block;
+    color: $dark !important;
+
+    &.current {
+      font-weight: 600;
+      color: $primary !important;
+    }
+  }
+}

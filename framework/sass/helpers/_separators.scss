@@ -1,0 +1,58 @@
+hr {
+  margin: 50px 0;
+  display: block;
+  height: 1px !important;
+  overflow: hidden;
+  border: 0;
+  border: none !important;
+  background-color: #dedede !important;
+  padding: 0;
+
+  &.cj-is-primary {
+    background-color: $primary !important;
+  }
+
+  &.cj-is-info {
+    background-color: $info !important;
+  }
+
+  &.cj-is-success {
+    background-color: $success !important;
+  }
+
+  &.cj-is-warning {
+    background-color: $warning !important;
+  }
+
+  &.cj-is-danger {
+    background-color: $danger !important;
+  }
+
+  &.cj-is-light {
+    background-color: $light !important;
+  }
+
+  &.cj-is-dark {
+    background-color: $dark !important;
+  }
+
+  &.cj-is-black {
+    background-color: $black !important;
+  }
+
+  &.cj-is-white {
+    background-color: $white !important;
+  }
+
+  &.cj-is-small {
+    border-top-width: 3px;
+  }
+
+  &.cj-is-medium {
+    border-top-width: 5px;
+  }
+
+  &.cj-is-large {
+    border-top-width: 10px;
+  }
+}

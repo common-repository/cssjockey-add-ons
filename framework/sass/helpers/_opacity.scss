@@ -1,0 +1,103 @@
+@for $i from 0 through 100 {
+  .cj-opacity-#{$i} {
+    @if $i % 5 == 0 {
+      @include opacity($i);
+    }
+  }
+
+  .cj-opacity-hover-#{$i} {
+    @if $i % 5 == 0 {
+      &:hover {
+        @include opacity($i);
+      }
+    }
+  }
+}
+
+@include respond-to('xl') {
+  @for $i from 0 through 100 {
+    .cj-opacity-#{$i}-xl {
+      @if $i % 5 == 0 {
+        @include opacity($i);
+      }
+    }
+
+    .cj-opacity-hover-#{$i}-xl {
+      @if $i % 5 == 0 {
+        &:hover {
+          @include opacity($i);
+        }
+      }
+    }
+  }
+}
+
+@include respond-to('lg') {
+  @for $i from 0 through 100 {
+    .cj-opacity-#{$i}-lg {
+      @if $i % 5 == 0 {
+        @include opacity($i);
+      }
+    }
+
+    .cj-opacity-hover-#{$i}-lg {
+      @if $i % 5 == 0 {
+        &:hover {
+          @include opacity($i);
+        }
+      }
+    }
+  }
+}
+
+@include respond-to('md') {
+  @for $i from 0 through 100 {
+    .cj-opacity-#{$i}-md {
+      @if $i % 5 == 0 {
+        @include opacity($i);
+      }
+    }
+
+    .cj-opacity-hover-#{$i}-md {
+      @if $i % 5 == 0 {
+        &:hover {
+          @include opacity($i);
+        }
+      }
+    }
+  }
+}
+
+@include respond-to('sm') {
+  @for $i from 0 through 100 {
+    .cj-opacity-#{$i}-sm {
+      @if $i % 5 == 0 {
+        @include opacity($i);
+      }
+    }
+    .cj-opacity-hover-#{$i}-sm {
+      @if $i % 5 == 0 {
+        &:hover {
+          @include opacity($i);
+        }
+      }
+    }
+  }
+}
+
+@include respond-to('xs') {
+  @for $i from 0 through 100 {
+    .cj-opacity-#{$i}-xs {
+      @if $i % 5 == 0 {
+        @include opacity($i);
+      }
+    }
+    .cj-opacity-hover-#{$i}-xs {
+      @if $i % 5 == 0 {
+        &:hover {
+          @include opacity($i);
+        }
+      }
+    }
+  }
+}

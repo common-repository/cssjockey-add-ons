@@ -1,0 +1,275 @@
+$file-border-color: $border !default;
+$file-radius: $radius !default;
+
+$file-cta-background-color: $scheme-main-ter !default;
+$file-cta-color: $text !default;
+$file-cta-hover-color: $text-strong !default;
+$file-cta-active-color: $text-strong !default;
+
+$file-name-border-color: $border !default;
+$file-name-border-style: solid !default;
+$file-name-border-width: 1px 1px 1px 0 !default;
+$file-name-max-width: 16em !default;
+
+.cj-file {
+  @extend %unselectable;
+
+  align-items: stretch;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+
+  // Colors
+  @each $name, $pair in $colors {
+    $color: nth($pair, 1);
+    $color-invert: nth($pair, 2);
+
+    &.cj-is-#{$name} {
+      .cj-file-cta {
+        background-color: $color;
+        border-color: transparent;
+        color: $color-invert;
+      }
+
+      &:hover,
+      &.cj-is-hovered {
+        .cj-file-cta {
+          background-color: darken($color, 2.5%);
+          border-color: transparent;
+          color: $color-invert;
+        }
+      }
+
+      &:focus,
+      &.cj-is-focused {
+        .cj-file-cta {
+          border-color: transparent;
+          box-shadow: 0 0 0.5em rgba($color, 0.25);
+          color: $color-invert;
+        }
+      }
+
+      &:active,
+      &.cj-is-active {
+        .cj-file-cta {
+          background-color: darken($color, 5%);
+          border-color: transparent;
+          color: $color-invert;
+        }
+      }
+    }
+  }
+
+  // Sizes
+  &.cj-is-small {
+    font-size: $size-small;
+  }
+
+  &.cj-is-medium {
+    font-size: $size-medium;
+
+    .cj-file-icon {
+      .cj-fa {
+        font-size: 21px;
+      }
+    }
+  }
+
+  &.cj-is-large {
+    font-size: $size-large;
+
+    .cj-file-icon {
+      .cj-fa {
+        font-size: 28px;
+      }
+    }
+  }
+
+  // Modifiers
+  &.cj-has-name {
+    .cj-file-cta {
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+    }
+
+    .cj-file-name {
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+    }
+
+    &.cj-is-empty {
+      .cj-file-cta {
+        border-radius: $file-radius;
+      }
+
+      .cj-file-name {
+        display: none;
+      }
+    }
+  }
+
+  &.cj-is-boxed {
+    .cj-file-label {
+      flex-direction: column;
+    }
+
+    .cj-file-cta {
+      flex-direction: column;
+      height: auto;
+      padding: 1em 3em;
+    }
+
+    .cj-file-name {
+      border-width: 0 1px 1px;
+    }
+
+    .cj-file-icon {
+      height: 1.5em;
+      width: 1.5em;
+
+      .cj-fa {
+        font-size: 21px;
+      }
+    }
+
+    &.cj-is-small {
+      .cj-file-icon .cj-fa {
+        font-size: 14px;
+      }
+    }
+
+    &.cj-is-medium {
+      .cj-file-icon .cj-fa {
+        font-size: 28px;
+      }
+    }
+
+    &.cj-is-large {
+      .cj-file-icon .cj-fa {
+        font-size: 35px;
+      }
+    }
+
+    &.cj-has-name {
+      .cj-file-cta {
+        border-radius: $file-radius $file-radius 0 0;
+      }
+
+      .cj-file-name {
+        border-radius: 0 0 $file-radius $file-radius;
+        border-width: 0 1px 1px;
+      }
+    }
+  }
+
+  &.cj-is-centered {
+    justify-content: center;
+  }
+
+  &.cj-is-fullwidth {
+    .cj-file-label {
+      width: 100%;
+    }
+
+    .cj-file-name {
+      flex-grow: 1;
+      max-width: none;
+    }
+  }
+
+  &.cj-is-right {
+    justify-content: flex-end;
+
+    .cj-file-cta {
+      border-radius: 0 $file-radius $file-radius 0;
+    }
+
+    .cj-file-name {
+      border-radius: $file-radius 0 0 $file-radius;
+      border-width: 1px 0 1px 1px;
+      order: -1;
+    }
+  }
+}
+
+.cj-file-label {
+  align-items: stretch;
+  display: flex;
+  cursor: pointer;
+  justify-content: flex-start;
+  overflow: hidden;
+  position: relative;
+
+  &:hover {
+    .cj-file-cta {
+      background-color: darken($file-cta-background-color, 2.5%);
+      color: $file-cta-hover-color;
+    }
+
+    .cj-file-name {
+      border-color: darken($file-name-border-color, 2.5%);
+    }
+  }
+
+  &:active {
+    .cj-file-cta {
+      background-color: darken($file-cta-background-color, 5%);
+      color: $file-cta-active-color;
+    }
+
+    .cj-file-name {
+      border-color: darken($file-name-border-color, 5%);
+    }
+  }
+}
+
+.cj-file-input {
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  outline: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.cj-file-cta,
+.cj-file-name {
+  @extend %control;
+
+  border-color: $file-border-color;
+  border-radius: $file-radius;
+  font-size: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  white-space: nowrap;
+}
+
+.cj-file-cta {
+  background-color: $file-cta-background-color;
+  color: $file-cta-color;
+}
+
+.cj-file-name {
+  border-color: $file-name-border-color;
+  border-style: $file-name-border-style;
+  border-width: $file-name-border-width;
+  display: block;
+  max-width: $file-name-max-width;
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+}
+
+.cj-file-icon {
+  align-items: center;
+  display: flex;
+  height: 1em;
+  justify-content: center;
+  margin-right: 0.5em;
+  width: 1em;
+
+  .cj-fa {
+    font-size: 14px;
+  }
+}

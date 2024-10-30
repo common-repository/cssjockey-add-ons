@@ -1,0 +1,216 @@
+.cj-cover {
+  @include cover();
+
+  &.cj-overlay {
+    background-color: transparent !important;
+
+    &.cj-is-right {
+      left: 50% !important;
+    }
+
+    &.cj-is-left {
+      left: auto !important;
+      right: 50% !important;
+    }
+  }
+
+  &.cj-is-cover-square{
+    background-size: 100% auto !important;
+  }
+  
+  &.cj-is-cover-full{
+    background-size: auto 100% !important;
+  }
+
+  &.cj-is-top-center {
+    background-position: top center !important;
+  }
+
+  &.cj-is-top-left {
+    background-position: top left !important;
+  }
+
+  &.cj-is-top-right {
+    background-position: top right !important;
+  }
+
+  &.cj-is-bottom-center {
+    background-position: bottom center !important;
+  }
+
+  &.cj-is-bottom-left {
+    background-position: bottom left !important;
+  }
+
+  &.cj-is-bottom-right {
+    background-position: bottom right !important;
+  }
+  
+  &.cj-is-center-center {
+    background-position: center center !important;
+  }
+}
+
+button {
+  text-decoration: none !important;
+
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+
+a {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.cj-vue-component {
+  position: relative;
+  z-index: 999999 !important;
+}
+
+.cj-notification {
+  &.cj-is-primary {
+    color: $primary-invert !important;
+  }
+
+  &.cj-is-info {
+    color: $info-invert !important;
+  }
+
+  &.cj-is-success {
+    color: $success-invert !important;
+  }
+
+  &.cj-is-warning {
+    color: $warning-invert !important;
+  }
+
+  &.cj-is-danger {
+    color: $danger-invert !important;
+  }
+
+  &.cj-is-light {
+    color: $light-invert !important;
+  }
+
+  &.cj-is-dark {
+    color: $dark-invert !important;
+  }
+}
+
+.cj-notify {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 450px;
+  height: auto;
+  z-index: 999999 !important;
+}
+
+.cj-button {
+  font-style: normal !important;
+
+  span.cj-icon i {
+    margin: 0;
+  }
+
+  &.cj-block {
+    width: 100%;
+  }
+
+  &.cj-is-link {
+    &:hover, &:focus, &:active {
+      background-color: transparent !important;
+      @include box-shadow(none);
+      outline: none !important;
+    }
+  }
+}
+
+.cj-tabs {
+  div.cj-tabs {
+    ul {
+      border-bottom: 1px solid transparent !important;
+
+      li {
+        border-bottom: 1px solid transparent !important;
+
+        a {
+          @include transition(all 250ms ease);
+          border-bottom: 1px solid transparent !important;
+        }
+
+        &.cj-is-active {
+          // border-bottom: 1px solid rgba(0,0,0,0.2) !important;
+        }
+      }
+    }
+  }
+
+  .cj-tab-content {
+    @include opacity(0);
+    height: 0;
+    overflow: hidden;
+    transition: all 250ms ease;
+    @include transition(all 250ms ease);
+
+    &.cj-is-active {
+      @include opacity(100);
+      height: auto;
+    }
+  }
+}
+
+.cj-modal-card-head {
+  p {
+    margin-bottom: 0 !important;
+  }
+}
+
+ul.cj-sortable {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    background-color: $white;
+    margin: 0 0 10px 0;
+    @include border-radius(4px);
+    border: 1px solid $border;
+    padding: 15px;
+    @include box-shadow(0 2px 3px rgba(0, 0, 0, 0.1));
+  }
+}
+
+.cj-repeatable-field {
+  background-color: $white;
+  margin: 0 0 10px 0;
+  @include border-radius(4px);
+  border: 1px solid $border;
+  padding: 0;
+  position: relative;
+  @include box-shadow(0 2px 3px rgba(0, 0, 0, 0.1));
+
+  input {
+    width: 95%;
+    border: 0;
+    padding: 15px;
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+
+    &:hover,
+    &:focus {
+      box-shadow: none;
+      outline: none;
+    }
+  }
+
+  .cj-remove-repeatable-option {
+    position: absolute;
+    top: 13px;
+    right: 12px;
+
+  }
+}

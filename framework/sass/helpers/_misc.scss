@@ -1,0 +1,35 @@
+.cj-no-box-shadow {
+  @include box-shadow(none);
+}
+
+.cj-no-outlines {
+  outline: none !important;
+}
+
+.cj-no-borders {
+  border: none !important;
+}
+
+.cj-no-border-top {
+  border-top: none !important;
+}
+
+.cj-no-border-bottom {
+  border-bottom: none !important;
+}
+
+.cj-no-border-left {
+  border-left: none !important;
+}
+
+.cj-no-border-right {
+  border-right: none !important;
+}
+
+span.cj-button {
+  text-decoration: none !important;
+}
+
+.cj-is-required {
+  font-family: "Times New Roman", sans-serif;
+}

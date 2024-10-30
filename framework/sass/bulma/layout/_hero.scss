@@ -1,0 +1,232 @@
+// Main container
+
+.cj-hero {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .cj-navbar {
+    background: none;
+  }
+
+  .cj-tabs {
+    ul {
+      border-bottom: none;
+    }
+  }
+
+  // Colors
+  @each $name, $pair in $colors {
+    $color: nth($pair, 1);
+    $color-invert: nth($pair, 2);
+
+    &.cj-is-#{$name} {
+      background-color: $color;
+      color: $color-invert;
+
+      a:not(.cj-button):not(.cj-dropdown-item):not(.cj-tag):not(.cj-pagination-link.cj-is-current),
+      strong {
+        color: inherit;
+      }
+
+      .cj-title {
+        color: $color-invert;
+      }
+
+      .cj-subtitle {
+        color: rgba($color-invert, 0.9);
+
+        a:not(.cj-button),
+        strong {
+          color: $color-invert;
+        }
+      }
+
+      .cj-navbar-menu {
+        @include touch {
+          background-color: $color;
+        }
+      }
+
+      .cj-navbar-item,
+      .cj-navbar-link {
+        color: rgba($color-invert, 0.7);
+      }
+
+      a.cj-navbar-item,
+      .cj-navbar-link {
+        &:hover,
+        &.cj-is-active {
+          background-color: darken($color, 5%);
+          color: $color-invert;
+        }
+      }
+
+      .cj-tabs {
+        a {
+          color: $color-invert;
+          opacity: 0.9;
+
+          &:hover {
+            opacity: 1;
+          }
+        }
+
+        li {
+          &.cj-is-active a {
+            opacity: 1;
+          }
+        }
+
+        &.cj-is-boxed,
+        &.cj-is-toggle {
+          a {
+            color: $color-invert;
+
+            &:hover {
+              background-color: rgba($scheme-invert, 0.1);
+            }
+          }
+
+          li.cj-is-active a {
+            &,
+            &:hover {
+              background-color: $color-invert;
+              border-color: $color-invert;
+              color: $color;
+            }
+          }
+        }
+      }
+
+      // Modifiers
+      &.cj-is-bold {
+        $gradient-top-left: darken(saturate(adjust-hue($color, -10deg), 10%), 10%);
+        $gradient-bottom-right: lighten(saturate(adjust-hue($color, 10deg), 5%), 5%);
+
+        background-image: linear-gradient(141deg, $gradient-top-left 0%, $color 71%, $gradient-bottom-right 100%);
+
+        @include mobile {
+          .cj-navbar-menu {
+            background-image: linear-gradient(141deg, $gradient-top-left 0%, $color 71%, $gradient-bottom-right 100%);
+          }
+        }
+      }
+    }
+  }
+
+  // Sizes
+  &.cj-is-small {
+    .cj-hero-body {
+      padding-bottom: 1.5rem;
+      padding-top: 1.5rem;
+    }
+  }
+
+  &.cj-is-medium {
+    @include tablet {
+      .cj-hero-body {
+        padding-bottom: 9rem;
+        padding-top: 9rem;
+      }
+    }
+  }
+
+  &.cj-is-large {
+    @include tablet {
+      .cj-hero-body {
+        padding-bottom: 18rem;
+        padding-top: 18rem;
+      }
+    }
+  }
+
+  &.cj-is-halfheight,
+  &.cj-is-fullheight,
+  &.cj-is-fullheight-with-navbar {
+    .cj-hero-body {
+      align-items: center;
+      display: flex;
+
+      & > .cj-container {
+        flex-grow: 1;
+        flex-shrink: 1;
+      }
+    }
+  }
+
+  &.cj-is-halfheight {
+    min-height: 50vh;
+  }
+
+  &.cj-is-fullheight {
+    min-height: 100vh;
+  }
+}
+
+// Components
+
+.cj-hero-video {
+  @extend %overlay;
+
+  overflow: hidden;
+
+  video {
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
+  }
+
+  // Modifiers
+  &.cj-is-transparent {
+    opacity: 0.3;
+  }
+
+  // Responsiveness
+  @include mobile {
+    display: none;
+  }
+}
+
+.cj-hero-buttons {
+  margin-top: 1.5rem;
+
+  // Responsiveness
+  @include mobile {
+    .cj-button {
+      display: flex;
+
+      &:not(:last-child) {
+        margin-bottom: 0.75rem;
+      }
+    }
+  }
+
+
+  @include tablet {
+    display: flex;
+    justify-content: center;
+
+    .cj-button:not(:last-child) {
+      margin-right: 1.5rem;
+    }
+  }
+}
+
+// Containers
+
+.cj-hero-head,
+.cj-hero-foot {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.cj-hero-body {
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding: 3rem 1.5rem;
+}

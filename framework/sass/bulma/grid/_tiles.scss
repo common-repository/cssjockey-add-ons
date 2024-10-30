@@ -1,0 +1,55 @@
+$tile-spacing: 0.75rem !default;
+
+.cj-tile {
+  align-items: stretch;
+  display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  min-height: min-content;
+
+  // Modifiers
+  &.cj-is-ancestor {
+    margin-left: $tile-spacing * -1;
+    margin-right: $tile-spacing * -1;
+    margin-top: $tile-spacing * -1;
+
+    &:last-child {
+      margin-bottom: $tile-spacing * -1;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: $tile-spacing;
+    }
+  }
+
+  &.cj-is-child {
+    margin: 0 !important;
+  }
+
+  &.cj-is-parent {
+    padding: $tile-spacing;
+  }
+
+  &.cj-is-vertical {
+    flex-direction: column;
+
+    & > .cj-tile.cj-is-child:not(:last-child) {
+      margin-bottom: 1.5rem !important;
+    }
+  }
+
+  // Responsiveness
+  @include tablet {
+    &:not(.cj-is-child) {
+      display: flex;
+    }
+
+    @for $i from 1 through 12 {
+      &.cj-is-#{$i} {
+        flex: none;
+        width: $i / 12 * 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,145 @@
+.cj-select {
+  display: inline-block;
+  max-width: 100%;
+  position: relative;
+  vertical-align: top;
+
+  &:not(.cj-is-multiple) {
+    height: $input-height;
+  }
+
+  &:not(.cj-is-multiple):not(.cj-is-loading) {
+    &::after {
+      @extend %arrow;
+
+      border-color: $input-arrow;
+      right: 1.125em;
+      z-index: 4;
+    }
+  }
+
+  &.cj-is-rounded {
+    select {
+      border-radius: $radius-rounded;
+      padding-left: 1em;
+    }
+  }
+
+  select {
+    @extend %input;
+
+    cursor: pointer;
+    display: block;
+    font-size: 1em;
+    max-width: 100%;
+    outline: none;
+
+    &::-ms-expand {
+      display: none;
+    }
+
+    &[disabled]:hover,
+    fieldset[disabled] &:hover {
+      border-color: $input-disabled-border-color;
+    }
+
+    &:not([multiple]) {
+      padding-right: 2.5em;
+    }
+
+    &[multiple] {
+      height: auto;
+      padding: 0;
+
+      option {
+        padding: 0.5em 1em;
+      }
+    }
+  }
+
+  // States
+  &:not(.cj-is-multiple):not(.cj-is-loading):hover {
+    &::after {
+      border-color: $input-hover-color;
+    }
+  }
+
+  // Colors
+  @each $name, $pair in $colors {
+    $color: nth($pair, 1);
+
+    &.cj-is-#{$name} {
+      &:not(:hover)::after {
+        border-color: $color;
+      }
+
+      select {
+        border-color: $color;
+
+        &:hover,
+        &.cj-is-hovered {
+          border-color: darken($color, 5%);
+        }
+
+        &:focus,
+        &.cj-is-focused,
+        &:active,
+        &.cj-is-active {
+          box-shadow: $input-focus-box-shadow-size rgba($color, 0.25);
+        }
+      }
+    }
+  }
+
+  // Sizes
+  &.cj-is-small {
+    @include control-small;
+  }
+
+  &.cj-is-medium {
+    @include control-medium;
+  }
+
+  &.cj-is-large {
+    @include control-large;
+  }
+
+  // Modifiers
+  &.cj-is-disabled {
+    &::after {
+      border-color: $input-disabled-color;
+    }
+  }
+
+  &.cj-is-fullwidth {
+    width: 100%;
+
+    select {
+      width: 100%;
+    }
+  }
+
+  &.cj-is-loading {
+    &::after {
+      @extend %loader;
+
+      margin-top: 0;
+      position: absolute;
+      right: 0.625em;
+      top: 0.625em;
+      transform: none;
+    }
+
+    &.cj-is-small:after {
+      font-size: $size-small;
+    }
+
+    &.cj-is-medium:after {
+      font-size: $size-medium;
+    }
+
+    &.cj-is-large:after {
+      font-size: $size-large;
+    }
+  }
+}

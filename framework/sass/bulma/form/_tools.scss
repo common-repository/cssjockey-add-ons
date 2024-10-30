@@ -1,0 +1,337 @@
+$label-color: $text-strong !default;
+$label-weight: $weight-bold !default;
+
+$help-size: $size-small !default;
+
+.cj-label {
+  color: $label-color;
+  display: block;
+  font-size: $size-normal;
+  font-weight: $label-weight;
+
+  &:not(:last-child) {
+    margin-bottom: 0.5em;
+  }
+
+  // Sizes
+  &.cj-is-small {
+    font-size: $size-small;
+  }
+
+  &.cj-is-medium {
+    font-size: $size-medium;
+  }
+
+  &.cj-is-large {
+    font-size: $size-large;
+  }
+}
+
+.cj-help {
+  display: block;
+  font-size: $help-size;
+  margin-top: 0.25rem;
+
+  @each $name, $pair in $colors {
+    $color: nth($pair, 1);
+
+    &.cj-is-#{$name} {
+      color: $color;
+    }
+  }
+}
+
+// Containers
+
+.cj-field {
+  &:not(:last-child) {
+    margin-bottom: 0.75rem;
+  }
+
+  // Modifiers
+  &.cj-has-addons {
+    display: flex;
+    justify-content: flex-start;
+
+    .cj-control {
+      &:not(:last-child) {
+        margin-right: -1px;
+      }
+
+      &:not(:first-child):not(:last-child) {
+        .cj-button,
+        .cj-input,
+        .cj-select select {
+          border-radius: 0;
+        }
+      }
+
+      &:first-child:not(:only-child) {
+        .cj-button,
+        .cj-input,
+        .cj-select select {
+          border-bottom-right-radius: 0;
+          border-top-right-radius: 0;
+        }
+      }
+
+      &:last-child:not(:only-child) {
+        .cj-button,
+        .cj-input,
+        .cj-select select {
+          border-bottom-left-radius: 0;
+          border-top-left-radius: 0;
+        }
+      }
+
+      .cj-button,
+      .cj-input,
+      .cj-select select {
+        &:not([disabled]) {
+          &:hover,
+          &.cj-is-hovered {
+            z-index: 2;
+          }
+
+          &:focus,
+          &.cj-is-focused,
+          &:active,
+          &.cj-is-active {
+            z-index: 3;
+
+            &:hover {
+              z-index: 4;
+            }
+          }
+        }
+      }
+
+      &.cj-is-expanded {
+        flex-grow: 1;
+        flex-shrink: 1;
+      }
+    }
+
+    &.cj-has-addons-centered {
+      justify-content: center;
+    }
+
+    &.cj-has-addons-right {
+      justify-content: flex-end;
+    }
+
+    &.cj-has-addons-fullwidth {
+      .cj-control {
+        flex-grow: 1;
+        flex-shrink: 0;
+      }
+    }
+  }
+
+  &.cj-is-grouped {
+    display: flex;
+    justify-content: flex-start;
+
+    & > .cj-control {
+      flex-shrink: 0;
+
+      &:not(:last-child) {
+        margin-bottom: 0;
+        margin-right: 0.75rem;
+      }
+
+      &.cj-is-expanded {
+        flex-grow: 1;
+        flex-shrink: 1;
+      }
+    }
+
+    &.cj-is-grouped-centered {
+      justify-content: center;
+    }
+
+    &.cj-is-grouped-right {
+      justify-content: flex-end;
+    }
+
+    &.cj-is-grouped-multiline {
+      flex-wrap: wrap;
+
+      & > .cj-control {
+        &:last-child,
+        &:not(:last-child) {
+          margin-bottom: 0.75rem;
+        }
+      }
+
+      &:last-child {
+        margin-bottom: -0.75rem;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &.cj-is-horizontal {
+    @include tablet {
+      display: flex;
+    }
+  }
+}
+
+.cj-field-label {
+  .cj-label {
+    font-size: inherit;
+  }
+
+  @include mobile {
+    margin-bottom: 0.5rem;
+  }
+
+
+  @include tablet {
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin-right: 1.5rem;
+    text-align: right;
+
+    &.cj-is-small {
+      font-size: $size-small;
+      padding-top: 0.375em;
+    }
+
+    &.cj-is-normal {
+      padding-top: 0.375em;
+    }
+
+    &.cj-is-medium {
+      font-size: $size-medium;
+      padding-top: 0.375em;
+    }
+
+    &.cj-is-large {
+      font-size: $size-large;
+      padding-top: 0.375em;
+    }
+  }
+}
+
+.cj-field-body {
+  .cj-field .cj-field {
+    margin-bottom: 0;
+  }
+
+  @include tablet {
+    display: flex;
+    flex-basis: 0;
+    flex-grow: 5;
+    flex-shrink: 1;
+
+    .cj-field {
+      margin-bottom: 0;
+    }
+
+    & > .cj-field {
+      flex-shrink: 1;
+
+      &:not(.cj-is-narrow) {
+        flex-grow: 1;
+      }
+
+      &:not(:last-child) {
+        margin-right: 0.75rem;
+      }
+    }
+  }
+}
+
+.cj-control {
+  box-sizing: border-box;
+  clear: both;
+  font-size: $size-normal;
+  position: relative;
+  text-align: left;
+
+  // Modifiers
+  &.cj-has-icons-left,
+  &.cj-has-icons-right {
+    .cj-input,
+    .cj-select {
+      &:focus {
+        & ~ .cj-icon {
+          color: $input-icon-active-color;
+        }
+      }
+
+      &.cj-is-small ~ .cj-icon {
+        font-size: $size-small;
+      }
+
+      &.cj-is-medium ~ .cj-icon {
+        font-size: $size-medium;
+      }
+
+      &.cj-is-large ~ .cj-icon {
+        font-size: $size-large;
+      }
+    }
+
+    .cj-icon {
+      color: $input-icon-color;
+      height: $input-height;
+      pointer-events: none;
+      position: absolute;
+      top: 0;
+      width: $input-height;
+      z-index: 4;
+    }
+  }
+
+  &.cj-has-icons-left {
+    .cj-input,
+    .cj-select select {
+      padding-left: $input-height;
+    }
+
+    .cj-icon.cj-is-left {
+      left: 0;
+    }
+  }
+
+  &.cj-has-icons-right {
+    .cj-input,
+    .cj-select select {
+      padding-right: $input-height;
+    }
+
+    .cj-icon.cj-is-right {
+      right: 0;
+    }
+  }
+
+  &.cj-is-loading {
+    &::after {
+      @extend %loader;
+
+      position: absolute !important;
+      right: 0.625em;
+      top: 0.625em;
+      z-index: 4;
+    }
+
+    &.cj-is-small:after {
+      font-size: $size-small;
+    }
+
+    &.cj-is-medium:after {
+      font-size: $size-medium;
+    }
+
+    &.cj-is-large:after {
+      font-size: $size-large;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+%checkbox-radio {
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1.25;
+  position: relative;
+
+  input {
+    cursor: pointer;
+  }
+
+  &:hover {
+    color: $input-hover-color;
+  }
+
+  &[disabled],
+  fieldset[disabled] & {
+    color: $input-disabled-color;
+    cursor: not-allowed;
+  }
+}
+
+.cj-checkbox {
+  @extend %checkbox-radio;
+}
+
+.cj-radio {
+  @extend %checkbox-radio;
+
+  & + .cj-radio {
+    margin-left: 0.5em;
+  }
+}

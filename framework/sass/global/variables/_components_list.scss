@@ -1,0 +1,8 @@
+$list-background-color: $scheme-main !default;
+$list-shadow: 0 2px 3px rgba($scheme-invert, 0.1), 0 0 0 1px rgba($scheme-invert, 0.1) !default;
+$list-radius: $radius !default;
+$list-item-border: 1px solid $border !default;
+$list-item-color: $text !default;
+$list-item-active-background-color: $link !default;
+$list-item-active-color: $link-invert !default;
+$list-item-hover-background-color: $background !default;

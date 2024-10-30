@@ -1,0 +1,9 @@
+$switch-background: $grey-light !default;
+$switch-border: 0.1rem solid transparent !default;
+$switch-background-active: $primary !default;
+$switch-radius: $radius !default;
+$switch-paddle-background: $white !default;
+$switch-paddle-background-active: $primary !default;
+$switch-paddle-offset: 0.25rem !default;
+$switch-paddle-transition: all 0.25s ease-out !default;
+$switch-focus: 1px dotted $grey-light !default;

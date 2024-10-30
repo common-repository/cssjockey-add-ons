@@ -1,0 +1,149 @@
+/* Columns
+*********************************************************************/
+.cj-one_half {
+  width: 48%;
+}
+
+.cj-one_third {
+  width: 30.66%;
+}
+
+.cj-two_third {
+  width: 65.33%;
+}
+
+.cj-one_fourth {
+  width: 22%;
+}
+
+.cj-three_fourth {
+  width: 74%;
+}
+
+.cj-one_fifth {
+  width: 16.8%;
+}
+
+.cj-two_fifth {
+  width: 37.6%;
+}
+
+.cj-three_fifth {
+  width: 58.4%;
+}
+
+.cj-four_fifth {
+  width: 79.2%;
+}
+
+.cj-one_sixth {
+  width: 13.33%;
+}
+
+.cj-five_sixth {
+  width: 82.67%;
+}
+
+.cj-one_half, .cj-one_third, .cj-two_third, .cj-three_fourth, .cj-one_fourth, .cj-one_fifth, .cj-two_fifth, .cj-three_fifth, .cj-four_fifth, .cj-one_sixth, .cj-five_sixth {
+  position: relative;
+  margin-right: 4%;
+  float: left;
+  margin-bottom: 15px;
+}
+
+.cj-last {
+  margin-right: 0 !important;
+  clear: right;
+}
+
+.cj-clearboth, .cj-clear {
+  clear: both;
+  display: block;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  width: 100%;
+}
+
+@media (max-width: 1023px) {
+  .cj-one_half, .cj-one_third, .cj-two_third, .cj-three_fourth, .cj-one_fourth, .cj-one_fifth, .cj-two_fifth, .cj-three_fifth, .cj-four_fifth, .cj-one_sixth, .cj-five_sixth {
+    clear: both;
+    position: relative;
+    margin-right: 0px;
+    float: none !important;
+    margin-bottom: 15px;
+  }
+}
+
+/* Clearfix
+*********************************************************************/
+.cj-clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/* Bulma grid reverse order grid
+**********************************************************************/
+.cj-reverse-row-order {
+  flex-direction: row-reverse !important;
+}
+
+@include respondto('xl') {
+  .cj-reverse-row-order-xl {
+    flex-direction: row-reverse !important;
+  }
+}
+
+@include respondto('lg') {
+  .cj-reverse-row-order-lg {
+    flex-direction: row-reverse !important;
+  }
+}
+
+@include respondto('md') {
+  .cj-reverse-row-order-md {
+    flex-direction: row-reverse !important;
+  }
+}
+
+@include respondto('sm') {
+  .cj-reverse-row-order-sm {
+    flex-direction: row-reverse !important;
+  }
+}
+
+@include respondto('xs') {
+  .cj-reverse-row-order-xs {
+    flex-direction: row-reverse !important;
+  }
+}
+
+
+.cj-text-columns-2 {
+  column-count: 2;
+  column-gap: 50px;
+  text-align: justify;
+  break-inside: avoid;
+}
+
+.cj-text-columns-3 {
+  column-count: 3;
+  column-gap: 50px;
+  text-align: justify;
+  break-inside: avoid;
+}
+
+.cj-text-columns-4 {
+  column-count: 4;
+  column-gap: 50px;
+  text-align: justify;
+  break-inside: avoid;
+}
+
+.cj-column {
+  word-break: break-word;
+}

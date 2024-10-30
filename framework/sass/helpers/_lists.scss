@@ -1,0 +1,74 @@
+ul.cj-list-inline {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none;
+  li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    a {
+      display: block;
+    }
+  }
+}
+
+ul.cj-list-inline-icons {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none;
+  font-size: 0;
+  li {
+    display: inline-block;
+    margin: 0;
+    a {
+      font-size: 16px;
+      display: block;
+      text-align: center;
+      width: 32px;
+      height: 32px;
+      line-height: 32px;
+    }
+  }
+}
+
+ul.cj-list-icons {
+  margin: 0;
+  padding: 0;
+  li {
+    margin: 0 0 10px 0;
+    padding: 0 0 0 35px;
+    position: relative;
+    list-style: none;
+    .cj-icon {
+      position: absolute;
+      top: -3px;
+      left: -3px;
+    }
+  }
+}
+
+ul.cj-list-separator {
+  margin: 0;
+  padding: 0;
+  li {
+    margin: 0 0 0 0;
+    padding: 10px 0 0 0;
+    position: relative;
+    list-style: none;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    a {
+      display: block;
+      padding: 0 5px 10px 0;
+    }
+  }
+}
+
+@each $name, $pair in $colors {
+  $color: nth($pair, 1);
+  $color-invert: nth($pair, 2);
+  .cj-bg-#{$name} ul.cj-list-separator li {
+    border-bottom-color: lighten($color, 7%) !important;
+  }
+}
+

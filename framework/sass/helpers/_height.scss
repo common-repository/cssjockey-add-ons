@@ -1,0 +1,105 @@
+.cj-is-full-height {
+  min-height: 100vh;
+}
+.cj-is-half-height {
+  min-height: 50vh;
+}
+.cj-is-one-third-height {
+  min-height: 33.33vh;
+}
+.cj-is-quarter-height {
+  min-height: 25vh;
+}
+.cj-is-three-quarters-height {
+  min-height: 75vh;
+}
+
+@include respondto('xl') {
+  .cj-is-full-height-xl {
+    min-height: 100vh;
+  }
+  .cj-is-half-height-xl {
+    min-height: 50vh;
+  }
+  .cj-is-one-third-height-xl {
+    min-height: 33.33vh;
+  }
+  .cj-is-quarter-height-xl {
+    min-height: 25vh;
+  }
+  .cj-is-three-quarters-height-xl {
+    min-height: 75vh;
+  }
+}
+
+@include respondto('lg') {
+  .cj-is-full-height-lg {
+    min-height: 100vh;
+  }
+  .cj-is-half-height-lg {
+    min-height: 50vh;
+  }
+  .cj-is-one-third-height-lg {
+    min-height: 33.33vh;
+  }
+  .cj-is-quarter-height-lg {
+    min-height: 25vh;
+  }
+  .cj-is-three-quarters-height-lg {
+    min-height: 75vh;
+  }
+}
+
+@include respondto('md') {
+  .cj-is-full-height-md {
+    min-height: 100vh;
+  }
+  .cj-is-half-height-md {
+    min-height: 50vh;
+  }
+  .cj-is-one-third-height-md {
+    min-height: 33.33vh;
+  }
+  .cj-is-quarter-height-md {
+    min-height: 25vh;
+  }
+  .cj-is-three-quarters-height-md {
+    min-height: 75vh;
+  }
+}
+
+@include respondto('sm') {
+  .cj-is-full-height-sm {
+    min-height: 100vh;
+  }
+  .cj-is-half-height-sm {
+    min-height: 50vh;
+  }
+  .cj-is-one-third-height-sm {
+    min-height: 33.33vh;
+  }
+  .cj-is-quarter-height-sm {
+    min-height: 25vh;
+  }
+  .cj-is-three-quarters-height-sm {
+    min-height: 75vh;
+  }
+}
+
+@include respondto('xs') {
+  .cj-is-full-height-xs {
+    min-height: 100vh;
+  }
+  .cj-is-half-height-xs {
+    min-height: 50vh;
+  }
+  .cj-is-one-third-height-xs {
+    min-height: 33.33vh;
+  }
+  .cj-is-quarter-height-xs {
+    min-height: 25vh;
+  }
+  .cj-is-three-quarters-height-xs {
+    min-height: 75vh;
+  }
+}

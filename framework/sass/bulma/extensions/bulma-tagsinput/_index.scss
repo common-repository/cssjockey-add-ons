@@ -1,0 +1,21 @@
+.cj-tagsinput {
+  height: auto !important;
+
+  .cj-control {
+    margin-bottom: 0.1em !important;
+    margin-top: 0.1em !important;
+  }
+
+  input {
+    border: none;
+    margin-bottom: 0.1em !important;
+    margin-top: 0.1em !important;
+  }
+
+  .cj-tag {
+    &.cj-is-active {
+      background-color: $primary;
+      color: findColorInvert($primary);
+    }
+  }
+}

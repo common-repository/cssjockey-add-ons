@@ -1,0 +1,81 @@
+.cj-block {
+  display: block !important;
+}
+
+.cj-inline-block {
+  display: inline-block !important;
+}
+
+.cj-inline {
+  display: inline !important;
+}
+
+.cj-hidden {
+  display: none !important;
+}
+
+
+.cj-visible-xl {
+  display: none;
+}
+
+.cj-visible-lg {
+  display: none;
+}
+
+.cj-visible-md {
+  display: none;
+}
+
+.cj-visible-sm {
+  display: none;
+}
+
+.cj-visible-xs {
+  display: none;
+}
+
+@include respondto('xl') {
+  .cj-visible-xl {
+    display: inherit;
+  }
+  .cj-hidden-xl {
+    display: none;
+  }
+}
+
+@include respondto('lg') {
+  .cj-visible-lg {
+    display: inherit;
+  }
+  .cj-hidden-lg {
+    display: none;
+  }
+}
+
+@include respondto('md') {
+  .cj-visible-md {
+    display: inherit;
+  }
+  .cj-hidden-md {
+    display: none;
+  }
+}
+
+@include respondto('sm') {
+  .cj-visible-sm {
+    display: inherit;
+  }
+  .cj-hidden-sm {
+    display: none;
+  }
+}
+
+@include respondto('xs') {
+  .cj-visible-xs {
+    display: inherit;
+  }
+  .cj-hidden-xs {
+    display: none;
+  }
+}

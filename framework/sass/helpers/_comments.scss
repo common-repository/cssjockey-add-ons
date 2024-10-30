@@ -1,0 +1,115 @@
+.cj-post-comments {
+
+  .icon-mail-reply {
+    width: 18px !important;
+    height: 18px !important;
+    margin-right: 5px;
+    position: relative;
+    top: 4px;
+  }
+
+  h2.comments-title,
+  #reply-title {
+    border-top: 1px solid $border;
+    border-bottom: 1px solid $border;
+    padding: 15px 0;
+    margin-top: 40px;
+    a {
+      float: right;
+      color: $dark;
+    }
+  }
+  ol.comment-list,
+  ol.comment-list .children {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      position: relative;
+      margin-bottom: 30px;
+      .comment-meta {
+        margin-bottom: 10px;
+      }
+      .comment-body {
+        padding-left: 84px;
+        p {
+          margin-bottom: 15px;
+        }
+        .comment-author {
+          img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 64px;
+            height: 64px;
+            @include border-radius(64px);
+            border: 1px solid #ededed;
+          }
+        }
+        time {
+          @include font-size(14px);
+          color: $dark;
+          @include opacity(50);
+        }
+        .edit-link {
+          margin-left: 5px;
+          @include font-size(14px);
+        }
+      }
+    }
+  }
+  ol.children,
+  ul.children {
+    margin-top: 20px !important;
+    margin-left: 84px !important;
+  }
+
+  .comment {
+    .comment-body {
+      margin-top: 30px;
+    }
+
+    .comment-form {
+      background: #f7f7f7;
+      border: 1px solid #dddddd;
+      @include border-radius(5px);
+      padding: 15px;
+    }
+  }
+  .comment-form {
+    p {
+      display: block;
+      label {
+        display: block;
+        font-weight: 600;
+      }
+      input[type="text"],
+      input[type="url"],
+      input[type="email"],
+      textarea {
+        border: 1px solid #dddddd !important;
+        width: 100% !important;
+        padding: 15px;
+        @include box-shadow(none);
+        outline: none !important;
+        resize: none;
+        &:focus,
+        &:active {
+          border: 1px solid #dddddd !important;
+          @include box-shadow(none);
+          outline: none !important;
+        }
+      }
+      textarea {
+        height: 100px;
+      }
+      input[type="submit"] {
+        border: none;
+        background: $primary;
+        color: $primary-invert;
+        @include font-size(22px);
+        padding: 8px 16px;
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+@import "global/imports";
+
+html {
+  min-width: 300px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.cssjockey-ui {
+  font-family: $family-primary;
+  @include headings() {
+    &:not(.cj-title) {
+      font-family: $family-headings;
+      font-weight: $weight-headings;
+    }
+  }
+
+  .cj-title {
+    font-size: $section-title-size !important;
+    font-weight: $title-weight !important;
+  }
+
+  .cj-subtitle {
+    font-size: $section-subtitle-size !important;
+    font-weight: $subtitle-weight !important;
+    opacity: $subtitle-opacity / 100 !important;
+    $opacity-ie: $subtitle-opacity !important;
+    filter: alpha(opacity=$opacity-ie) !important;
+  }
+
+  h1:not(.cj-title) {
+    font-size: $heading-size-1 !important;
+    line-height: $heading-size-1 + 10px !important;
+  }
+
+  h2:not(.cj-title) {
+    font-size: $heading-size-2 !important;
+    line-height: $heading-size-2 + 10px !important;
+  }
+
+  h3:not(.cj-title) {
+    font-size: $heading-size-3 !important;
+    line-height: $heading-size-3 + 10px !important;
+  }
+
+  h4:not(.cj-title) {
+    font-size: $heading-size-4 !important;
+    line-height: $heading-size-4 + 10px !important;
+  }
+
+  h5:not(.cj-title) {
+    font-size: $heading-size-5 !important;
+    line-height: $heading-size-5 + 10px !important;
+  }
+
+  h6:not(.cj-title) {
+    font-size: $heading-size-6 !important;
+    line-height: $heading-size-6 + 10px !important;
+  }
+
+  code, pre {
+    font-family: $family-code;
+    @include border-radius($radius-large);
+  }
+  @import "bulma/base";
+  .cjwpbldr-blog {
+    @import 'helpers/wordpress/all';
+  }
+  @import "global/overrides";
+}
+
+

@@ -1,0 +1,9 @@
+input[readonly],
+input[disabled]{
+  background-color: darken($white, 3%);
+  cursor: not-allowed;
+}
+pre.CodeMirror-line{
+  background-color: transparent !important;
+  padding-left: 10px !important;
+}

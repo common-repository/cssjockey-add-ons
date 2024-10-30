@@ -1,0 +1,77 @@
+@each $direction in top, right, bottom, left {
+  @include mobile {
+    .cj-is-tooltip-#{$direction}-mobile {
+      @include direction(#{$direction});
+    }
+  }
+
+
+  @include tablet {
+    .cj-is-tooltip-#{$direction}-tablet {
+      @include direction(#{$direction});
+    }
+  }
+
+
+  @include tablet-only {
+    .cj-is-tooltip-#{$direction}-tablet-only {
+      @include direction(#{$direction});
+    }
+  }
+
+
+  @include touch {
+    .cj-is-tooltip-#{$direction}-touch {
+      @include direction(#{$direction});
+    }
+  }
+
+
+  @include desktop {
+    .cj-is-tooltip-#{$direction}-desktop {
+      @include direction(#{$direction});
+    }
+  }
+
+
+  @include desktop-only {
+    .cj-is-tooltip-#{$direction}-desktop-only {
+      @include direction(#{$direction});
+    }
+  }
+
+
+  @include until-widescreen {
+    .cj-is-tooltip-#{$direction}-until-widescreen {
+      @include direction(#{$direction});
+    }
+  }
+
+
+  @include widescreen {
+    .cj-is-tooltip-#{$direction}-widescreen {
+      @include direction(#{$direction});
+    }
+  }
+
+
+  @include widescreen-only {
+    .cj-is-tooltip-#{$direction}-widescreen-only {
+      @include direction(#{$direction});
+    }
+  }
+
+
+  @include until-fullhd {
+    .cj-is-tooltip-#{$direction}-until-fullhd {
+      @include direction(#{$direction});
+    }
+  }
+
+
+  @include fullhd {
+    .cj-is-tooltip-#{$direction}-fullhd {
+      @include direction(#{$direction});
+    }
+  }
+}

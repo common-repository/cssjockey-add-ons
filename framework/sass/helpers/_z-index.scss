@@ -1,0 +1,30 @@
+@for $i from 0 through 100 {
+  .cj-z-index-#{$i} {
+    z-index: $i !important;
+  }
+  @include respondto('xl') {
+    .cj-z-index-#{$i}-xl {
+      z-index: $i !important;
+    }
+  }
+  @include respondto('lg') {
+    .cj-z-index-#{$i}-lg {
+      z-index: $i !important;
+    }
+  }
+  @include respondto('md') {
+    .cj-z-index-#{$i}-md {
+      z-index: $i !important;
+    }
+  }
+  @include respondto('sm') {
+    .cj-z-index-#{$i}-sm {
+      z-index: $i !important;
+    }
+  }
+  @include respondto('xs') {
+    .cj-z-index-#{$i}-xs {
+      z-index: $i !important;
+    }
+  }
+}

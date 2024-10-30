@@ -1,0 +1,16 @@
+$timeline-marker-size: 12px !default;
+$timeline-marker-color: $grey-lighter !default;
+$timeline-marker-icon-size: 24px !default;
+$timeline-marker-border-size: 1px !default;
+$timeline-marker-border: $timeline-marker-border-size solid $timeline-marker-color !default;
+$timeline-line-color: $grey-lighter !default;
+$timeline-line-width: 1px !default;
+$timeline-line-style: solid !default;
+$timeline-line: $timeline-line-width $timeline-line-style $timeline-line-color !default;
+$timeline-content-padding: 1em 0 0 2em !default;
+$timeline-rtl-content-padding: 1em 2em 0 0 !default;
+$timeline-icon-size: 0.75rem !default;
+$timeline-header-width: 4em !default;
+$timeline-item-padding-left: $timeline-header-width / 2 !default;
+$timeline-item-padding-bottom: 2em !default;
+$dimensions: 16 24 32 48 64 96 128 !default;

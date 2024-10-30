@@ -1,0 +1,196 @@
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+iframe,
+abbr,
+address,
+kbd,
+div,
+hr {
+  // disable font-family: $family-primary;
+  word-wrap: break-word;
+}
+
+strong {
+  font-weight: bold;
+}
+
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+section {
+  display: block;
+}
+
+
+span {
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+strong {
+  font-weight: $weight-bold;
+}
+
+pre {
+  background-color: $pre-background;
+  color: $pre;
+  font-size: 0.8em;
+  white-space: pre;
+  word-wrap: normal;
+  // disable font-family: $family-code !important;
+  padding: 10px;
+  code {
+    // disable font-family: $family-code !important;
+    background: none;
+    color: inherit;
+    display: block;
+    font-size: 1em;
+    overflow-x: auto;
+    padding: 10px;
+  }
+}
+
+table {
+  width: 100%;
+  td,
+  th {
+    text-align: left;
+    vertical-align: top;
+  }
+
+  th {
+    color: $text-strong;
+  }
+}
+
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+section {
+  display: block;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: $body-family;
+}
+
+code,
+pre {
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: auto;
+  font-family: $code-family;
+}
+a {
+  color: $link;
+  cursor: pointer;
+  text-decoration: none;
+
+  strong {
+    color: currentColor;
+  }
+
+  &:hover {
+    color: $link-hover;
+  }
+}
+
+code {
+  background-color: $code-background;
+  color: $code;
+  font-size: $code-size;
+  font-weight: $code-weight;
+  padding: $code-padding;
+}
+
+hr {
+  background-color: $hr-background-color;
+  border: none;
+  display: block;
+  height: $hr-height;
+  margin: $hr-margin;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  vertical-align: baseline;
+}
+
+small {
+  font-size: $small-font-size;
+}
+
+span {
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+strong {
+  color: $strong-color;
+  font-weight: $strong-weight;
+}
+
+// Block
+
+fieldset {
+  border: none;
+}
+
+pre {
+  @include overflow-touch;
+
+  background-color: $pre-background;
+  color: $pre;
+  font-size: $pre-font-size;
+  overflow-x: auto;
+  padding: $pre-padding;
+  white-space: pre;
+  word-wrap: normal;
+
+  code {
+    background-color: transparent;
+    color: currentColor;
+    font-size: $pre-code-font-size;
+    padding: 0;
+  }
+}
+
+table {
+  td,
+  th {
+    vertical-align: top;
+
+    &:not([align]) {
+      text-align: left;
+    }
+  }
+
+  th {
+    color: $text-strong;
+  }
+}

@@ -1,0 +1,80 @@
+[data-action="iconPicker"] {
+  width: 0;
+  height: 0;
+  display: block;
+  opacity: 0;
+  top: -999px;
+  position: absolute;
+}
+
+.cj-iconpicker-preview {
+  border-radius: 100%;
+  background-color: whitesmoke;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  .cj-iconpicker-icon-preview {
+    color: $grey;
+    font-size: 1.5em;
+  }
+}
+
+.cj-iconpicker-modal {
+  .cj-modal-card {
+    .cj-modal-card-head {
+      background: $primary;
+      color: $white;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      padding: 1rem;
+
+      .cj-modal-card-title {
+        font-size: 1.2em;
+        color: $white;
+      }
+
+      .cj-iconpicker-search {
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 2em;
+        box-shadow: none;
+        border: 0.1em solid rgba(255, 255, 255, 0.3);
+        margin: 0 2em;
+        padding: 0.3em 1em;
+        color: $grey;
+      }
+    }
+  }
+
+  .cj-iconpicker-sets {
+    flex-shrink: 0;
+    background-color: whitesmoke;
+    font-size: 0.8em;
+    margin: 0;
+  }
+
+  .cj-modal-card-body {
+    padding: 0;
+
+    .cj-iconpicker-icons {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 1em;
+
+      [data-icon] {
+        display: block;
+        width: 48px;
+        height: 48px;
+        text-align: center;
+        padding: 0.5rem;
+
+        .cj-iconpicker-icon-preview {
+          font-size: 1.4em;
+        }
+      }
+    }
+  }
+}

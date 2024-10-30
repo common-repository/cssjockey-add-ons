@@ -1,0 +1,217 @@
+$comment-bg: $light !default;
+$comment-bg-light: lighten($light, 3%) !default;
+$comment-color: $light-invert !default;
+$comment-link-color: $primary !default;
+
+.cjwpbldr-comments {
+  #comments {
+    margin-bottom: 0;
+
+    h3.comments-title,
+    h3.comment-reply-title {
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-bottom: 15px;
+      border-bottom: 1px solid $border !important;
+      font-size: $size-5 !important;
+    }
+
+    h3.comment-reply-title {
+      margin-bottom: 30px;
+    }
+
+    p.no-comments {
+      padding: 15px;
+      background-color: $comment-bg;
+      color: $comment-color;
+      font-style: italic;
+      @include opacity(70);
+      @include border-radius($radius-large);
+    }
+
+    nav.comment-navigation {
+      padding: 10px 0;
+      margin: 0;
+
+      .nav-links {
+        width: 100%;
+        display: flex;
+        align-content: space-between;
+
+        .nav-previous,
+        .nav-next {
+          flex-shrink: 0;
+          flex-grow: 1;
+
+          a {
+            color: $primary;
+            display: inline-block;
+            //padding: 5px 10px 5px 5px;
+            font-size: $small-font-size;
+            @include border-radius($radius);
+          }
+        }
+
+        .nav-next {
+          text-align: right;
+        }
+      }
+    }
+
+    .comment-form {
+      position: relative;
+
+      p.logged-in-as {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: $small-font-size;
+      }
+    }
+
+    ol.comment-list,
+    ol.comment-list ol.children {
+      list-style: none;
+      margin: 0;
+      padding: 30px 0;
+
+      li.byuser,
+      li.bypostauthor {
+        .comment-body {
+          background-color: $primary !important;
+          color: $primary-invert !important;
+
+          a {
+            color: $primary-invert !important;
+          }
+
+          .reply {
+            a span {
+              background-color: $primary-invert !important;
+              color: $primary !important;
+            }
+          }
+        }
+      }
+
+      ol.children {
+        padding-top: 15px;
+        padding-bottom: 0;
+        margin-left: 75px;
+
+        li:last-child {
+          margin-bottom: 0 !important;
+        }
+      }
+
+      li {
+        margin-bottom: 5px;
+        position: relative;
+
+        &:last-child {
+          margin-bottom: 0 !important;
+        }
+
+        .comment-body {
+          background-color: $comment-bg;
+          border: 1px solid $border;
+          color: $comment-color;
+          @include border-radius($radius-large);
+          padding: 15px;
+          position: relative;
+
+          a {
+            color: $comment-link-color;
+          }
+
+          .edit-link {
+            display: none;
+            text-transform: uppercase;
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            @include font-size(12px);
+            font-weight: bold;
+            line-height: 12px;
+            padding: 0;
+            @include border-radius($radius);
+
+            a {
+              color: $comment-link-color;
+            }
+          }
+        }
+
+        &.pingback {
+          margin-bottom: 15px;
+        }
+
+        &:not(.pingback) {
+          margin-bottom: 15px;
+
+          .comment-body {
+            margin-left: 75px;
+
+            &:hover {
+              .comment-author {
+                img {
+                  background-color: darken($light, 10%);
+                }
+              }
+            }
+
+            .comment-author {
+              img {
+                @include transition(all 250ms ease);
+                background-color: $light;
+                padding: 3px;
+                float: left;
+                margin-top: -15px;
+                margin-left: -85px;
+                width: 60px;
+                height: 60px;
+                @include border-radius(50px);
+              }
+
+              .fn {
+                a {
+                  color: $dark;
+                }
+              }
+            }
+
+            .comment-metadata {
+              time {
+                display: inline-block;
+                font-size: 12px;
+                font-style: italic;
+              }
+            }
+
+            .comment-content {
+              padding: 10px 0;
+            }
+
+            .reply {
+              a span {
+                background-color: $primary;
+                color: $primary-invert;
+              }
+            }
+
+          }
+        }
+
+        &:hover {
+          .edit-link {
+            display: inherit;
+            @include transition(all 250ms ease);
+          }
+
+        }
+
+      }
+    }
+
+  }
+}

@@ -1,0 +1,6181 @@
+$bc-4ormat: #fb0a2a;
+$bc-500px: #0099e5;
+$bc-500px-2: #ff4c4c;
+$bc-500px-3: #34bf49;
+$bc-about-me: #00405d;
+$bc-about-me-2: #062f3c;
+$bc-about-me-3: #2b82ad;
+$bc-about-me-4: #cc7a00;
+$bc-about-me-5: #ffcc33;
+$bc-addvocate: #ff3322;
+$bc-adobe: #ff0000;
+$bc-adobe-2: #fbb034;
+$bc-adobe-3: #ffdd00;
+$bc-adobe-4: #c1d82f;
+$bc-adobe-5: #00a4e4;
+$bc-adobe-6: #8a7967;
+$bc-adobe-7: #6a737b;
+$bc-aetna: #d20962;
+$bc-aetna-2: #f47721;
+$bc-aetna-3: #7ac143;
+$bc-aetna-4: #00a78e;
+$bc-aetna-5: #00bce4;
+$bc-aetna-6: #7d3f98;
+$bc-aim: #ffd900;
+$bc-airbnb: #fd5c63;
+$bc-alcon: #0079c1;
+$bc-alcon-2: #49176d;
+$bc-alcon-3: #00a0af;
+$bc-alcon-4: #49a942;
+$bc-alienware: #020202;
+$bc-alienware-2: #2ad2c9;
+$bc-alienware-3: #d0e100;
+$bc-alienware-4: #00f0f0;
+$bc-alienware-5: #00f000;
+$bc-alienware-6: #f0e000;
+$bc-alienware-7: #00a0f0;
+$bc-alienware-8: #9000f0;
+$bc-alienware-9: #f00000;
+$bc-amazon: #ff9900;
+$bc-amazon-2: #146eb4;
+$bc-american-red-cross: #ed1b2e;
+$bc-american-red-cross-2: #6d6e70;
+$bc-american-red-cross-3: #d7d7d8;
+$bc-american-red-cross-4: #b4a996;
+$bc-american-red-cross-5: #ecb731;
+$bc-american-red-cross-6: #8ec06c;
+$bc-american-red-cross-7: #537b35;
+$bc-american-red-cross-8: #c4dff6;
+$bc-american-red-cross-9: #56a0d3;
+$bc-american-red-cross-10: #0091cd;
+$bc-american-red-cross-11: #004b79;
+$bc-american-red-cross-12: #7f181b;
+$bc-american-red-cross-13: #d7d7d8;
+$bc-american-red-cross-14: #9f9fa3;
+$bc-american-red-cross-15: #000000;
+$bc-android: #a4c639;
+$bc-angies-list: #7fbb00;
+$bc-answers: #136ad5;
+$bc-answers-2: #fb8a2e;
+$bc-aol: #ff0b00;
+$bc-aol-2: #00c4ff;
+$bc-arch-linux: #1793d1;
+$bc-arch-linux-2: #333333;
+$bc-asana: #1f8dd6;
+$bc-asana-2: #34ad00;
+$bc-associated-press: #ff322e;
+$bc-att: #ff7200;
+$bc-att-2: #fcb314;
+$bc-att-3: #067ab4;
+$bc-att-4: #3aa5dc;
+$bc-atlanta-falcons: #000000;
+$bc-atlanta-falcons-2: #a71930;
+$bc-atlanta-falcons-3: #a5acaf;
+$bc-atlantic-coast-conference-acc: #013ca6;
+$bc-atlantic-coast-conference-acc-2: #a5a9ab;
+$bc-atlassian: #003366;
+$bc-auth0: #16214d;
+$bc-auth0-2: #44c7f4;
+$bc-auth0-3: #eb5424;
+$bc-auth0-4: #d0d2d3;
+$bc-baidu: #de0f17;
+$bc-baidu-2: #2529d8;
+$bc-bandcamp: #629aa9;
+
+$bc-barnes-noble: #2a5934;
+
+$bc-bebo: #e04646;
+
+$bc-behance: #1769ff;
+
+$bc-best-buy: #003b64;
+$bc-best-buy-2: #fff200;
+
+$bc-big-cartel: #a0ac48;
+$bc-big-cartel-2: #70b29c;
+
+$bc-bing-2: #ffb900;
+$bc-bing-2-2: #505050;
+$bc-bing-2-3: #a3a3a3;
+
+$bc-bitbucket: #205081;
+
+$bc-bitly: #ee6123;
+$bc-bitly-2: #61b3de;
+
+$bc-blackberry: #005387;
+$bc-blackberry-2: #8cb811;
+$bc-blackberry-3: #fdb813;
+$bc-blackberry-4: #88aca1;
+$bc-blackberry-5: #000000;
+$bc-blackberry-6: #788cb6;
+$bc-blackberry-7: #a1a1a4;
+$bc-blackberry-8: #8f8f8c;
+
+$bc-blogger: #f57d00;
+
+$bc-boeing: #0039a6;
+
+$bc-booking-com: #003580;
+
+$bc-boy-scouts-of-america: #ce1126;
+$bc-boy-scouts-of-america-2: #003f87;
+
+$bc-british-airways: #075aaa;
+$bc-british-airways-2: #eb2226;
+$bc-british-airways-3: #01295c;
+$bc-british-airways-4: #efe9e5;
+$bc-british-airways-5: #aca095;
+$bc-british-airways-6: #b9cfed;
+$bc-british-airways-7: #a7a9ac;
+
+$bc-bt: #d52685;
+$bc-bt-2: #553a99;
+$bc-bt-3: #6cbc35;
+$bc-bt-4: #fd9f3e;
+$bc-bt-5: #08538c;
+
+$bc-buffer: #168eea;
+$bc-buffer-2: #ee4f4f;
+$bc-buffer-3: #fff9ea;
+$bc-buffer-4: #76b852;
+$bc-buffer-5: #323b43;
+$bc-buffer-6: #59626a;
+$bc-buffer-7: #ced7df;
+$bc-buffer-8: #eff3f6;
+$bc-buffer-9: #f4f7f9;
+
+$bc-burger-king: #ec1c24;
+$bc-burger-king-2: #fdbd10;
+$bc-burger-king-3: #0066b2;
+$bc-burger-king-4: #ed7902;
+
+$bc-bynder: #1ca0de;
+$bc-bynder-2: #343a4e;
+
+$bc-canon: #bc0024;
+$bc-canon-2: #000000;
+
+$bc-carbonmade: #613854;
+
+$bc-carrefour: #00387b;
+$bc-carrefour-2: #bb1e10;
+$bc-carrefour-3: #f67828;
+$bc-carrefour-4: #237f52;
+
+$bc-case-mate: #84754e;
+$bc-case-mate-2: #a6192e;
+$bc-case-mate-3: #decba5;
+$bc-case-mate-4: #000000;
+
+$bc-charity-water: #ffc907;
+$bc-charity-water-2: #2e9df7;
+$bc-charity-water-3: #231f20;
+
+$bc-cheddar: #ff7243;
+
+$bc-coca-cola: #ed1c16;
+
+$bc-code-school: #616f67;
+$bc-code-school-2: #c68143;
+
+$bc-codecademy: #f65a5b;
+$bc-codecademy-2: #204056;
+
+$bc-creative-market: #8ba753;
+
+$bc-crunchbase: #2292a7;
+
+$bc-cunard: #1d1d1b;
+$bc-cunard-2: #ae9a64;
+$bc-cunard-3: #e42313;
+$bc-cunard-4: #8b8c8d;
+
+$bc-daimler: #263f6a;
+$bc-daimler-2: #182b45;
+$bc-daimler-3: #6b0f24;
+$bc-daimler-4: #193725;
+$bc-daimler-5: #606061;
+
+$bc-delectable: #334858;
+$bc-delectable-2: #cd595a;
+$bc-delectable-3: #94938f;
+$bc-delectable-4: #a3a7a6;
+$bc-delectable-5: #dbc5b0;
+$bc-delectable-6: #f8dfc2;
+$bc-delectable-7: #f9ebdf;
+
+$bc-delicious: #3399ff;
+$bc-delicious-2: #222222;
+$bc-delicious-3: #eeeeee;
+
+$bc-dell: #0085c3;
+$bc-dell-2: #7ab800;
+$bc-dell-3: #f2af00;
+$bc-dell-4: #dc5034;
+$bc-dell-5: #ce1126;
+$bc-dell-6: #b7295a;
+$bc-dell-7: #6e2585;
+$bc-dell-8: #71c6c1;
+$bc-dell-9: #5482ab;
+$bc-dell-10: #009bbb;
+$bc-dell-11: #444444;
+$bc-dell-12: #eeeeee;
+
+$bc-dental-plans: #f99104;
+$bc-dental-plans-2: #00b7c9;
+
+$bc-designer-news: #2d72d9;
+
+$bc-designmoo: #e64b50;
+$bc-designmoo-2: #dbc65d;
+
+$bc-deviantart: #05cc47;
+$bc-deviantart-2: #4dc47d;
+$bc-deviantart-3: #181a1b;
+
+$bc-devour: #ff0000;
+
+$bc-dewalt: #febd17;
+
+$bc-dhl: #ba0c2f;
+$bc-dhl-2: #ffcd00;
+$bc-dhl-3: #c9c9c9;
+
+$bc-digg: #000000;
+
+$bc-directv: #00a6d6;
+$bc-directv-2: #00629b;
+$bc-directv-3: #003865;
+
+$bc-disqus: #2e9fff;
+
+$bc-django: #092e20;
+
+$bc-dominos: #0b648f;
+$bc-dominos-2: #e21737;
+
+$bc-dow: #e80033;
+$bc-dow-2: #fdbb30;
+$bc-dow-3: #ed8b00;
+$bc-dow-4: #f15d22;
+$bc-dow-5: #bf0d3e;
+$bc-dow-6: #910048;
+$bc-dow-7: #d0006f;
+
+$bc-dribbble: #444444;
+$bc-dribbble-2: #ea4c89;
+$bc-dribbble-3: #8aba56;
+$bc-dribbble-4: #ff8833;
+$bc-dribbble-5: #00b6e3;
+$bc-dribbble-6: #9ba5a8;
+
+$bc-dropbox: #007ee5;
+$bc-dropbox-2: #7b8994;
+$bc-dropbox-3: #47525d;
+$bc-dropbox-4: #3d464d;
+
+$bc-droplr: #5654a4;
+
+$bc-drupal: #0077c0;
+$bc-drupal-2: #81ceff;
+$bc-drupal-3: #00598e;
+
+$bc-dunked: #2da9d7;
+$bc-dunked-2: #212a3e;
+
+$bc-etrade: #6633cc;
+$bc-etrade-2: #99cc00;
+
+$bc-easy-jet: #ff6600;
+$bc-easy-jet-2: #000000;
+$bc-easy-jet-3: #58595b;
+
+$bc-ebay: #e53238;
+$bc-ebay-2: #0064d2;
+$bc-ebay-3: #f5af02;
+$bc-ebay-4: #86b817;
+
+$bc-elance: #0d69af;
+
+$bc-ello: #000000;
+
+$bc-ember: #f23819;
+
+$bc-engadget: #40b3ff;
+
+$bc-envato: #82b541;
+
+$bc-ericsson: #002561;
+
+$bc-esl: #0d9ddb;
+$bc-esl-2: #48b8e7;
+$bc-esl-3: #efecea;
+$bc-esl-4: #2c2b2b;
+
+$bc-espn: #ff0033;
+
+$bc-etsy: #d5641c;
+
+$bc-evernote: #7ac142;
+$bc-evernote-2: #808084;
+
+$bc-fab-com: #dd0017;
+$bc-fab-com-2: #000000;
+
+$bc-facebook: #3b5998;
+
+$bc-famo-us: #fa5c4f;
+$bc-famo-us-2: #333333;
+
+$bc-fancy: #3098dc;
+$bc-fancy-2: #494e58;
+
+$bc-fedex: #660099;
+$bc-fedex-2: #ff6600;
+$bc-fedex-3: #00cc00;
+$bc-fedex-4: #0099cc;
+$bc-fedex-5: #ff0033;
+$bc-fedex-6: #ffcc00;
+$bc-fedex-7: #999999;
+
+$bc-fiat: #96172e;
+$bc-fiat-2: #6d2d41;
+
+$bc-firefox: #e66000;
+$bc-firefox-2: #ff9500;
+$bc-firefox-3: #ffcb00;
+$bc-firefox-4: #00539f;
+$bc-firefox-5: #0095dd;
+$bc-firefox-6: #331e54;
+$bc-firefox-7: #002147;
+
+$bc-fitbit: #4cc2c4;
+$bc-fitbit-2: #f54785;
+$bc-fitbit-3: #343434;
+
+$bc-five-guys: #ed174f;
+$bc-five-guys-2: #fbb040;
+$bc-five-guys-3: #efc402;
+$bc-five-guys-4: #d4891c;
+
+$bc-flattr: #f67c1a;
+$bc-flattr-2: #338d11;
+
+$bc-flavors-me: #f10087;
+$bc-flavors-me-2: #009ae7;
+
+$bc-flickr: #0063dc;
+$bc-flickr-2: #ff0084;
+
+$bc-flipboard: #cc0000;
+
+$bc-flixster: #2971b2;
+
+$bc-follr: #4dc9f6;
+$bc-follr-2: #f67019;
+$bc-follr-3: #f53794;
+$bc-follr-4: #537bc4;
+$bc-follr-5: #acc236;
+
+$bc-forrst: #5b9a68;
+
+$bc-foursquare: #f94877;
+$bc-foursquare-2: #0732a2;
+$bc-foursquare-3: #2d5be3;
+
+$bc-garmin: #007cc3;
+
+$bc-geocaching: #4a742c;
+
+$bc-ghost: #212425;
+$bc-ghost-2: #718087;
+$bc-ghost-3: #5ba4e5;
+$bc-ghost-4: #9fbb58;
+$bc-ghost-5: #e9e8dd;
+
+$bc-gibson: #000000;
+$bc-gibson-2: #436f8e;
+$bc-gibson-3: #887d59;
+$bc-gibson-4: #8f9696;
+
+$bc-gimmebar: #d6156c;
+
+$bc-github: #4183c4;
+$bc-github-2: #999999;
+$bc-github-3: #666666;
+$bc-github-4: #333333;
+$bc-github-5: #6cc644;
+$bc-github-6: #bd2c00;
+$bc-github-7: #ff9933;
+
+$bc-gittip: #663300;
+$bc-gittip-2: #339966;
+
+$bc-godaddy: #7db701;
+$bc-godaddy-2: #ff8a00;
+
+$bc-goodreads: #553b08;
+
+$bc-google: #4285f4;
+$bc-google-2: #db4437;
+$bc-google-3: #f4b400;
+$bc-google-4: #0f9d58;
+$bc-google-5: #e7e6dd;
+
+$bc-google-plus: #dd4b39;
+
+$bc-gravatar: #1e8cbe;
+
+$bc-groupon: #82b548;
+
+$bc-hacker-news: #ff6600;
+
+$bc-heineken: #00a100;
+$bc-heineken-2: #ff2b00;
+$bc-heineken-3: #999999;
+
+$bc-hellowallet: #0093d0;
+
+$bc-heroku: #c9c3e6;
+$bc-heroku-2: #6762a6;
+
+$bc-hi5: #fd9827;
+
+$bc-home-depot: #f96305;
+
+$bc-hootsuite: #003265;
+$bc-hootsuite-2: #f7e8d5;
+$bc-hootsuite-3: #ffbd0a;
+$bc-hootsuite-4: #c6af92;
+$bc-hootsuite-5: #71685f;
+$bc-hootsuite-6: #54493f;
+$bc-hootsuite-7: #38322d;
+
+$bc-houzz: #7ac142;
+$bc-houzz-2: #000000;
+
+$bc-hp: #0096d6;
+$bc-hp-2: #d7410b;
+
+$bc-hsbc: #db0011;
+
+$bc-html5: #e34f26;
+
+$bc-hulu: #a5cd39;
+$bc-hulu-2: #6bb03e;
+
+$bc-ibm: #006699;
+
+$bc-identi-ca: #789240;
+$bc-identi-ca-2: #7d0100;
+$bc-identi-ca-3: #8baaff;
+
+$bc-ifttt: #33ccff;
+$bc-ifttt-2: #ff4400;
+$bc-ifttt-3: #000000;
+
+$bc-iheartradio: #c6002b;
+
+$bc-ikea: #ffcc00;
+$bc-ikea-2: #003399;
+
+$bc-imdb: #f5de50;
+
+$bc-imgur: #85bf25;
+
+$bc-indiegogo: #eb1478;
+
+$bc-instacart: #60ab59;
+
+$bc-instagram: #3f729b;
+
+$bc-instapaper: #000000;
+$bc-instapaper-2: #428bca;
+
+$bc-intel: #0f7dc2;
+
+$bc-intuit: #365ebf;
+
+$bc-ios: #5fc9f8;
+$bc-ios-2: #fecb2e;
+$bc-ios-3: #fd9426;
+$bc-ios-4: #fc3158;
+$bc-ios-5: #147efb;
+$bc-ios-6: #53d769;
+$bc-ios-7: #fc3d39;
+$bc-ios-8: #8e8e93;
+
+$bc-jawbone: #000000;
+
+$bc-joyent: #ff6600;
+
+$bc-keeeb: #00a9c0;
+
+$bc-khan-academy: #9cb443;
+$bc-khan-academy-2: #242f3a;
+
+$bc-kia: #c21a30;
+
+$bc-kickstarter: #2bde73;
+$bc-kickstarter-2: #0f2105;
+
+$bc-kippt: #d51007;
+
+$bc-kitkat: #d70021;
+
+$bc-kiwipay: #00b0df;
+
+$bc-laravel: #f55247;
+
+$bc-lastfm: #d51007;
+
+$bc-linkedin: #0077b5;
+$bc-linkedin-2: #000000;
+$bc-linkedin-4: #86888a;
+$bc-linkedin-5: #caccce;
+$bc-linkedin-6: #00a0dc;
+$bc-linkedin-7: #8d6cab;
+$bc-linkedin-8: #dd5143;
+$bc-linkedin-9: #e68523;
+
+$bc-livestream: #cf202e;
+$bc-livestream-2: #232121;
+$bc-livestream-3: #f78822;
+$bc-livestream-4: #f6db35;
+$bc-livestream-5: #6dc067;
+$bc-livestream-6: #4185be;
+$bc-livestream-7: #8f499c;
+
+$bc-lloyds: #d81f2a;
+$bc-lloyds-2: #ff9900;
+$bc-lloyds-3: #e0d86e;
+$bc-lloyds-4: #9ea900;
+$bc-lloyds-5: #6ec9e0;
+$bc-lloyds-6: #007ea3;
+$bc-lloyds-7: #9e4770;
+$bc-lloyds-8: #631d76;
+$bc-lloyds-9: #1e1e1e;
+
+$bc-lomo: #eb0028;
+$bc-lomo-2: #00a0df;
+
+$bc-lumo: #576396;
+
+$bc-lyft: #d71472;
+$bc-lyft-2: #333e48;
+$bc-lyft-3: #c2bcb5;
+$bc-lyft-4: #fcdcf0;
+$bc-lyft-5: #85a6c7;
+$bc-lyft-6: #00b2a9;
+$bc-lyft-7: #9bd9d9;
+
+$bc-mailchimp: #2c9ab7;
+$bc-mailchimp-2: #449a88;
+$bc-mailchimp-3: #febe12;
+$bc-mailchimp-4: #db3a1b;
+$bc-mailchimp-5: #373737;
+
+$bc-massy-group: #004a77;
+$bc-massy-group-2: #00adee;
+$bc-massy-group-3: #ff8100;
+$bc-massy-group-4: #ffd200;
+
+$bc-mastercard: #cc0000;
+$bc-mastercard-2: #ff9900;
+$bc-mastercard-3: #000066;
+
+$bc-meetup: #e0393e;
+
+$bc-microsoft: #f65314;
+$bc-microsoft-2: #7cbb00;
+$bc-microsoft-3: #00a1f1;
+$bc-microsoft-4: #ffbb00;
+
+$bc-microsoft-office: #ea3e23;
+
+$bc-mixpanel: #a086d3;
+
+$bc-motorola: #5c92fa;
+
+$bc-muut: #1fadc5;
+$bc-muut-2: #ff8000;
+
+$bc-myspace: #000000;
+
+$bc-nbc: #e1ac26;
+$bc-nbc-2: #dc380f;
+$bc-nbc-3: #9f0812;
+$bc-nbc-4: #6347b2;
+$bc-nbc-5: #368dd5;
+$bc-nbc-6: #70af1e;
+$bc-nbc-7: #7e887a;
+
+$bc-nest: #00afd8;
+$bc-nest-2: #7b858e;
+
+$bc-netflix: #e50914;
+$bc-netflix-2: #221f1f;
+$bc-netflix-3: #f5f5f1;
+
+$bc-netvibes: #39bd00;
+
+$bc-new-balance: #ce2724;
+$bc-new-balance-2: #f3ec19;
+$bc-new-balance-3: #207c88;
+$bc-new-balance-4: #aac1bf;
+$bc-new-balance-5: #e8e9d7;
+$bc-new-balance-6: #4c4d4f;
+$bc-new-balance-7: #231f20;
+
+$bc-nextdoor: #19975d;
+
+$bc-nike-football: #504847;
+$bc-nike-football-2: #27a770;
+
+$bc-nikefuel: #4bad31;
+$bc-nikefuel-2: #f5dc00;
+$bc-nikefuel-3: #e95814;
+$bc-nikefuel-4: #e2142d;
+
+$bc-nokia: #124191;
+
+$bc-novartis: #765438;
+$bc-novartis-2: #a13323;
+$bc-novartis-3: #e65124;
+$bc-novartis-4: #ec7f22;
+$bc-novartis-5: #f8b22a;
+$bc-novartis-6: #ffd430;
+
+$bc-npm: #cb3837;
+
+$bc-nvidia: #76b900;
+
+$bc-odnoklassniki: #ed812b;
+
+$bc-opera: #cc0f16;
+$bc-opera-2: #9c9e9f;
+
+$bc-oracle: #ff0000;
+$bc-oracle-2: #000000;
+$bc-oracle-3: #7f7f7f;
+
+$bc-oxford-university-press: #002147;
+$bc-oxford-university-press-2: #000000;
+$bc-oxford-university-press-3: #666666;
+
+$bc-panasonic: #0f58a8;
+$bc-panasonic-2: #000000;
+
+$bc-pandora: #005483;
+
+$bc-path: #ee3423;
+
+$bc-paymill: #f05000;
+
+$bc-paypal: #003087;
+$bc-paypal-2: #009cde;
+$bc-paypal-3: #012169;
+
+$bc-pearson: #ed6b06;
+$bc-pearson-2: #9d1348;
+$bc-pearson-3: #008b5d;
+$bc-pearson-4: #364395;
+
+$bc-penguin-books: #ff6900;
+
+$bc-pepsi: #e32934;
+$bc-pepsi-2: #004883;
+
+$bc-pfizer: #0093d0;
+$bc-pfizer-2: #000000;
+$bc-pfizer-3: #616365;
+$bc-pfizer-4: #00aeef;
+$bc-pfizer-5: #d6006e;
+$bc-pfizer-6: #75d1e0;
+$bc-pfizer-7: #7dba00;
+$bc-pfizer-8: #cc292b;
+$bc-pfizer-9: #00a950;
+$bc-pfizer-10: #f8971d;
+$bc-pfizer-11: #f7d417;
+$bc-pfizer-12: #4a245e;
+$bc-pfizer-13: #f26649;
+
+$bc-philips: #0e5fd8;
+
+$bc-photobucket: #0ea0db;
+$bc-photobucket-2: #000000;
+
+$bc-pinboard: #0000e6;
+
+$bc-pinterest: #cc2127;
+
+$bc-pizza-hut: #ee3124;
+$bc-pizza-hut-2: #00a160;
+$bc-pizza-hut-3: #ffc425;
+
+$bc-plasso: #6585ed;
+$bc-plasso-2: #f5756c;
+$bc-plasso-3: #98afc0;
+$bc-plasso-4: #2f3148;
+
+$bc-plaxo: #414f5a;
+
+$bc-playstation: #003087;
+
+$bc-pocket: #d3505a;
+$bc-pocket-2: #478f8f;
+
+$bc-portfolium: #0099ff;
+$bc-portfolium-2: #fb0a2a;
+$bc-portfolium-3: #17ad49;
+$bc-portfolium-4: #333333;
+
+$bc-postmates: #000000;
+$bc-postmates-2: #36454f;
+
+$bc-prezi: #318bff;
+
+$bc-priceline: #1885bf;
+
+$bc-product-hunt: #da552f;
+$bc-product-hunt-2: #534540;
+$bc-product-hunt-3: #988f8c;
+$bc-product-hunt-4: #00b27f;
+
+$bc-quora: #a82400;
+
+$bc-quote-fm: #66ceff;
+
+$bc-razer: #00ff00;
+
+$bc-rdio: #007dc3;
+
+$bc-readability: #990000;
+
+$bc-red-hat: #cc0000;
+
+$bc-reddit: #ff4500;
+$bc-reddit-2: #5f99cf;
+$bc-reddit-3: #cee3f8;
+
+$bc-redfin: #a02021;
+
+$bc-reverbnation: #e43526;
+
+$bc-rockpack: #0ba6ab;
+
+$bc-roku: #6f1ab1;
+
+$bc-rolls-royce: #680021;
+$bc-rolls-royce-2: #fffaec;
+$bc-rolls-royce-3: #939598;
+$bc-rolls-royce-4: #000000;
+
+$bc-roo-kids: #e22027;
+$bc-roo-kids-2: #a1cd3d;
+$bc-roo-kids-3: #003e70;
+
+$bc-roon: #62b0d9;
+
+$bc-rounds: #fdd800;
+
+$bc-rss-2: #f26522;
+
+$bc-sainsburys: #ec8a00;
+
+$bc-salesforce: #1798c1;
+$bc-salesforce-2: #ff1100;
+
+$bc-samsung: #1428a0;
+$bc-samsung-2: #75787b;
+$bc-samsung-3: #0689d8;
+$bc-samsung-4: #ffc600;
+$bc-samsung-5: #ff6900;
+$bc-samsung-6: #e4002b;
+$bc-samsung-7: #c800a1;
+$bc-samsung-8: #685bc7;
+$bc-samsung-9: #0057b8;
+$bc-samsung-10: #00a9e0;
+$bc-samsung-11: #009ca6;
+$bc-samsung-12: #00b140;
+
+$bc-sap: #003366;
+$bc-sap-2: #999999;
+
+$bc-scribd: #1a7bba;
+
+$bc-sherwin-williams: #0168b3;
+$bc-sherwin-williams-2: #ee3e34;
+
+$bc-shopify: #96bf48;
+$bc-shopify-2: #479ccf;
+$bc-shopify-3: #2d3538;
+$bc-shopify-4: #f5f5f5;
+$bc-shopify-5: #f2f7fa;
+$bc-shopify-6: #666666;
+
+$bc-skype: #00aff0;
+
+$bc-slack: #6ecadc;
+$bc-slack-2: #e9a820;
+$bc-slack-3: #e01563;
+$bc-slack-4: #3eb991;
+
+$bc-smashing-magazine: #e53b2c;
+$bc-smashing-magazine-2: #41b7d8;
+
+$bc-snagajob: #f47a20;
+
+$bc-socialbro: #29c4d0;
+$bc-socialbro-2: #f29556;
+$bc-socialbro-3: #84afa2;
+$bc-socialbro-4: #72c427;
+$bc-socialbro-5: #f24c7c;
+$bc-socialbro-6: #00aaf2;
+
+$bc-softonic: #008ace;
+
+$bc-songkick: #f80046;
+
+$bc-sonicbids: #ff6600;
+$bc-sonicbids-2: #0c88b1;
+
+$bc-soundcloud: #ff8800;
+$bc-soundcloud-2: #ff3300;
+
+$bc-spotify: #2ebd59;
+
+$bc-sprint: #ffe100;
+
+$bc-square-cash: #28c101;
+
+$bc-squarespace: #222222;
+
+$bc-stackoverflow: #fe7a15;
+
+$bc-staples: #cc0000;
+$bc-staples-2: #2c8aec;
+$bc-staples-3: #ffcc00;
+
+$bc-starbucks: #00704a;
+$bc-starbucks-2: #000000;
+
+$bc-status-chart: #d7584f;
+
+$bc-sterling-hotels: #3b5a6f;
+$bc-sterling-hotels-2: #828a87;
+$bc-sterling-hotels-3: #000000;
+$bc-sterling-hotels-4: #9db7c4;
+$bc-sterling-hotels-5: #ccd7dd;
+$bc-sterling-hotels-6: #838f97;
+$bc-sterling-hotels-7: #002054;
+
+$bc-storyful: #f97200;
+$bc-storyful-2: #010101;
+$bc-storyful-3: #8b8b64;
+$bc-storyful-4: #bbbdc0;
+
+$bc-strava: #fc4c02;
+
+$bc-stripe: #00afe1;
+
+$bc-studyblue: #00afe1;
+
+$bc-stumbleupon: #eb4924;
+
+$bc-subway-2: #00543d;
+$bc-subway-2-2: #fef035;
+
+$bc-subway: #489e3b;
+$bc-subway-2: #fabd42;
+$bc-subway-3: #cd0a20;
+
+$bc-sugarcrm: #e61718;
+$bc-sugarcrm-2: #e8e9ea;
+$bc-sugarcrm-3: #595a5c;
+$bc-sugarcrm-4: #282828;
+
+$bc-swarm: #f06d1f;
+$bc-swarm-2: #ffa633;
+
+$bc-t-mobile: #e20074;
+
+$bc-tagstr: #e74635;
+
+$bc-tagstr-2: #e74635;
+
+$bc-technorati: #339900;
+
+$bc-tesla: #cc0000;
+
+$bc-the-audience-awards: #ee8421;
+$bc-the-audience-awards-2: #8c8a8a;
+$bc-the-audience-awards-3: #222222;
+
+$bc-the-next-web: #ff3c1f;
+$bc-the-next-web-2: #26313b;
+$bc-the-next-web-3: #4e5860;
+$bc-the-next-web-4: #a6abaf;
+$bc-the-next-web-5: #d9e0e2;
+$bc-the-next-web-6: #fafbfc;
+
+$bc-thomson-reuters: #ff8000;
+$bc-thomson-reuters-2: #555555;
+$bc-thomson-reuters-3: #444444;
+$bc-thomson-reuters-4: #666666;
+$bc-thomson-reuters-5: #cccccc;
+$bc-thomson-reuters-6: #e9e9e9;
+$bc-thomson-reuters-7: #f7f7f7;
+
+$bc-tivo: #da3d34;
+$bc-tivo-2: #00a480;
+$bc-tivo-3: #ed9f40;
+$bc-tivo-4: #6a76ac;
+$bc-tivo-5: #17170e;
+$bc-tivo-6: #534b38;
+$bc-tivo-7: #a6a480;
+
+$bc-treehouse: #6fbc6d;
+$bc-treehouse-2: #47535b;
+
+$bc-trello: #0079bf;
+$bc-trello-2: #70b500;
+$bc-trello-3: #ff9f1a;
+$bc-trello-4: #eb5a46;
+$bc-trello-5: #f2d600;
+$bc-trello-6: #c377e0;
+$bc-trello-7: #ff78cb;
+$bc-trello-8: #00c2e0;
+$bc-trello-9: #51e898;
+$bc-trello-10: #c4c9cc;
+
+$bc-tripadvisor: #589442;
+
+$bc-trulia: #5eab1f;
+
+$bc-tumblr: #35465c;
+
+$bc-tunngle: #c30f24;
+
+$bc-tvtag: #f24e4e;
+
+$bc-twitch-tv: #6441a5;
+
+$bc-twitter: #55acee;
+
+$bc-typekit: #98ce1e;
+
+$bc-typepad: #d2de61;
+
+$bc-typo3: #ff8600;
+
+$bc-ubuntu: #dd4814;
+$bc-ubuntu-2: #77216f;
+$bc-ubuntu-3: #5e2750;
+$bc-ubuntu-4: #2c001e;
+$bc-ubuntu-5: #aea79f;
+$bc-ubuntu-6: #333333;
+
+$bc-united-way: #10167f;
+$bc-united-way-2: #fe230a;
+$bc-united-way-3: #ff9600;
+$bc-united-way-4: #000064;
+$bc-united-way-5: #b41428;
+$bc-united-way-6: #f57814;
+$bc-united-way-7: #e6d7aa;
+$bc-united-way-8: #505050;
+$bc-united-way-9: #f0e6c8;
+$bc-united-way-10: #969696;
+$bc-united-way-11: #7c81b8;
+$bc-united-way-12: #ff967d;
+$bc-united-way-13: #ffc87d;
+
+$bc-unity: #222c37;
+$bc-unity-2: #00cccc;
+$bc-unity-3: #fff600;
+$bc-unity-4: #ff0066;
+$bc-unity-5: #19e3b1;
+$bc-unity-6: #ff7f33;
+$bc-unity-7: #b83c82;
+
+$bc-university-of-oregon: #fce122;
+$bc-university-of-oregon-2: #18453b;
+
+$bc-univision: #c822b0;
+
+$bc-ustream: #3388ff;
+
+$bc-verizon: #ff0000;
+$bc-verizon-2: #f2f2f2;
+$bc-verizon-3: #3285dc;
+
+$bc-viadeo: #f07355;
+
+$bc-viki: #3c9cd7;
+$bc-viki-2: #d24663;
+
+$bc-vimeo: #162221;
+$bc-vimeo-2: #1ab7ea;
+
+$bc-vine: #00b488;
+
+$bc-virb: #1e91d0;
+
+$bc-virgin-media: #c3092d;
+$bc-virgin-media-2: #222221;
+
+$bc-vkontakte: #45668e;
+
+$bc-volvo: #003057;
+$bc-volvo-2: #115740;
+$bc-volvo-3: #65665c;
+$bc-volvo-4: #425563;
+$bc-volvo-5: #517891;
+$bc-volvo-6: #212721;
+
+$bc-walgreens: #e31837;
+$bc-walgreens-2: #f37520;
+$bc-walgreens-3: #489cd4;
+$bc-walgreens-4: #2774a6;
+$bc-walgreens-5: #35393d;
+
+$bc-walmart: #0e7bc3;
+$bc-walmart-2: #05509b;
+$bc-walmart-3: #6eaddf;
+$bc-walmart-4: #f27922;
+$bc-walmart-5: #fcbc32;
+$bc-walmart-6: #3b7f2c;
+$bc-walmart-7: #7ec544;
+
+$bc-wechat: #7bb32e;
+
+$bc-wendys: #e2203d;
+$bc-wendys-2: #199fda;
+
+$bc-western-digital: #005195;
+$bc-western-digital-2: #028948;
+$bc-western-digital-3: #ffd400;
+$bc-western-digital-4: #0067b3;
+$bc-western-digital-5: #9d0a0e;
+$bc-western-digital-6: #003369;
+
+$bc-whatsapp: #4dc247;
+
+$bc-windows: #00bcf2;
+
+$bc-windows-phone: #68217a;
+
+$bc-wooga: #5b009c;
+
+$bc-wordpress: #21759b;
+$bc-wordpress-2: #d54e21;
+$bc-wordpress-3: #464646;
+
+$bc-wordpress-com: #0087be;
+$bc-wordpress-com-2: #78dcfa;
+$bc-wordpress-com-3: #00aadc;
+$bc-wordpress-com-4: #005082;
+$bc-wordpress-com-5: #87a6bc;
+$bc-wordpress-com-6: #f3f6f8;
+$bc-wordpress-com-7: #e9eff3;
+$bc-wordpress-com-8: #e9eff3;
+$bc-wordpress-com-9: #a8bece;
+$bc-wordpress-com-10: #668eaa;
+$bc-wordpress-com-11: #4f748e;
+$bc-wordpress-com-12: #3d596d;
+$bc-wordpress-com-13: #2e4453;
+$bc-wordpress-com-14: #d54e21;
+$bc-wordpress-com-15: #f0821e;
+$bc-wordpress-com-16: #4ab866;
+$bc-wordpress-com-17: #f0b849;
+$bc-wordpress-com-18: #d94f4f;
+
+$bc-worldline: #0066a1;
+
+$bc-wunderlist: #2b96f1;
+
+$bc-xbox: #52b043;
+
+$bc-xing: #026466;
+$bc-xing-2: #cfdc00;
+
+$bc-yahoo: #400191;
+
+$bc-yandex: #ffcc00;
+
+$bc-yelp: #af0606;
+
+$bc-yo: #9b59b6;
+$bc-yo-2: #e74c3c;
+$bc-yo-3: #8e44ad;
+$bc-yo-4: #2980b9;
+$bc-yo-5: #f1c40f;
+$bc-yo-6: #16a085;
+$bc-yo-7: #34495e;
+$bc-yo-8: #3498db;
+$bc-yo-9: #2ecc71;
+$bc-yo-10: #1abc9c;
+
+$bc-youtube: #cd201f;
+
+$bc-zendesk: #78a300;
+$bc-zendesk-2: #f1f1f1;
+$bc-zendesk-3: #444444;
+
+$bc-zerply: #9dbc7a;
+
+$bc-zillow: #1277e1;
+
+$bc-zopim: #ff9d3b;
+
+.cj-is-facebook{
+  background-color: $bc-facebook !important;
+  border-color: $bc-facebook !important;
+  color: #ffffff !important;
+}
+.cj-is-twitter{
+  background-color: $bc-twitter !important;
+  border-color: $bc-twitter !important;
+  color: #ffffff !important;
+}
+.cj-is-google{
+  background-color: $bc-google-plus !important;
+  border-color: $bc-google-plus !important;
+  color: #ffffff !important;
+}
+.cj-is-aol{
+  background-color: $bc-aol-2 !important;
+  border-color: $bc-aol-2 !important;
+  color: #ffffff !important;
+}
+.cj-is-github{
+  background-color: $bc-github-4 !important;
+  border-color: $bc-github-4 !important;
+  color: #ffffff !important;
+}
+.cj-is-github{
+  background-color: $bc-github-4 !important;
+  border-color: $bc-github-4 !important;
+  color: #ffffff !important;
+}
+.cj-is-dribbble{
+  background-color: $bc-dribbble-2 !important;
+  border-color: $bc-dribbble-2 !important;
+  color: #ffffff !important;
+}
+.cj-is-pinterest{
+  background-color: $bc-pinterest !important;
+  border-color: $bc-pinterest !important;
+  color: #ffffff !important;
+}
+.cj-is-linkedin{
+  background-color: $bc-linkedin !important;
+  border-color: $bc-linkedin !important;
+  color: #ffffff !important;
+}
+.cj-is-rss{
+  background-color: $bc-rss-2 !important;
+  border-color: $bc-rss-2 !important;
+  color: #ffffff !important;
+}
+
+.cj-bg-4ormat{
+  background-color: $bc-4ormat !important;
+}
+.cj-bg-500px{
+  background-color: $bc-500px !important;
+}
+.cj-bg-500px-2{
+  background-color: $bc-500px-2 !important;
+}
+.cj-bg-500px-3{
+  background-color: $bc-500px-3 !important;
+}
+.cj-bg-about-me{
+  background-color: $bc-about-me !important;
+}
+.cj-bg-about-me-2{
+  background-color: $bc-about-me-2 !important;
+}
+.cj-bg-about-me-3{
+  background-color: $bc-about-me-3 !important;
+}
+.cj-bg-about-me-4{
+  background-color: $bc-about-me-4 !important;
+}
+.cj-bg-about-me-5{
+  background-color: $bc-about-me-5 !important;
+}
+.cj-bg-addvocate{
+  background-color: $bc-addvocate !important;
+}
+.cj-bg-adobe{
+  background-color: $bc-adobe !important;
+}
+.cj-bg-adobe-2{
+  background-color: $bc-adobe-2 !important;
+}
+.cj-bg-adobe-3{
+  background-color: $bc-adobe-3 !important;
+}
+.cj-bg-adobe-4{
+  background-color: $bc-adobe-4 !important;
+}
+.cj-bg-adobe-5{
+  background-color: $bc-adobe-5 !important;
+}
+.cj-bg-adobe-6{
+  background-color: $bc-adobe-6 !important;
+}
+.cj-bg-adobe-7{
+  background-color: $bc-adobe-7 !important;
+}
+.cj-bg-aetna{
+  background-color: $bc-aetna !important;
+}
+.cj-bg-aetna-2{
+  background-color: $bc-aetna-2 !important;
+}
+.cj-bg-aetna-3{
+  background-color: $bc-aetna-3 !important;
+}
+.cj-bg-aetna-4{
+  background-color: $bc-aetna-4 !important;
+}
+.cj-bg-aetna-5{
+  background-color: $bc-aetna-5 !important;
+}
+.cj-bg-aetna-6{
+  background-color: $bc-aetna-6 !important;
+}
+.cj-bg-aim{
+  background-color: $bc-aim !important;
+}
+.cj-bg-airbnb{
+  background-color: $bc-airbnb !important;
+}
+.cj-bg-alcon{
+  background-color: $bc-alcon !important;
+}
+.cj-bg-alcon-2{
+  background-color: $bc-alcon-2 !important;
+}
+.cj-bg-alcon-3{
+  background-color: $bc-alcon-3 !important;
+}
+.cj-bg-alcon-4{
+  background-color: $bc-alcon-4 !important;
+}
+.cj-bg-alienware{
+  background-color: $bc-alienware !important;
+}
+.cj-bg-alienware-2{
+  background-color: $bc-alienware-2 !important;
+}
+.cj-bg-alienware-3{
+  background-color: $bc-alienware-3 !important;
+}
+.cj-bg-alienware-4{
+  background-color: $bc-alienware-4 !important;
+}
+.cj-bg-alienware-5{
+  background-color: $bc-alienware-5 !important;
+}
+.cj-bg-alienware-6{
+  background-color: $bc-alienware-6 !important;
+}
+.cj-bg-alienware-7{
+  background-color: $bc-alienware-7 !important;
+}
+.cj-bg-alienware-8{
+  background-color: $bc-alienware-8 !important;
+}
+.cj-bg-alienware-9{
+  background-color: $bc-alienware-9 !important;
+}
+.cj-bg-amazon{
+  background-color: $bc-amazon !important;
+}
+.cj-bg-amazon-2{
+  background-color: $bc-amazon-2 !important;
+}
+.cj-bg-american-red-cross{
+  background-color: $bc-american-red-cross !important;
+}
+.cj-bg-american-red-cross-2{
+  background-color: $bc-american-red-cross-2 !important;
+}
+.cj-bg-american-red-cross-3{
+  background-color: $bc-american-red-cross-3 !important;
+}
+.cj-bg-american-red-cross-4{
+  background-color: $bc-american-red-cross-4 !important;
+}
+.cj-bg-american-red-cross-5{
+  background-color: $bc-american-red-cross-5 !important;
+}
+.cj-bg-american-red-cross-6{
+  background-color: $bc-american-red-cross-6 !important;
+}
+.cj-bg-american-red-cross-7{
+  background-color: $bc-american-red-cross-7 !important;
+}
+.cj-bg-american-red-cross-8{
+  background-color: $bc-american-red-cross-8 !important;
+}
+.cj-bg-american-red-cross-9{
+  background-color: $bc-american-red-cross-9 !important;
+}
+.cj-bg-american-red-cross-10{
+  background-color: $bc-american-red-cross-10 !important;
+}
+.cj-bg-american-red-cross-11{
+  background-color: $bc-american-red-cross-11 !important;
+}
+.cj-bg-american-red-cross-12{
+  background-color: $bc-american-red-cross-12 !important;
+}
+.cj-bg-american-red-cross-13{
+  background-color: $bc-american-red-cross-13 !important;
+}
+.cj-bg-american-red-cross-14{
+  background-color: $bc-american-red-cross-14 !important;
+}
+.cj-bg-american-red-cross-15{
+  background-color: $bc-american-red-cross-15 !important;
+}
+.cj-bg-android{
+  background-color: $bc-android !important;
+}
+.cj-bg-angies-list{
+  background-color: $bc-angies-list !important;
+}
+.cj-bg-answers{
+  background-color: $bc-answers !important;
+}
+.cj-bg-answers-2{
+  background-color: $bc-answers-2 !important;
+}
+.cj-bg-aol{
+  background-color: $bc-aol !important;
+}
+.cj-bg-aol-2{
+  background-color: $bc-aol-2 !important;
+}
+.cj-bg-arch-linux{
+  background-color: $bc-arch-linux !important;
+}
+.cj-bg-arch-linux-2{
+  background-color: $bc-arch-linux-2 !important;
+}
+.cj-bg-asana{
+  background-color: $bc-asana !important;
+}
+.cj-bg-asana-2{
+  background-color: $bc-asana-2 !important;
+}
+.cj-bg-associated-press{
+  background-color: $bc-associated-press !important;
+}
+.cj-bg-att{
+  background-color: $bc-att !important;
+}
+.cj-bg-att-2{
+  background-color: $bc-att-2 !important;
+}
+.cj-bg-att-3{
+  background-color: $bc-att-3 !important;
+}
+.cj-bg-att-4{
+  background-color: $bc-att-4 !important;
+}
+.cj-bg-atlanta-falcons{
+  background-color: $bc-atlanta-falcons !important;
+}
+.cj-bg-atlanta-falcons-2{
+  background-color: $bc-atlanta-falcons-2 !important;
+}
+.cj-bg-atlanta-falcons-3{
+  background-color: $bc-atlanta-falcons-3 !important;
+}
+.cj-bg-atlantic-coast-conference-acc{
+  background-color: $bc-atlantic-coast-conference-acc !important;
+}
+.cj-bg-atlantic-coast-conference-acc-2{
+  background-color: $bc-atlantic-coast-conference-acc-2 !important;
+}
+.cj-bg-atlassian{
+  background-color: $bc-atlassian !important;
+}
+.cj-bg-auth0{
+  background-color: $bc-auth0 !important;
+}
+.cj-bg-auth0-2{
+  background-color: $bc-auth0-2 !important;
+}
+.cj-bg-auth0-3{
+  background-color: $bc-auth0-3 !important;
+}
+.cj-bg-auth0-4{
+  background-color: $bc-auth0-4 !important;
+}
+.cj-bg-baidu{
+  background-color: $bc-baidu !important;
+}
+.cj-bg-baidu-2{
+  background-color: $bc-baidu-2 !important;
+}
+.cj-bg-bandcamp{
+  background-color: $bc-bandcamp !important;
+}
+.cj-bg-barnes-noble{
+  background-color: $bc-barnes-noble !important;
+}
+.cj-bg-bebo{
+  background-color: $bc-bebo !important;
+}
+.cj-bg-behance{
+  background-color: $bc-behance !important;
+}
+.cj-bg-best-buy{
+  background-color: $bc-best-buy !important;
+}
+.cj-bg-best-buy-2{
+  background-color: $bc-best-buy-2 !important;
+}
+.cj-bg-big-cartel{
+  background-color: $bc-big-cartel !important;
+}
+.cj-bg-big-cartel-2{
+  background-color: $bc-big-cartel-2 !important;
+}
+.cj-bg-bing-2{
+  background-color: $bc-bing-2 !important;
+}
+.cj-bg-bing-2-2{
+  background-color: $bc-bing-2-2 !important;
+}
+.cj-bg-bing-2-3{
+  background-color: $bc-bing-2-3 !important;
+}
+.cj-bg-bitbucket{
+  background-color: $bc-bitbucket !important;
+}
+.cj-bg-bitly{
+  background-color: $bc-bitly !important;
+}
+.cj-bg-bitly-2{
+  background-color: $bc-bitly-2 !important;
+}
+.cj-bg-blackberry{
+  background-color: $bc-blackberry !important;
+}
+.cj-bg-blackberry-2{
+  background-color: $bc-blackberry-2 !important;
+}
+.cj-bg-blackberry-3{
+  background-color: $bc-blackberry-3 !important;
+}
+.cj-bg-blackberry-4{
+  background-color: $bc-blackberry-4 !important;
+}
+.cj-bg-blackberry-5{
+  background-color: $bc-blackberry-5 !important;
+}
+.cj-bg-blackberry-6{
+  background-color: $bc-blackberry-6 !important;
+}
+.cj-bg-blackberry-7{
+  background-color: $bc-blackberry-7 !important;
+}
+.cj-bg-blackberry-8{
+  background-color: $bc-blackberry-8 !important;
+}
+.cj-bg-blogger{
+  background-color: $bc-blogger !important;
+}
+.cj-bg-boeing{
+  background-color: $bc-boeing !important;
+}
+.cj-bg-booking-com{
+  background-color: $bc-booking-com !important;
+}
+.cj-bg-boy-scouts-of-america{
+  background-color: $bc-boy-scouts-of-america !important;
+}
+.cj-bg-boy-scouts-of-america-2{
+  background-color: $bc-boy-scouts-of-america-2 !important;
+}
+.cj-bg-british-airways{
+  background-color: $bc-british-airways !important;
+}
+.cj-bg-british-airways-2{
+  background-color: $bc-british-airways-2 !important;
+}
+.cj-bg-british-airways-3{
+  background-color: $bc-british-airways-3 !important;
+}
+.cj-bg-british-airways-4{
+  background-color: $bc-british-airways-4 !important;
+}
+.cj-bg-british-airways-5{
+  background-color: $bc-british-airways-5 !important;
+}
+.cj-bg-british-airways-6{
+  background-color: $bc-british-airways-6 !important;
+}
+.cj-bg-british-airways-7{
+  background-color: $bc-british-airways-7 !important;
+}
+.cj-bg-bt{
+  background-color: $bc-bt !important;
+}
+.cj-bg-bt-2{
+  background-color: $bc-bt-2 !important;
+}
+.cj-bg-bt-3{
+  background-color: $bc-bt-3 !important;
+}
+.cj-bg-bt-4{
+  background-color: $bc-bt-4 !important;
+}
+.cj-bg-bt-5{
+  background-color: $bc-bt-5 !important;
+}
+.cj-bg-buffer{
+  background-color: $bc-buffer !important;
+}
+.cj-bg-buffer-2{
+  background-color: $bc-buffer-2 !important;
+}
+.cj-bg-buffer-3{
+  background-color: $bc-buffer-3 !important;
+}
+.cj-bg-buffer-4{
+  background-color: $bc-buffer-4 !important;
+}
+.cj-bg-buffer-5{
+  background-color: $bc-buffer-5 !important;
+}
+.cj-bg-buffer-6{
+  background-color: $bc-buffer-6 !important;
+}
+.cj-bg-buffer-7{
+  background-color: $bc-buffer-7 !important;
+}
+.cj-bg-buffer-8{
+  background-color: $bc-buffer-8 !important;
+}
+.cj-bg-buffer-9{
+  background-color: $bc-buffer-9 !important;
+}
+.cj-bg-burger-king{
+  background-color: $bc-burger-king !important;
+}
+.cj-bg-burger-king-2{
+  background-color: $bc-burger-king-2 !important;
+}
+.cj-bg-burger-king-3{
+  background-color: $bc-burger-king-3 !important;
+}
+.cj-bg-burger-king-4{
+  background-color: $bc-burger-king-4 !important;
+}
+.cj-bg-bynder{
+  background-color: $bc-bynder !important;
+}
+.cj-bg-bynder-2{
+  background-color: $bc-bynder-2 !important;
+}
+.cj-bg-canon{
+  background-color: $bc-canon !important;
+}
+.cj-bg-canon-2{
+  background-color: $bc-canon-2 !important;
+}
+.cj-bg-carbonmade{
+  background-color: $bc-carbonmade !important;
+}
+.cj-bg-carrefour{
+  background-color: $bc-carrefour !important;
+}
+.cj-bg-carrefour-2{
+  background-color: $bc-carrefour-2 !important;
+}
+.cj-bg-carrefour-3{
+  background-color: $bc-carrefour-3 !important;
+}
+.cj-bg-carrefour-4{
+  background-color: $bc-carrefour-4 !important;
+}
+.cj-bg-case-mate{
+  background-color: $bc-case-mate !important;
+}
+.cj-bg-case-mate-2{
+  background-color: $bc-case-mate-2 !important;
+}
+.cj-bg-case-mate-3{
+  background-color: $bc-case-mate-3 !important;
+}
+.cj-bg-case-mate-4{
+  background-color: $bc-case-mate-4 !important;
+}
+.cj-bg-charity-water{
+  background-color: $bc-charity-water !important;
+}
+.cj-bg-charity-water-2{
+  background-color: $bc-charity-water-2 !important;
+}
+.cj-bg-charity-water-3{
+  background-color: $bc-charity-water-3 !important;
+}
+.cj-bg-cheddar{
+  background-color: $bc-cheddar !important;
+}
+.cj-bg-coca-cola{
+  background-color: $bc-coca-cola !important;
+}
+.cj-bg-code-school{
+  background-color: $bc-code-school !important;
+}
+.cj-bg-code-school-2{
+  background-color: $bc-code-school-2 !important;
+}
+.cj-bg-codecademy{
+  background-color: $bc-codecademy !important;
+}
+.cj-bg-codecademy-2{
+  background-color: $bc-codecademy-2 !important;
+}
+.cj-bg-creative-market{
+  background-color: $bc-creative-market !important;
+}
+.cj-bg-crunchbase{
+  background-color: $bc-crunchbase !important;
+}
+.cj-bg-cunard{
+  background-color: $bc-cunard !important;
+}
+.cj-bg-cunard-2{
+  background-color: $bc-cunard-2 !important;
+}
+.cj-bg-cunard-3{
+  background-color: $bc-cunard-3 !important;
+}
+.cj-bg-cunard-4{
+  background-color: $bc-cunard-4 !important;
+}
+.cj-bg-daimler{
+  background-color: $bc-daimler !important;
+}
+.cj-bg-daimler-2{
+  background-color: $bc-daimler-2 !important;
+}
+.cj-bg-daimler-3{
+  background-color: $bc-daimler-3 !important;
+}
+.cj-bg-daimler-4{
+  background-color: $bc-daimler-4 !important;
+}
+.cj-bg-daimler-5{
+  background-color: $bc-daimler-5 !important;
+}
+.cj-bg-delectable{
+  background-color: $bc-delectable !important;
+}
+.cj-bg-delectable-2{
+  background-color: $bc-delectable-2 !important;
+}
+.cj-bg-delectable-3{
+  background-color: $bc-delectable-3 !important;
+}
+.cj-bg-delectable-4{
+  background-color: $bc-delectable-4 !important;
+}
+.cj-bg-delectable-5{
+  background-color: $bc-delectable-5 !important;
+}
+.cj-bg-delectable-6{
+  background-color: $bc-delectable-6 !important;
+}
+.cj-bg-delectable-7{
+  background-color: $bc-delectable-7 !important;
+}
+.cj-bg-delicious{
+  background-color: $bc-delicious !important;
+}
+.cj-bg-delicious-2{
+  background-color: $bc-delicious-2 !important;
+}
+.cj-bg-delicious-3{
+  background-color: $bc-delicious-3 !important;
+}
+.cj-bg-dell{
+  background-color: $bc-dell !important;
+}
+.cj-bg-dell-2{
+  background-color: $bc-dell-2 !important;
+}
+.cj-bg-dell-3{
+  background-color: $bc-dell-3 !important;
+}
+.cj-bg-dell-4{
+  background-color: $bc-dell-4 !important;
+}
+.cj-bg-dell-5{
+  background-color: $bc-dell-5 !important;
+}
+.cj-bg-dell-6{
+  background-color: $bc-dell-6 !important;
+}
+.cj-bg-dell-7{
+  background-color: $bc-dell-7 !important;
+}
+.cj-bg-dell-8{
+  background-color: $bc-dell-8 !important;
+}
+.cj-bg-dell-9{
+  background-color: $bc-dell-9 !important;
+}
+.cj-bg-dell-10{
+  background-color: $bc-dell-10 !important;
+}
+.cj-bg-dell-11{
+  background-color: $bc-dell-11 !important;
+}
+.cj-bg-dell-12{
+  background-color: $bc-dell-12 !important;
+}
+.cj-bg-dental-plans{
+  background-color: $bc-dental-plans !important;
+}
+.cj-bg-dental-plans-2{
+  background-color: $bc-dental-plans-2 !important;
+}
+.cj-bg-designer-news{
+  background-color: $bc-designer-news !important;
+}
+.cj-bg-designmoo{
+  background-color: $bc-designmoo !important;
+}
+.cj-bg-designmoo-2{
+  background-color: $bc-designmoo-2 !important;
+}
+.cj-bg-deviantart{
+  background-color: $bc-deviantart !important;
+}
+.cj-bg-deviantart-2{
+  background-color: $bc-deviantart-2 !important;
+}
+.cj-bg-deviantart-3{
+  background-color: $bc-deviantart-3 !important;
+}
+.cj-bg-devour{
+  background-color: $bc-devour !important;
+}
+.cj-bg-dewalt{
+  background-color: $bc-dewalt !important;
+}
+.cj-bg-dhl{
+  background-color: $bc-dhl !important;
+}
+.cj-bg-dhl-2{
+  background-color: $bc-dhl-2 !important;
+}
+.cj-bg-dhl-3{
+  background-color: $bc-dhl-3 !important;
+}
+.cj-bg-digg{
+  background-color: $bc-digg !important;
+}
+.cj-bg-directv{
+  background-color: $bc-directv !important;
+}
+.cj-bg-directv-2{
+  background-color: $bc-directv-2 !important;
+}
+.cj-bg-directv-3{
+  background-color: $bc-directv-3 !important;
+}
+.cj-bg-disqus{
+  background-color: $bc-disqus !important;
+}
+.cj-bg-django{
+  background-color: $bc-django !important;
+}
+.cj-bg-dominos{
+  background-color: $bc-dominos !important;
+}
+.cj-bg-dominos-2{
+  background-color: $bc-dominos-2 !important;
+}
+.cj-bg-dow{
+  background-color: $bc-dow !important;
+}
+.cj-bg-dow-2{
+  background-color: $bc-dow-2 !important;
+}
+.cj-bg-dow-3{
+  background-color: $bc-dow-3 !important;
+}
+.cj-bg-dow-4{
+  background-color: $bc-dow-4 !important;
+}
+.cj-bg-dow-5{
+  background-color: $bc-dow-5 !important;
+}
+.cj-bg-dow-6{
+  background-color: $bc-dow-6 !important;
+}
+.cj-bg-dow-7{
+  background-color: $bc-dow-7 !important;
+}
+.cj-bg-dribbble{
+  background-color: $bc-dribbble !important;
+}
+.cj-bg-dribbble-2{
+  background-color: $bc-dribbble-2 !important;
+}
+.cj-bg-dribbble-3{
+  background-color: $bc-dribbble-3 !important;
+}
+.cj-bg-dribbble-4{
+  background-color: $bc-dribbble-4 !important;
+}
+.cj-bg-dribbble-5{
+  background-color: $bc-dribbble-5 !important;
+}
+.cj-bg-dribbble-6{
+  background-color: $bc-dribbble-6 !important;
+}
+.cj-bg-dropbox{
+  background-color: $bc-dropbox !important;
+}
+.cj-bg-dropbox-2{
+  background-color: $bc-dropbox-2 !important;
+}
+.cj-bg-dropbox-3{
+  background-color: $bc-dropbox-3 !important;
+}
+.cj-bg-dropbox-4{
+  background-color: $bc-dropbox-4 !important;
+}
+.cj-bg-droplr{
+  background-color: $bc-droplr !important;
+}
+.cj-bg-drupal{
+  background-color: $bc-drupal !important;
+}
+.cj-bg-drupal-2{
+  background-color: $bc-drupal-2 !important;
+}
+.cj-bg-drupal-3{
+  background-color: $bc-drupal-3 !important;
+}
+.cj-bg-dunked{
+  background-color: $bc-dunked !important;
+}
+.cj-bg-dunked-2{
+  background-color: $bc-dunked-2 !important;
+}
+.cj-bg-etrade{
+  background-color: $bc-etrade !important;
+}
+.cj-bg-etrade-2{
+  background-color: $bc-etrade-2 !important;
+}
+.cj-bg-easy-jet{
+  background-color: $bc-easy-jet !important;
+}
+.cj-bg-easy-jet-2{
+  background-color: $bc-easy-jet-2 !important;
+}
+.cj-bg-easy-jet-3{
+  background-color: $bc-easy-jet-3 !important;
+}
+.cj-bg-ebay{
+  background-color: $bc-ebay !important;
+}
+.cj-bg-ebay-2{
+  background-color: $bc-ebay-2 !important;
+}
+.cj-bg-ebay-3{
+  background-color: $bc-ebay-3 !important;
+}
+.cj-bg-ebay-4{
+  background-color: $bc-ebay-4 !important;
+}
+.cj-bg-elance{
+  background-color: $bc-elance !important;
+}
+.cj-bg-ello{
+  background-color: $bc-ello !important;
+}
+.cj-bg-ember{
+  background-color: $bc-ember !important;
+}
+.cj-bg-engadget{
+  background-color: $bc-engadget !important;
+}
+.cj-bg-envato{
+  background-color: $bc-envato !important;
+}
+.cj-bg-ericsson{
+  background-color: $bc-ericsson !important;
+}
+.cj-bg-esl{
+  background-color: $bc-esl !important;
+}
+.cj-bg-esl-2{
+  background-color: $bc-esl-2 !important;
+}
+.cj-bg-esl-3{
+  background-color: $bc-esl-3 !important;
+}
+.cj-bg-esl-4{
+  background-color: $bc-esl-4 !important;
+}
+.cj-bg-espn{
+  background-color: $bc-espn !important;
+}
+.cj-bg-etsy{
+  background-color: $bc-etsy !important;
+}
+.cj-bg-evernote{
+  background-color: $bc-evernote !important;
+}
+.cj-bg-evernote-2{
+  background-color: $bc-evernote-2 !important;
+}
+.cj-bg-fab-com{
+  background-color: $bc-fab-com !important;
+}
+.cj-bg-fab-com-2{
+  background-color: $bc-fab-com-2 !important;
+}
+.cj-bg-facebook{
+  background-color: $bc-facebook !important;
+}
+.cj-bg-famo-us{
+  background-color: $bc-famo-us !important;
+}
+.cj-bg-famo-us-2{
+  background-color: $bc-famo-us-2 !important;
+}
+.cj-bg-fancy{
+  background-color: $bc-fancy !important;
+}
+.cj-bg-fancy-2{
+  background-color: $bc-fancy-2 !important;
+}
+.cj-bg-fedex{
+  background-color: $bc-fedex !important;
+}
+.cj-bg-fedex-2{
+  background-color: $bc-fedex-2 !important;
+}
+.cj-bg-fedex-3{
+  background-color: $bc-fedex-3 !important;
+}
+.cj-bg-fedex-4{
+  background-color: $bc-fedex-4 !important;
+}
+.cj-bg-fedex-5{
+  background-color: $bc-fedex-5 !important;
+}
+.cj-bg-fedex-6{
+  background-color: $bc-fedex-6 !important;
+}
+.cj-bg-fedex-7{
+  background-color: $bc-fedex-7 !important;
+}
+.cj-bg-fiat{
+  background-color: $bc-fiat !important;
+}
+.cj-bg-fiat-2{
+  background-color: $bc-fiat-2 !important;
+}
+.cj-bg-firefox{
+  background-color: $bc-firefox !important;
+}
+.cj-bg-firefox-2{
+  background-color: $bc-firefox-2 !important;
+}
+.cj-bg-firefox-3{
+  background-color: $bc-firefox-3 !important;
+}
+.cj-bg-firefox-4{
+  background-color: $bc-firefox-4 !important;
+}
+.cj-bg-firefox-5{
+  background-color: $bc-firefox-5 !important;
+}
+.cj-bg-firefox-6{
+  background-color: $bc-firefox-6 !important;
+}
+.cj-bg-firefox-7{
+  background-color: $bc-firefox-7 !important;
+}
+.cj-bg-fitbit{
+  background-color: $bc-fitbit !important;
+}
+.cj-bg-fitbit-2{
+  background-color: $bc-fitbit-2 !important;
+}
+.cj-bg-fitbit-3{
+  background-color: $bc-fitbit-3 !important;
+}
+.cj-bg-five-guys{
+  background-color: $bc-five-guys !important;
+}
+.cj-bg-five-guys-2{
+  background-color: $bc-five-guys-2 !important;
+}
+.cj-bg-five-guys-3{
+  background-color: $bc-five-guys-3 !important;
+}
+.cj-bg-five-guys-4{
+  background-color: $bc-five-guys-4 !important;
+}
+.cj-bg-flattr{
+  background-color: $bc-flattr !important;
+}
+.cj-bg-flattr-2{
+  background-color: $bc-flattr-2 !important;
+}
+.cj-bg-flavors-me{
+  background-color: $bc-flavors-me !important;
+}
+.cj-bg-flavors-me-2{
+  background-color: $bc-flavors-me-2 !important;
+}
+.cj-bg-flickr{
+  background-color: $bc-flickr !important;
+}
+.cj-bg-flickr-2{
+  background-color: $bc-flickr-2 !important;
+}
+.cj-bg-flipboard{
+  background-color: $bc-flipboard !important;
+}
+.cj-bg-flixster{
+  background-color: $bc-flixster !important;
+}
+.cj-bg-follr{
+  background-color: $bc-follr !important;
+}
+.cj-bg-follr-2{
+  background-color: $bc-follr-2 !important;
+}
+.cj-bg-follr-3{
+  background-color: $bc-follr-3 !important;
+}
+.cj-bg-follr-4{
+  background-color: $bc-follr-4 !important;
+}
+.cj-bg-follr-5{
+  background-color: $bc-follr-5 !important;
+}
+.cj-bg-forrst{
+  background-color: $bc-forrst !important;
+}
+.cj-bg-foursquare{
+  background-color: $bc-foursquare !important;
+}
+.cj-bg-foursquare-2{
+  background-color: $bc-foursquare-2 !important;
+}
+.cj-bg-foursquare-3{
+  background-color: $bc-foursquare-3 !important;
+}
+.cj-bg-garmin{
+  background-color: $bc-garmin !important;
+}
+.cj-bg-geocaching{
+  background-color: $bc-geocaching !important;
+}
+.cj-bg-ghost{
+  background-color: $bc-ghost !important;
+}
+.cj-bg-ghost-2{
+  background-color: $bc-ghost-2 !important;
+}
+.cj-bg-ghost-3{
+  background-color: $bc-ghost-3 !important;
+}
+.cj-bg-ghost-4{
+  background-color: $bc-ghost-4 !important;
+}
+.cj-bg-ghost-5{
+  background-color: $bc-ghost-5 !important;
+}
+.cj-bg-gibson{
+  background-color: $bc-gibson !important;
+}
+.cj-bg-gibson-2{
+  background-color: $bc-gibson-2 !important;
+}
+.cj-bg-gibson-3{
+  background-color: $bc-gibson-3 !important;
+}
+.cj-bg-gibson-4{
+  background-color: $bc-gibson-4 !important;
+}
+.cj-bg-gimmebar{
+  background-color: $bc-gimmebar !important;
+}
+.cj-bg-github{
+  background-color: $bc-github !important;
+}
+.cj-bg-github-2{
+  background-color: $bc-github-2 !important;
+}
+.cj-bg-github-3{
+  background-color: $bc-github-3 !important;
+}
+.cj-bg-github-4{
+  background-color: $bc-github-4 !important;
+}
+.cj-bg-github-5{
+  background-color: $bc-github-5 !important;
+}
+.cj-bg-github-6{
+  background-color: $bc-github-6 !important;
+}
+.cj-bg-github-7{
+  background-color: $bc-github-7 !important;
+}
+.cj-bg-gittip{
+  background-color: $bc-gittip !important;
+}
+.cj-bg-gittip-2{
+  background-color: $bc-gittip-2 !important;
+}
+.cj-bg-godaddy{
+  background-color: $bc-godaddy !important;
+}
+.cj-bg-godaddy-2{
+  background-color: $bc-godaddy-2 !important;
+}
+.cj-bg-goodreads{
+  background-color: $bc-goodreads !important;
+}
+.cj-bg-google{
+  background-color: $bc-google !important;
+}
+.cj-bg-google-2{
+  background-color: $bc-google-2 !important;
+}
+.cj-bg-google-3{
+  background-color: $bc-google-3 !important;
+}
+.cj-bg-google-4{
+  background-color: $bc-google-4 !important;
+}
+.cj-bg-google-5{
+  background-color: $bc-google-5 !important;
+}
+.cj-bg-google-plus{
+  background-color: $bc-google-plus !important;
+}
+.cj-bg-gravatar{
+  background-color: $bc-gravatar !important;
+}
+.cj-bg-groupon{
+  background-color: $bc-groupon !important;
+}
+.cj-bg-hacker-news{
+  background-color: $bc-hacker-news !important;
+}
+.cj-bg-heineken{
+  background-color: $bc-heineken !important;
+}
+.cj-bg-heineken-2{
+  background-color: $bc-heineken-2 !important;
+}
+.cj-bg-heineken-3{
+  background-color: $bc-heineken-3 !important;
+}
+.cj-bg-hellowallet{
+  background-color: $bc-hellowallet !important;
+}
+.cj-bg-heroku{
+  background-color: $bc-heroku !important;
+}
+.cj-bg-heroku-2{
+  background-color: $bc-heroku-2 !important;
+}
+.cj-bg-hi5{
+  background-color: $bc-hi5 !important;
+}
+.cj-bg-home-depot{
+  background-color: $bc-home-depot !important;
+}
+.cj-bg-hootsuite{
+  background-color: $bc-hootsuite !important;
+}
+.cj-bg-hootsuite-2{
+  background-color: $bc-hootsuite-2 !important;
+}
+.cj-bg-hootsuite-3{
+  background-color: $bc-hootsuite-3 !important;
+}
+.cj-bg-hootsuite-4{
+  background-color: $bc-hootsuite-4 !important;
+}
+.cj-bg-hootsuite-5{
+  background-color: $bc-hootsuite-5 !important;
+}
+.cj-bg-hootsuite-6{
+  background-color: $bc-hootsuite-6 !important;
+}
+.cj-bg-hootsuite-7{
+  background-color: $bc-hootsuite-7 !important;
+}
+.cj-bg-houzz{
+  background-color: $bc-houzz !important;
+}
+.cj-bg-houzz-2{
+  background-color: $bc-houzz-2 !important;
+}
+.cj-bg-hp{
+  background-color: $bc-hp !important;
+}
+.cj-bg-hp-2{
+  background-color: $bc-hp-2 !important;
+}
+.cj-bg-hsbc{
+  background-color: $bc-hsbc !important;
+}
+.cj-bg-html5{
+  background-color: $bc-html5 !important;
+}
+.cj-bg-hulu{
+  background-color: $bc-hulu !important;
+}
+.cj-bg-hulu-2{
+  background-color: $bc-hulu-2 !important;
+}
+.cj-bg-ibm{
+  background-color: $bc-ibm !important;
+}
+.cj-bg-identi-ca{
+  background-color: $bc-identi-ca !important;
+}
+.cj-bg-identi-ca-2{
+  background-color: $bc-identi-ca-2 !important;
+}
+.cj-bg-identi-ca-3{
+  background-color: $bc-identi-ca-3 !important;
+}
+.cj-bg-ifttt{
+  background-color: $bc-ifttt !important;
+}
+.cj-bg-ifttt-2{
+  background-color: $bc-ifttt-2 !important;
+}
+.cj-bg-ifttt-3{
+  background-color: $bc-ifttt-3 !important;
+}
+.cj-bg-iheartradio{
+  background-color: $bc-iheartradio !important;
+}
+.cj-bg-ikea{
+  background-color: $bc-ikea !important;
+}
+.cj-bg-ikea-2{
+  background-color: $bc-ikea-2 !important;
+}
+.cj-bg-imdb{
+  background-color: $bc-imdb !important;
+}
+.cj-bg-imgur{
+  background-color: $bc-imgur !important;
+}
+.cj-bg-indiegogo{
+  background-color: $bc-indiegogo !important;
+}
+.cj-bg-instacart{
+  background-color: $bc-instacart !important;
+}
+.cj-bg-instagram{
+  background-color: $bc-instagram !important;
+}
+.cj-bg-instapaper{
+  background-color: $bc-instapaper !important;
+}
+.cj-bg-instapaper-2{
+  background-color: $bc-instapaper-2 !important;
+}
+.cj-bg-intel{
+  background-color: $bc-intel !important;
+}
+.cj-bg-intuit{
+  background-color: $bc-intuit !important;
+}
+.cj-bg-ios{
+  background-color: $bc-ios !important;
+}
+.cj-bg-ios-2{
+  background-color: $bc-ios-2 !important;
+}
+.cj-bg-ios-3{
+  background-color: $bc-ios-3 !important;
+}
+.cj-bg-ios-4{
+  background-color: $bc-ios-4 !important;
+}
+.cj-bg-ios-5{
+  background-color: $bc-ios-5 !important;
+}
+.cj-bg-ios-6{
+  background-color: $bc-ios-6 !important;
+}
+.cj-bg-ios-7{
+  background-color: $bc-ios-7 !important;
+}
+.cj-bg-ios-8{
+  background-color: $bc-ios-8 !important;
+}
+.cj-bg-jawbone{
+  background-color: $bc-jawbone !important;
+}
+.cj-bg-joyent{
+  background-color: $bc-joyent !important;
+}
+.cj-bg-keeeb{
+  background-color: $bc-keeeb !important;
+}
+.cj-bg-khan-academy{
+  background-color: $bc-khan-academy !important;
+}
+.cj-bg-khan-academy-2{
+  background-color: $bc-khan-academy-2 !important;
+}
+.cj-bg-kia{
+  background-color: $bc-kia !important;
+}
+.cj-bg-kickstarter{
+  background-color: $bc-kickstarter !important;
+}
+.cj-bg-kickstarter-2{
+  background-color: $bc-kickstarter-2 !important;
+}
+.cj-bg-kippt{
+  background-color: $bc-kippt !important;
+}
+.cj-bg-kitkat{
+  background-color: $bc-kitkat !important;
+}
+.cj-bg-kiwipay{
+  background-color: $bc-kiwipay !important;
+}
+.cj-bg-laravel{
+  background-color: $bc-laravel !important;
+}
+.cj-bg-lastfm{
+  background-color: $bc-lastfm !important;
+}
+.cj-bg-linkedin{
+  background-color: $bc-linkedin !important;
+}
+.cj-bg-linkedin-2{
+  background-color: $bc-linkedin-2 !important;
+}
+.cj-bg-linkedin-4{
+  background-color: $bc-linkedin-4 !important;
+}
+.cj-bg-linkedin-5{
+  background-color: $bc-linkedin-5 !important;
+}
+.cj-bg-linkedin-6{
+  background-color: $bc-linkedin-6 !important;
+}
+.cj-bg-linkedin-7{
+  background-color: $bc-linkedin-7 !important;
+}
+.cj-bg-linkedin-8{
+  background-color: $bc-linkedin-8 !important;
+}
+.cj-bg-linkedin-9{
+  background-color: $bc-linkedin-9 !important;
+}
+.cj-bg-livestream{
+  background-color: $bc-livestream !important;
+}
+.cj-bg-livestream-2{
+  background-color: $bc-livestream-2 !important;
+}
+.cj-bg-livestream-3{
+  background-color: $bc-livestream-3 !important;
+}
+.cj-bg-livestream-4{
+  background-color: $bc-livestream-4 !important;
+}
+.cj-bg-livestream-5{
+  background-color: $bc-livestream-5 !important;
+}
+.cj-bg-livestream-6{
+  background-color: $bc-livestream-6 !important;
+}
+.cj-bg-livestream-7{
+  background-color: $bc-livestream-7 !important;
+}
+.cj-bg-lloyds{
+  background-color: $bc-lloyds !important;
+}
+.cj-bg-lloyds-2{
+  background-color: $bc-lloyds-2 !important;
+}
+.cj-bg-lloyds-3{
+  background-color: $bc-lloyds-3 !important;
+}
+.cj-bg-lloyds-4{
+  background-color: $bc-lloyds-4 !important;
+}
+.cj-bg-lloyds-5{
+  background-color: $bc-lloyds-5 !important;
+}
+.cj-bg-lloyds-6{
+  background-color: $bc-lloyds-6 !important;
+}
+.cj-bg-lloyds-7{
+  background-color: $bc-lloyds-7 !important;
+}
+.cj-bg-lloyds-8{
+  background-color: $bc-lloyds-8 !important;
+}
+.cj-bg-lloyds-9{
+  background-color: $bc-lloyds-9 !important;
+}
+.cj-bg-lomo{
+  background-color: $bc-lomo !important;
+}
+.cj-bg-lomo-2{
+  background-color: $bc-lomo-2 !important;
+}
+.cj-bg-lumo{
+  background-color: $bc-lumo !important;
+}
+.cj-bg-lyft{
+  background-color: $bc-lyft !important;
+}
+.cj-bg-lyft-2{
+  background-color: $bc-lyft-2 !important;
+}
+.cj-bg-lyft-3{
+  background-color: $bc-lyft-3 !important;
+}
+.cj-bg-lyft-4{
+  background-color: $bc-lyft-4 !important;
+}
+.cj-bg-lyft-5{
+  background-color: $bc-lyft-5 !important;
+}
+.cj-bg-lyft-6{
+  background-color: $bc-lyft-6 !important;
+}
+.cj-bg-lyft-7{
+  background-color: $bc-lyft-7 !important;
+}
+.cj-bg-mailchimp{
+  background-color: $bc-mailchimp !important;
+}
+.cj-bg-mailchimp-2{
+  background-color: $bc-mailchimp-2 !important;
+}
+.cj-bg-mailchimp-3{
+  background-color: $bc-mailchimp-3 !important;
+}
+.cj-bg-mailchimp-4{
+  background-color: $bc-mailchimp-4 !important;
+}
+.cj-bg-mailchimp-5{
+  background-color: $bc-mailchimp-5 !important;
+}
+.cj-bg-massy-group{
+  background-color: $bc-massy-group !important;
+}
+.cj-bg-massy-group-2{
+  background-color: $bc-massy-group-2 !important;
+}
+.cj-bg-massy-group-3{
+  background-color: $bc-massy-group-3 !important;
+}
+.cj-bg-massy-group-4{
+  background-color: $bc-massy-group-4 !important;
+}
+.cj-bg-mastercard{
+  background-color: $bc-mastercard !important;
+}
+.cj-bg-mastercard-2{
+  background-color: $bc-mastercard-2 !important;
+}
+.cj-bg-mastercard-3{
+  background-color: $bc-mastercard-3 !important;
+}
+.cj-bg-meetup{
+  background-color: $bc-meetup !important;
+}
+.cj-bg-microsoft{
+  background-color: $bc-microsoft !important;
+}
+.cj-bg-microsoft-2{
+  background-color: $bc-microsoft-2 !important;
+}
+.cj-bg-microsoft-3{
+  background-color: $bc-microsoft-3 !important;
+}
+.cj-bg-microsoft-4{
+  background-color: $bc-microsoft-4 !important;
+}
+.cj-bg-microsoft-office{
+  background-color: $bc-microsoft-office !important;
+}
+.cj-bg-mixpanel{
+  background-color: $bc-mixpanel !important;
+}
+.cj-bg-motorola{
+  background-color: $bc-motorola !important;
+}
+.cj-bg-muut{
+  background-color: $bc-muut !important;
+}
+.cj-bg-muut-2{
+  background-color: $bc-muut-2 !important;
+}
+.cj-bg-myspace{
+  background-color: $bc-myspace !important;
+}
+.cj-bg-nbc{
+  background-color: $bc-nbc !important;
+}
+.cj-bg-nbc-2{
+  background-color: $bc-nbc-2 !important;
+}
+.cj-bg-nbc-3{
+  background-color: $bc-nbc-3 !important;
+}
+.cj-bg-nbc-4{
+  background-color: $bc-nbc-4 !important;
+}
+.cj-bg-nbc-5{
+  background-color: $bc-nbc-5 !important;
+}
+.cj-bg-nbc-6{
+  background-color: $bc-nbc-6 !important;
+}
+.cj-bg-nbc-7{
+  background-color: $bc-nbc-7 !important;
+}
+.cj-bg-nest{
+  background-color: $bc-nest !important;
+}
+.cj-bg-nest-2{
+  background-color: $bc-nest-2 !important;
+}
+.cj-bg-netflix{
+  background-color: $bc-netflix !important;
+}
+.cj-bg-netflix-2{
+  background-color: $bc-netflix-2 !important;
+}
+.cj-bg-netflix-3{
+  background-color: $bc-netflix-3 !important;
+}
+.cj-bg-netvibes{
+  background-color: $bc-netvibes !important;
+}
+.cj-bg-new-balance{
+  background-color: $bc-new-balance !important;
+}
+.cj-bg-new-balance-2{
+  background-color: $bc-new-balance-2 !important;
+}
+.cj-bg-new-balance-3{
+  background-color: $bc-new-balance-3 !important;
+}
+.cj-bg-new-balance-4{
+  background-color: $bc-new-balance-4 !important;
+}
+.cj-bg-new-balance-5{
+  background-color: $bc-new-balance-5 !important;
+}
+.cj-bg-new-balance-6{
+  background-color: $bc-new-balance-6 !important;
+}
+.cj-bg-new-balance-7{
+  background-color: $bc-new-balance-7 !important;
+}
+.cj-bg-nextdoor{
+  background-color: $bc-nextdoor !important;
+}
+.cj-bg-nike-football{
+  background-color: $bc-nike-football !important;
+}
+.cj-bg-nike-football-2{
+  background-color: $bc-nike-football-2 !important;
+}
+.cj-bg-nikefuel{
+  background-color: $bc-nikefuel !important;
+}
+.cj-bg-nikefuel-2{
+  background-color: $bc-nikefuel-2 !important;
+}
+.cj-bg-nikefuel-3{
+  background-color: $bc-nikefuel-3 !important;
+}
+.cj-bg-nikefuel-4{
+  background-color: $bc-nikefuel-4 !important;
+}
+.cj-bg-nokia{
+  background-color: $bc-nokia !important;
+}
+.cj-bg-novartis{
+  background-color: $bc-novartis !important;
+}
+.cj-bg-novartis-2{
+  background-color: $bc-novartis-2 !important;
+}
+.cj-bg-novartis-3{
+  background-color: $bc-novartis-3 !important;
+}
+.cj-bg-novartis-4{
+  background-color: $bc-novartis-4 !important;
+}
+.cj-bg-novartis-5{
+  background-color: $bc-novartis-5 !important;
+}
+.cj-bg-novartis-6{
+  background-color: $bc-novartis-6 !important;
+}
+.cj-bg-npm{
+  background-color: $bc-npm !important;
+}
+.cj-bg-nvidia{
+  background-color: $bc-nvidia !important;
+}
+.cj-bg-odnoklassniki{
+  background-color: $bc-odnoklassniki !important;
+}
+.cj-bg-opera{
+  background-color: $bc-opera !important;
+}
+.cj-bg-opera-2{
+  background-color: $bc-opera-2 !important;
+}
+.cj-bg-oracle{
+  background-color: $bc-oracle !important;
+}
+.cj-bg-oracle-2{
+  background-color: $bc-oracle-2 !important;
+}
+.cj-bg-oracle-3{
+  background-color: $bc-oracle-3 !important;
+}
+.cj-bg-oxford-university-press{
+  background-color: $bc-oxford-university-press !important;
+}
+.cj-bg-oxford-university-press-2{
+  background-color: $bc-oxford-university-press-2 !important;
+}
+.cj-bg-oxford-university-press-3{
+  background-color: $bc-oxford-university-press-3 !important;
+}
+.cj-bg-panasonic{
+  background-color: $bc-panasonic !important;
+}
+.cj-bg-panasonic-2{
+  background-color: $bc-panasonic-2 !important;
+}
+.cj-bg-pandora{
+  background-color: $bc-pandora !important;
+}
+.cj-bg-path{
+  background-color: $bc-path !important;
+}
+.cj-bg-paymill{
+  background-color: $bc-paymill !important;
+}
+.cj-bg-paypal{
+  background-color: $bc-paypal !important;
+}
+.cj-bg-paypal-2{
+  background-color: $bc-paypal-2 !important;
+}
+.cj-bg-paypal-3{
+  background-color: $bc-paypal-3 !important;
+}
+.cj-bg-pearson{
+  background-color: $bc-pearson !important;
+}
+.cj-bg-pearson-2{
+  background-color: $bc-pearson-2 !important;
+}
+.cj-bg-pearson-3{
+  background-color: $bc-pearson-3 !important;
+}
+.cj-bg-pearson-4{
+  background-color: $bc-pearson-4 !important;
+}
+.cj-bg-penguin-books{
+  background-color: $bc-penguin-books !important;
+}
+.cj-bg-pepsi{
+  background-color: $bc-pepsi !important;
+}
+.cj-bg-pepsi-2{
+  background-color: $bc-pepsi-2 !important;
+}
+.cj-bg-pfizer{
+  background-color: $bc-pfizer !important;
+}
+.cj-bg-pfizer-2{
+  background-color: $bc-pfizer-2 !important;
+}
+.cj-bg-pfizer-3{
+  background-color: $bc-pfizer-3 !important;
+}
+.cj-bg-pfizer-4{
+  background-color: $bc-pfizer-4 !important;
+}
+.cj-bg-pfizer-5{
+  background-color: $bc-pfizer-5 !important;
+}
+.cj-bg-pfizer-6{
+  background-color: $bc-pfizer-6 !important;
+}
+.cj-bg-pfizer-7{
+  background-color: $bc-pfizer-7 !important;
+}
+.cj-bg-pfizer-8{
+  background-color: $bc-pfizer-8 !important;
+}
+.cj-bg-pfizer-9{
+  background-color: $bc-pfizer-9 !important;
+}
+.cj-bg-pfizer-10{
+  background-color: $bc-pfizer-10 !important;
+}
+.cj-bg-pfizer-11{
+  background-color: $bc-pfizer-11 !important;
+}
+.cj-bg-pfizer-12{
+  background-color: $bc-pfizer-12 !important;
+}
+.cj-bg-pfizer-13{
+  background-color: $bc-pfizer-13 !important;
+}
+.cj-bg-philips{
+  background-color: $bc-philips !important;
+}
+.cj-bg-photobucket{
+  background-color: $bc-photobucket !important;
+}
+.cj-bg-photobucket-2{
+  background-color: $bc-photobucket-2 !important;
+}
+.cj-bg-pinboard{
+  background-color: $bc-pinboard !important;
+}
+.cj-bg-pinterest{
+  background-color: $bc-pinterest !important;
+}
+.cj-bg-pizza-hut{
+  background-color: $bc-pizza-hut !important;
+}
+.cj-bg-pizza-hut-2{
+  background-color: $bc-pizza-hut-2 !important;
+}
+.cj-bg-pizza-hut-3{
+  background-color: $bc-pizza-hut-3 !important;
+}
+.cj-bg-plasso{
+  background-color: $bc-plasso !important;
+}
+.cj-bg-plasso-2{
+  background-color: $bc-plasso-2 !important;
+}
+.cj-bg-plasso-3{
+  background-color: $bc-plasso-3 !important;
+}
+.cj-bg-plasso-4{
+  background-color: $bc-plasso-4 !important;
+}
+.cj-bg-plaxo{
+  background-color: $bc-plaxo !important;
+}
+.cj-bg-playstation{
+  background-color: $bc-playstation !important;
+}
+.cj-bg-pocket{
+  background-color: $bc-pocket !important;
+}
+.cj-bg-pocket-2{
+  background-color: $bc-pocket-2 !important;
+}
+.cj-bg-portfolium{
+  background-color: $bc-portfolium !important;
+}
+.cj-bg-portfolium-2{
+  background-color: $bc-portfolium-2 !important;
+}
+.cj-bg-portfolium-3{
+  background-color: $bc-portfolium-3 !important;
+}
+.cj-bg-portfolium-4{
+  background-color: $bc-portfolium-4 !important;
+}
+.cj-bg-postmates{
+  background-color: $bc-postmates !important;
+}
+.cj-bg-postmates-2{
+  background-color: $bc-postmates-2 !important;
+}
+.cj-bg-prezi{
+  background-color: $bc-prezi !important;
+}
+.cj-bg-priceline{
+  background-color: $bc-priceline !important;
+}
+.cj-bg-product-hunt{
+  background-color: $bc-product-hunt !important;
+}
+.cj-bg-product-hunt-2{
+  background-color: $bc-product-hunt-2 !important;
+}
+.cj-bg-product-hunt-3{
+  background-color: $bc-product-hunt-3 !important;
+}
+.cj-bg-product-hunt-4{
+  background-color: $bc-product-hunt-4 !important;
+}
+.cj-bg-quora{
+  background-color: $bc-quora !important;
+}
+.cj-bg-quote-fm{
+  background-color: $bc-quote-fm !important;
+}
+.cj-bg-razer{
+  background-color: $bc-razer !important;
+}
+.cj-bg-rdio{
+  background-color: $bc-rdio !important;
+}
+.cj-bg-readability{
+  background-color: $bc-readability !important;
+}
+.cj-bg-red-hat{
+  background-color: $bc-red-hat !important;
+}
+.cj-bg-reddit{
+  background-color: $bc-reddit !important;
+}
+.cj-bg-reddit-2{
+  background-color: $bc-reddit-2 !important;
+}
+.cj-bg-reddit-3{
+  background-color: $bc-reddit-3 !important;
+}
+.cj-bg-redfin{
+  background-color: $bc-redfin !important;
+}
+.cj-bg-reverbnation{
+  background-color: $bc-reverbnation !important;
+}
+.cj-bg-rockpack{
+  background-color: $bc-rockpack !important;
+}
+.cj-bg-roku{
+  background-color: $bc-roku !important;
+}
+.cj-bg-rolls-royce{
+  background-color: $bc-rolls-royce !important;
+}
+.cj-bg-rolls-royce-2{
+  background-color: $bc-rolls-royce-2 !important;
+}
+.cj-bg-rolls-royce-3{
+  background-color: $bc-rolls-royce-3 !important;
+}
+.cj-bg-rolls-royce-4{
+  background-color: $bc-rolls-royce-4 !important;
+}
+.cj-bg-roo-kids{
+  background-color: $bc-roo-kids !important;
+}
+.cj-bg-roo-kids-2{
+  background-color: $bc-roo-kids-2 !important;
+}
+.cj-bg-roo-kids-3{
+  background-color: $bc-roo-kids-3 !important;
+}
+.cj-bg-roon{
+  background-color: $bc-roon !important;
+}
+.cj-bg-rounds{
+  background-color: $bc-rounds !important;
+}
+.cj-bg-rss-2{
+  background-color: $bc-rss-2 !important;
+}
+.cj-bg-sainsburys{
+  background-color: $bc-sainsburys !important;
+}
+.cj-bg-salesforce{
+  background-color: $bc-salesforce !important;
+}
+.cj-bg-salesforce-2{
+  background-color: $bc-salesforce-2 !important;
+}
+.cj-bg-samsung{
+  background-color: $bc-samsung !important;
+}
+.cj-bg-samsung-2{
+  background-color: $bc-samsung-2 !important;
+}
+.cj-bg-samsung-3{
+  background-color: $bc-samsung-3 !important;
+}
+.cj-bg-samsung-4{
+  background-color: $bc-samsung-4 !important;
+}
+.cj-bg-samsung-5{
+  background-color: $bc-samsung-5 !important;
+}
+.cj-bg-samsung-6{
+  background-color: $bc-samsung-6 !important;
+}
+.cj-bg-samsung-7{
+  background-color: $bc-samsung-7 !important;
+}
+.cj-bg-samsung-8{
+  background-color: $bc-samsung-8 !important;
+}
+.cj-bg-samsung-9{
+  background-color: $bc-samsung-9 !important;
+}
+.cj-bg-samsung-10{
+  background-color: $bc-samsung-10 !important;
+}
+.cj-bg-samsung-11{
+  background-color: $bc-samsung-11 !important;
+}
+.cj-bg-samsung-12{
+  background-color: $bc-samsung-12 !important;
+}
+.cj-bg-sap{
+  background-color: $bc-sap !important;
+}
+.cj-bg-sap-2{
+  background-color: $bc-sap-2 !important;
+}
+.cj-bg-scribd{
+  background-color: $bc-scribd !important;
+}
+.cj-bg-sherwin-williams{
+  background-color: $bc-sherwin-williams !important;
+}
+.cj-bg-sherwin-williams-2{
+  background-color: $bc-sherwin-williams-2 !important;
+}
+.cj-bg-shopify{
+  background-color: $bc-shopify !important;
+}
+.cj-bg-shopify-2{
+  background-color: $bc-shopify-2 !important;
+}
+.cj-bg-shopify-3{
+  background-color: $bc-shopify-3 !important;
+}
+.cj-bg-shopify-4{
+  background-color: $bc-shopify-4 !important;
+}
+.cj-bg-shopify-5{
+  background-color: $bc-shopify-5 !important;
+}
+.cj-bg-shopify-6{
+  background-color: $bc-shopify-6 !important;
+}
+.cj-bg-skype{
+  background-color: $bc-skype !important;
+}
+.cj-bg-slack{
+  background-color: $bc-slack !important;
+}
+.cj-bg-slack-2{
+  background-color: $bc-slack-2 !important;
+}
+.cj-bg-slack-3{
+  background-color: $bc-slack-3 !important;
+}
+.cj-bg-slack-4{
+  background-color: $bc-slack-4 !important;
+}
+.cj-bg-smashing-magazine{
+  background-color: $bc-smashing-magazine !important;
+}
+.cj-bg-smashing-magazine-2{
+  background-color: $bc-smashing-magazine-2 !important;
+}
+.cj-bg-snagajob{
+  background-color: $bc-snagajob !important;
+}
+.cj-bg-socialbro{
+  background-color: $bc-socialbro !important;
+}
+.cj-bg-socialbro-2{
+  background-color: $bc-socialbro-2 !important;
+}
+.cj-bg-socialbro-3{
+  background-color: $bc-socialbro-3 !important;
+}
+.cj-bg-socialbro-4{
+  background-color: $bc-socialbro-4 !important;
+}
+.cj-bg-socialbro-5{
+  background-color: $bc-socialbro-5 !important;
+}
+.cj-bg-socialbro-6{
+  background-color: $bc-socialbro-6 !important;
+}
+.cj-bg-softonic{
+  background-color: $bc-softonic !important;
+}
+.cj-bg-songkick{
+  background-color: $bc-songkick !important;
+}
+.cj-bg-sonicbids{
+  background-color: $bc-sonicbids !important;
+}
+.cj-bg-sonicbids-2{
+  background-color: $bc-sonicbids-2 !important;
+}
+.cj-bg-soundcloud{
+  background-color: $bc-soundcloud !important;
+}
+.cj-bg-soundcloud-2{
+  background-color: $bc-soundcloud-2 !important;
+}
+.cj-bg-spotify{
+  background-color: $bc-spotify !important;
+}
+.cj-bg-sprint{
+  background-color: $bc-sprint !important;
+}
+.cj-bg-square-cash{
+  background-color: $bc-square-cash !important;
+}
+.cj-bg-squarespace{
+  background-color: $bc-squarespace !important;
+}
+.cj-bg-stackoverflow{
+  background-color: $bc-stackoverflow !important;
+}
+.cj-bg-staples{
+  background-color: $bc-staples !important;
+}
+.cj-bg-staples-2{
+  background-color: $bc-staples-2 !important;
+}
+.cj-bg-staples-3{
+  background-color: $bc-staples-3 !important;
+}
+.cj-bg-starbucks{
+  background-color: $bc-starbucks !important;
+}
+.cj-bg-starbucks-2{
+  background-color: $bc-starbucks-2 !important;
+}
+.cj-bg-status-chart{
+  background-color: $bc-status-chart !important;
+}
+.cj-bg-sterling-hotels{
+  background-color: $bc-sterling-hotels !important;
+}
+.cj-bg-sterling-hotels-2{
+  background-color: $bc-sterling-hotels-2 !important;
+}
+.cj-bg-sterling-hotels-3{
+  background-color: $bc-sterling-hotels-3 !important;
+}
+.cj-bg-sterling-hotels-4{
+  background-color: $bc-sterling-hotels-4 !important;
+}
+.cj-bg-sterling-hotels-5{
+  background-color: $bc-sterling-hotels-5 !important;
+}
+.cj-bg-sterling-hotels-6{
+  background-color: $bc-sterling-hotels-6 !important;
+}
+.cj-bg-sterling-hotels-7{
+  background-color: $bc-sterling-hotels-7 !important;
+}
+.cj-bg-storyful{
+  background-color: $bc-storyful !important;
+}
+.cj-bg-storyful-2{
+  background-color: $bc-storyful-2 !important;
+}
+.cj-bg-storyful-3{
+  background-color: $bc-storyful-3 !important;
+}
+.cj-bg-storyful-4{
+  background-color: $bc-storyful-4 !important;
+}
+.cj-bg-strava{
+  background-color: $bc-strava !important;
+}
+.cj-bg-stripe{
+  background-color: $bc-stripe !important;
+}
+.cj-bg-studyblue{
+  background-color: $bc-studyblue !important;
+}
+.cj-bg-stumbleupon{
+  background-color: $bc-stumbleupon !important;
+}
+.cj-bg-subway-2{
+  background-color: $bc-subway-2 !important;
+}
+.cj-bg-subway-2-2{
+  background-color: $bc-subway-2-2 !important;
+}
+.cj-bg-subway{
+  background-color: $bc-subway !important;
+}
+.cj-bg-subway-2{
+  background-color: $bc-subway-2 !important;
+}
+.cj-bg-subway-3{
+  background-color: $bc-subway-3 !important;
+}
+.cj-bg-sugarcrm{
+  background-color: $bc-sugarcrm !important;
+}
+.cj-bg-sugarcrm-2{
+  background-color: $bc-sugarcrm-2 !important;
+}
+.cj-bg-sugarcrm-3{
+  background-color: $bc-sugarcrm-3 !important;
+}
+.cj-bg-sugarcrm-4{
+  background-color: $bc-sugarcrm-4 !important;
+}
+.cj-bg-swarm{
+  background-color: $bc-swarm !important;
+}
+.cj-bg-swarm-2{
+  background-color: $bc-swarm-2 !important;
+}
+.cj-bg-t-mobile{
+  background-color: $bc-t-mobile !important;
+}
+.cj-bg-tagstr{
+  background-color: $bc-tagstr !important;
+}
+.cj-bg-tagstr-2{
+  background-color: $bc-tagstr-2 !important;
+}
+.cj-bg-technorati{
+  background-color: $bc-technorati !important;
+}
+.cj-bg-tesla{
+  background-color: $bc-tesla !important;
+}
+.cj-bg-the-audience-awards{
+  background-color: $bc-the-audience-awards !important;
+}
+.cj-bg-the-audience-awards-2{
+  background-color: $bc-the-audience-awards-2 !important;
+}
+.cj-bg-the-audience-awards-3{
+  background-color: $bc-the-audience-awards-3 !important;
+}
+.cj-bg-the-next-web{
+  background-color: $bc-the-next-web !important;
+}
+.cj-bg-the-next-web-2{
+  background-color: $bc-the-next-web-2 !important;
+}
+.cj-bg-the-next-web-3{
+  background-color: $bc-the-next-web-3 !important;
+}
+.cj-bg-the-next-web-4{
+  background-color: $bc-the-next-web-4 !important;
+}
+.cj-bg-the-next-web-5{
+  background-color: $bc-the-next-web-5 !important;
+}
+.cj-bg-the-next-web-6{
+  background-color: $bc-the-next-web-6 !important;
+}
+.cj-bg-thomson-reuters{
+  background-color: $bc-thomson-reuters !important;
+}
+.cj-bg-thomson-reuters-2{
+  background-color: $bc-thomson-reuters-2 !important;
+}
+.cj-bg-thomson-reuters-3{
+  background-color: $bc-thomson-reuters-3 !important;
+}
+.cj-bg-thomson-reuters-4{
+  background-color: $bc-thomson-reuters-4 !important;
+}
+.cj-bg-thomson-reuters-5{
+  background-color: $bc-thomson-reuters-5 !important;
+}
+.cj-bg-thomson-reuters-6{
+  background-color: $bc-thomson-reuters-6 !important;
+}
+.cj-bg-thomson-reuters-7{
+  background-color: $bc-thomson-reuters-7 !important;
+}
+.cj-bg-tivo{
+  background-color: $bc-tivo !important;
+}
+.cj-bg-tivo-2{
+  background-color: $bc-tivo-2 !important;
+}
+.cj-bg-tivo-3{
+  background-color: $bc-tivo-3 !important;
+}
+.cj-bg-tivo-4{
+  background-color: $bc-tivo-4 !important;
+}
+.cj-bg-tivo-5{
+  background-color: $bc-tivo-5 !important;
+}
+.cj-bg-tivo-6{
+  background-color: $bc-tivo-6 !important;
+}
+.cj-bg-tivo-7{
+  background-color: $bc-tivo-7 !important;
+}
+.cj-bg-treehouse{
+  background-color: $bc-treehouse !important;
+}
+.cj-bg-treehouse-2{
+  background-color: $bc-treehouse-2 !important;
+}
+.cj-bg-trello{
+  background-color: $bc-trello !important;
+}
+.cj-bg-trello-2{
+  background-color: $bc-trello-2 !important;
+}
+.cj-bg-trello-3{
+  background-color: $bc-trello-3 !important;
+}
+.cj-bg-trello-4{
+  background-color: $bc-trello-4 !important;
+}
+.cj-bg-trello-5{
+  background-color: $bc-trello-5 !important;
+}
+.cj-bg-trello-6{
+  background-color: $bc-trello-6 !important;
+}
+.cj-bg-trello-7{
+  background-color: $bc-trello-7 !important;
+}
+.cj-bg-trello-8{
+  background-color: $bc-trello-8 !important;
+}
+.cj-bg-trello-9{
+  background-color: $bc-trello-9 !important;
+}
+.cj-bg-trello-10{
+  background-color: $bc-trello-10 !important;
+}
+.cj-bg-tripadvisor{
+  background-color: $bc-tripadvisor !important;
+}
+.cj-bg-trulia{
+  background-color: $bc-trulia !important;
+}
+.cj-bg-tumblr{
+  background-color: $bc-tumblr !important;
+}
+.cj-bg-tunngle{
+  background-color: $bc-tunngle !important;
+}
+.cj-bg-tvtag{
+  background-color: $bc-tvtag !important;
+}
+.cj-bg-twitch-tv{
+  background-color: $bc-twitch-tv !important;
+}
+.cj-bg-twitter{
+  background-color: $bc-twitter !important;
+}
+.cj-bg-typekit{
+  background-color: $bc-typekit !important;
+}
+.cj-bg-typepad{
+  background-color: $bc-typepad !important;
+}
+.cj-bg-typo3{
+  background-color: $bc-typo3 !important;
+}
+.cj-bg-ubuntu{
+  background-color: $bc-ubuntu !important;
+}
+.cj-bg-ubuntu-2{
+  background-color: $bc-ubuntu-2 !important;
+}
+.cj-bg-ubuntu-3{
+  background-color: $bc-ubuntu-3 !important;
+}
+.cj-bg-ubuntu-4{
+  background-color: $bc-ubuntu-4 !important;
+}
+.cj-bg-ubuntu-5{
+  background-color: $bc-ubuntu-5 !important;
+}
+.cj-bg-ubuntu-6{
+  background-color: $bc-ubuntu-6 !important;
+}
+.cj-bg-united-way{
+  background-color: $bc-united-way !important;
+}
+.cj-bg-united-way-2{
+  background-color: $bc-united-way-2 !important;
+}
+.cj-bg-united-way-3{
+  background-color: $bc-united-way-3 !important;
+}
+.cj-bg-united-way-4{
+  background-color: $bc-united-way-4 !important;
+}
+.cj-bg-united-way-5{
+  background-color: $bc-united-way-5 !important;
+}
+.cj-bg-united-way-6{
+  background-color: $bc-united-way-6 !important;
+}
+.cj-bg-united-way-7{
+  background-color: $bc-united-way-7 !important;
+}
+.cj-bg-united-way-8{
+  background-color: $bc-united-way-8 !important;
+}
+.cj-bg-united-way-9{
+  background-color: $bc-united-way-9 !important;
+}
+.cj-bg-united-way-10{
+  background-color: $bc-united-way-10 !important;
+}
+.cj-bg-united-way-11{
+  background-color: $bc-united-way-11 !important;
+}
+.cj-bg-united-way-12{
+  background-color: $bc-united-way-12 !important;
+}
+.cj-bg-united-way-13{
+  background-color: $bc-united-way-13 !important;
+}
+.cj-bg-unity{
+  background-color: $bc-unity !important;
+}
+.cj-bg-unity-2{
+  background-color: $bc-unity-2 !important;
+}
+.cj-bg-unity-3{
+  background-color: $bc-unity-3 !important;
+}
+.cj-bg-unity-4{
+  background-color: $bc-unity-4 !important;
+}
+.cj-bg-unity-5{
+  background-color: $bc-unity-5 !important;
+}
+.cj-bg-unity-6{
+  background-color: $bc-unity-6 !important;
+}
+.cj-bg-unity-7{
+  background-color: $bc-unity-7 !important;
+}
+.cj-bg-university-of-oregon{
+  background-color: $bc-university-of-oregon !important;
+}
+.cj-bg-university-of-oregon-2{
+  background-color: $bc-university-of-oregon-2 !important;
+}
+.cj-bg-univision{
+  background-color: $bc-univision !important;
+}
+.cj-bg-ustream{
+  background-color: $bc-ustream !important;
+}
+.cj-bg-verizon{
+  background-color: $bc-verizon !important;
+}
+.cj-bg-verizon-2{
+  background-color: $bc-verizon-2 !important;
+}
+.cj-bg-verizon-3{
+  background-color: $bc-verizon-3 !important;
+}
+.cj-bg-viadeo{
+  background-color: $bc-viadeo !important;
+}
+.cj-bg-viki{
+  background-color: $bc-viki !important;
+}
+.cj-bg-viki-2{
+  background-color: $bc-viki-2 !important;
+}
+.cj-bg-vimeo{
+  background-color: $bc-vimeo !important;
+}
+.cj-bg-vimeo-2{
+  background-color: $bc-vimeo-2 !important;
+}
+.cj-bg-vine{
+  background-color: $bc-vine !important;
+}
+.cj-bg-virb{
+  background-color: $bc-virb !important;
+}
+.cj-bg-virgin-media{
+  background-color: $bc-virgin-media !important;
+}
+.cj-bg-virgin-media-2{
+  background-color: $bc-virgin-media-2 !important;
+}
+.cj-bg-vkontakte{
+  background-color: $bc-vkontakte !important;
+}
+.cj-bg-volvo{
+  background-color: $bc-volvo !important;
+}
+.cj-bg-volvo-2{
+  background-color: $bc-volvo-2 !important;
+}
+.cj-bg-volvo-3{
+  background-color: $bc-volvo-3 !important;
+}
+.cj-bg-volvo-4{
+  background-color: $bc-volvo-4 !important;
+}
+.cj-bg-volvo-5{
+  background-color: $bc-volvo-5 !important;
+}
+.cj-bg-volvo-6{
+  background-color: $bc-volvo-6 !important;
+}
+.cj-bg-walgreens{
+  background-color: $bc-walgreens !important;
+}
+.cj-bg-walgreens-2{
+  background-color: $bc-walgreens-2 !important;
+}
+.cj-bg-walgreens-3{
+  background-color: $bc-walgreens-3 !important;
+}
+.cj-bg-walgreens-4{
+  background-color: $bc-walgreens-4 !important;
+}
+.cj-bg-walgreens-5{
+  background-color: $bc-walgreens-5 !important;
+}
+.cj-bg-walmart{
+  background-color: $bc-walmart !important;
+}
+.cj-bg-walmart-2{
+  background-color: $bc-walmart-2 !important;
+}
+.cj-bg-walmart-3{
+  background-color: $bc-walmart-3 !important;
+}
+.cj-bg-walmart-4{
+  background-color: $bc-walmart-4 !important;
+}
+.cj-bg-walmart-5{
+  background-color: $bc-walmart-5 !important;
+}
+.cj-bg-walmart-6{
+  background-color: $bc-walmart-6 !important;
+}
+.cj-bg-walmart-7{
+  background-color: $bc-walmart-7 !important;
+}
+.cj-bg-wechat{
+  background-color: $bc-wechat !important;
+}
+.cj-bg-wendys{
+  background-color: $bc-wendys !important;
+}
+.cj-bg-wendys-2{
+  background-color: $bc-wendys-2 !important;
+}
+.cj-bg-western-digital{
+  background-color: $bc-western-digital !important;
+}
+.cj-bg-western-digital-2{
+  background-color: $bc-western-digital-2 !important;
+}
+.cj-bg-western-digital-3{
+  background-color: $bc-western-digital-3 !important;
+}
+.cj-bg-western-digital-4{
+  background-color: $bc-western-digital-4 !important;
+}
+.cj-bg-western-digital-5{
+  background-color: $bc-western-digital-5 !important;
+}
+.cj-bg-western-digital-6{
+  background-color: $bc-western-digital-6 !important;
+}
+.cj-bg-whatsapp{
+  background-color: $bc-whatsapp !important;
+}
+.cj-bg-windows{
+  background-color: $bc-windows !important;
+}
+.cj-bg-windows-phone{
+  background-color: $bc-windows-phone !important;
+}
+.cj-bg-wooga{
+  background-color: $bc-wooga !important;
+}
+.cj-bg-wordpress{
+  background-color: $bc-wordpress !important;
+}
+.cj-bg-wordpress-2{
+  background-color: $bc-wordpress-2 !important;
+}
+.cj-bg-wordpress-3{
+  background-color: $bc-wordpress-3 !important;
+}
+.cj-bg-wordpress-com{
+  background-color: $bc-wordpress-com !important;
+}
+.cj-bg-wordpress-com-2{
+  background-color: $bc-wordpress-com-2 !important;
+}
+.cj-bg-wordpress-com-3{
+  background-color: $bc-wordpress-com-3 !important;
+}
+.cj-bg-wordpress-com-4{
+  background-color: $bc-wordpress-com-4 !important;
+}
+.cj-bg-wordpress-com-5{
+  background-color: $bc-wordpress-com-5 !important;
+}
+.cj-bg-wordpress-com-6{
+  background-color: $bc-wordpress-com-6 !important;
+}
+.cj-bg-wordpress-com-7{
+  background-color: $bc-wordpress-com-7 !important;
+}
+.cj-bg-wordpress-com-8{
+  background-color: $bc-wordpress-com-8 !important;
+}
+.cj-bg-wordpress-com-9{
+  background-color: $bc-wordpress-com-9 !important;
+}
+.cj-bg-wordpress-com-10{
+  background-color: $bc-wordpress-com-10 !important;
+}
+.cj-bg-wordpress-com-11{
+  background-color: $bc-wordpress-com-11 !important;
+}
+.cj-bg-wordpress-com-12{
+  background-color: $bc-wordpress-com-12 !important;
+}
+.cj-bg-wordpress-com-13{
+  background-color: $bc-wordpress-com-13 !important;
+}
+.cj-bg-wordpress-com-14{
+  background-color: $bc-wordpress-com-14 !important;
+}
+.cj-bg-wordpress-com-15{
+  background-color: $bc-wordpress-com-15 !important;
+}
+.cj-bg-wordpress-com-16{
+  background-color: $bc-wordpress-com-16 !important;
+}
+.cj-bg-wordpress-com-17{
+  background-color: $bc-wordpress-com-17 !important;
+}
+.cj-bg-wordpress-com-18{
+  background-color: $bc-wordpress-com-18 !important;
+}
+.cj-bg-worldline{
+  background-color: $bc-worldline !important;
+}
+.cj-bg-wunderlist{
+  background-color: $bc-wunderlist !important;
+}
+.cj-bg-xbox{
+  background-color: $bc-xbox !important;
+}
+.cj-bg-xing{
+  background-color: $bc-xing !important;
+}
+.cj-bg-xing-2{
+  background-color: $bc-xing-2 !important;
+}
+.cj-bg-yahoo{
+  background-color: $bc-yahoo !important;
+}
+.cj-bg-yandex{
+  background-color: $bc-yandex !important;
+}
+.cj-bg-yelp{
+  background-color: $bc-yelp !important;
+}
+.cj-bg-yo{
+  background-color: $bc-yo !important;
+}
+.cj-bg-yo-2{
+  background-color: $bc-yo-2 !important;
+}
+.cj-bg-yo-3{
+  background-color: $bc-yo-3 !important;
+}
+.cj-bg-yo-4{
+  background-color: $bc-yo-4 !important;
+}
+.cj-bg-yo-5{
+  background-color: $bc-yo-5 !important;
+}
+.cj-bg-yo-6{
+  background-color: $bc-yo-6 !important;
+}
+.cj-bg-yo-7{
+  background-color: $bc-yo-7 !important;
+}
+.cj-bg-yo-8{
+  background-color: $bc-yo-8 !important;
+}
+.cj-bg-yo-9{
+  background-color: $bc-yo-9 !important;
+}
+.cj-bg-yo-10{
+  background-color: $bc-yo-10 !important;
+}
+.cj-bg-youtube{
+  background-color: $bc-youtube !important;
+}
+.cj-bg-zendesk{
+  background-color: $bc-zendesk !important;
+}
+.cj-bg-zendesk-2{
+  background-color: $bc-zendesk-2 !important;
+}
+.cj-bg-zendesk-3{
+  background-color: $bc-zendesk-3 !important;
+}
+.cj-bg-zerply{
+  background-color: $bc-zerply !important;
+}
+.cj-bg-zillow{
+  background-color: $bc-zillow !important;
+}
+.cj-bg-zopim{
+  background-color: $bc-zopim !important;
+}
+
+.cj-color-4ormat{
+  color: $bc-4ormat !important;
+}
+.cj-color-500px{
+  color: $bc-500px !important;
+}
+.cj-color-500px-2{
+  color: $bc-500px-2 !important;
+}
+.cj-color-500px-3{
+  color: $bc-500px-3 !important;
+}
+.cj-color-about-me{
+  color: $bc-about-me !important;
+}
+.cj-color-about-me-2{
+  color: $bc-about-me-2 !important;
+}
+.cj-color-about-me-3{
+  color: $bc-about-me-3 !important;
+}
+.cj-color-about-me-4{
+  color: $bc-about-me-4 !important;
+}
+.cj-color-about-me-5{
+  color: $bc-about-me-5 !important;
+}
+.cj-color-addvocate{
+  color: $bc-addvocate !important;
+}
+.cj-color-adobe{
+  color: $bc-adobe !important;
+}
+.cj-color-adobe-2{
+  color: $bc-adobe-2 !important;
+}
+.cj-color-adobe-3{
+  color: $bc-adobe-3 !important;
+}
+.cj-color-adobe-4{
+  color: $bc-adobe-4 !important;
+}
+.cj-color-adobe-5{
+  color: $bc-adobe-5 !important;
+}
+.cj-color-adobe-6{
+  color: $bc-adobe-6 !important;
+}
+.cj-color-adobe-7{
+  color: $bc-adobe-7 !important;
+}
+.cj-color-aetna{
+  color: $bc-aetna !important;
+}
+.cj-color-aetna-2{
+  color: $bc-aetna-2 !important;
+}
+.cj-color-aetna-3{
+  color: $bc-aetna-3 !important;
+}
+.cj-color-aetna-4{
+  color: $bc-aetna-4 !important;
+}
+.cj-color-aetna-5{
+  color: $bc-aetna-5 !important;
+}
+.cj-color-aetna-6{
+  color: $bc-aetna-6 !important;
+}
+.cj-color-aim{
+  color: $bc-aim !important;
+}
+.cj-color-airbnb{
+  color: $bc-airbnb !important;
+}
+.cj-color-alcon{
+  color: $bc-alcon !important;
+}
+.cj-color-alcon-2{
+  color: $bc-alcon-2 !important;
+}
+.cj-color-alcon-3{
+  color: $bc-alcon-3 !important;
+}
+.cj-color-alcon-4{
+  color: $bc-alcon-4 !important;
+}
+.cj-color-alienware{
+  color: $bc-alienware !important;
+}
+.cj-color-alienware-2{
+  color: $bc-alienware-2 !important;
+}
+.cj-color-alienware-3{
+  color: $bc-alienware-3 !important;
+}
+.cj-color-alienware-4{
+  color: $bc-alienware-4 !important;
+}
+.cj-color-alienware-5{
+  color: $bc-alienware-5 !important;
+}
+.cj-color-alienware-6{
+  color: $bc-alienware-6 !important;
+}
+.cj-color-alienware-7{
+  color: $bc-alienware-7 !important;
+}
+.cj-color-alienware-8{
+  color: $bc-alienware-8 !important;
+}
+.cj-color-alienware-9{
+  color: $bc-alienware-9 !important;
+}
+.cj-color-amazon{
+  color: $bc-amazon !important;
+}
+.cj-color-amazon-2{
+  color: $bc-amazon-2 !important;
+}
+.cj-color-american-red-cross{
+  color: $bc-american-red-cross !important;
+}
+.cj-color-american-red-cross-2{
+  color: $bc-american-red-cross-2 !important;
+}
+.cj-color-american-red-cross-3{
+  color: $bc-american-red-cross-3 !important;
+}
+.cj-color-american-red-cross-4{
+  color: $bc-american-red-cross-4 !important;
+}
+.cj-color-american-red-cross-5{
+  color: $bc-american-red-cross-5 !important;
+}
+.cj-color-american-red-cross-6{
+  color: $bc-american-red-cross-6 !important;
+}
+.cj-color-american-red-cross-7{
+  color: $bc-american-red-cross-7 !important;
+}
+.cj-color-american-red-cross-8{
+  color: $bc-american-red-cross-8 !important;
+}
+.cj-color-american-red-cross-9{
+  color: $bc-american-red-cross-9 !important;
+}
+.cj-color-american-red-cross-10{
+  color: $bc-american-red-cross-10 !important;
+}
+.cj-color-american-red-cross-11{
+  color: $bc-american-red-cross-11 !important;
+}
+.cj-color-american-red-cross-12{
+  color: $bc-american-red-cross-12 !important;
+}
+.cj-color-american-red-cross-13{
+  color: $bc-american-red-cross-13 !important;
+}
+.cj-color-american-red-cross-14{
+  color: $bc-american-red-cross-14 !important;
+}
+.cj-color-american-red-cross-15{
+  color: $bc-american-red-cross-15 !important;
+}
+.cj-color-android{
+  color: $bc-android !important;
+}
+.cj-color-angies-list{
+  color: $bc-angies-list !important;
+}
+.cj-color-answers{
+  color: $bc-answers !important;
+}
+.cj-color-answers-2{
+  color: $bc-answers-2 !important;
+}
+.cj-color-aol{
+  color: $bc-aol !important;
+}
+.cj-color-aol-2{
+  color: $bc-aol-2 !important;
+}
+.cj-color-arch-linux{
+  color: $bc-arch-linux !important;
+}
+.cj-color-arch-linux-2{
+  color: $bc-arch-linux-2 !important;
+}
+.cj-color-asana{
+  color: $bc-asana !important;
+}
+.cj-color-asana-2{
+  color: $bc-asana-2 !important;
+}
+.cj-color-associated-press{
+  color: $bc-associated-press !important;
+}
+.cj-color-att{
+  color: $bc-att !important;
+}
+.cj-color-att-2{
+  color: $bc-att-2 !important;
+}
+.cj-color-att-3{
+  color: $bc-att-3 !important;
+}
+.cj-color-att-4{
+  color: $bc-att-4 !important;
+}
+.cj-color-atlanta-falcons{
+  color: $bc-atlanta-falcons !important;
+}
+.cj-color-atlanta-falcons-2{
+  color: $bc-atlanta-falcons-2 !important;
+}
+.cj-color-atlanta-falcons-3{
+  color: $bc-atlanta-falcons-3 !important;
+}
+.cj-color-atlantic-coast-conference-acc{
+  color: $bc-atlantic-coast-conference-acc !important;
+}
+.cj-color-atlantic-coast-conference-acc-2{
+  color: $bc-atlantic-coast-conference-acc-2 !important;
+}
+.cj-color-atlassian{
+  color: $bc-atlassian !important;
+}
+.cj-color-auth0{
+  color: $bc-auth0 !important;
+}
+.cj-color-auth0-2{
+  color: $bc-auth0-2 !important;
+}
+.cj-color-auth0-3{
+  color: $bc-auth0-3 !important;
+}
+.cj-color-auth0-4{
+  color: $bc-auth0-4 !important;
+}
+.cj-color-baidu{
+  color: $bc-baidu !important;
+}
+.cj-color-baidu-2{
+  color: $bc-baidu-2 !important;
+}
+.cj-color-bandcamp{
+  color: $bc-bandcamp !important;
+}
+.cj-color-barnes-noble{
+  color: $bc-barnes-noble !important;
+}
+.cj-color-bebo{
+  color: $bc-bebo !important;
+}
+.cj-color-behance{
+  color: $bc-behance !important;
+}
+.cj-color-best-buy{
+  color: $bc-best-buy !important;
+}
+.cj-color-best-buy-2{
+  color: $bc-best-buy-2 !important;
+}
+.cj-color-big-cartel{
+  color: $bc-big-cartel !important;
+}
+.cj-color-big-cartel-2{
+  color: $bc-big-cartel-2 !important;
+}
+.cj-color-bing-2{
+  color: $bc-bing-2 !important;
+}
+.cj-color-bing-2-2{
+  color: $bc-bing-2-2 !important;
+}
+.cj-color-bing-2-3{
+  color: $bc-bing-2-3 !important;
+}
+.cj-color-bitbucket{
+  color: $bc-bitbucket !important;
+}
+.cj-color-bitly{
+  color: $bc-bitly !important;
+}
+.cj-color-bitly-2{
+  color: $bc-bitly-2 !important;
+}
+.cj-color-blackberry{
+  color: $bc-blackberry !important;
+}
+.cj-color-blackberry-2{
+  color: $bc-blackberry-2 !important;
+}
+.cj-color-blackberry-3{
+  color: $bc-blackberry-3 !important;
+}
+.cj-color-blackberry-4{
+  color: $bc-blackberry-4 !important;
+}
+.cj-color-blackberry-5{
+  color: $bc-blackberry-5 !important;
+}
+.cj-color-blackberry-6{
+  color: $bc-blackberry-6 !important;
+}
+.cj-color-blackberry-7{
+  color: $bc-blackberry-7 !important;
+}
+.cj-color-blackberry-8{
+  color: $bc-blackberry-8 !important;
+}
+.cj-color-blogger{
+  color: $bc-blogger !important;
+}
+.cj-color-boeing{
+  color: $bc-boeing !important;
+}
+.cj-color-booking-com{
+  color: $bc-booking-com !important;
+}
+.cj-color-boy-scouts-of-america{
+  color: $bc-boy-scouts-of-america !important;
+}
+.cj-color-boy-scouts-of-america-2{
+  color: $bc-boy-scouts-of-america-2 !important;
+}
+.cj-color-british-airways{
+  color: $bc-british-airways !important;
+}
+.cj-color-british-airways-2{
+  color: $bc-british-airways-2 !important;
+}
+.cj-color-british-airways-3{
+  color: $bc-british-airways-3 !important;
+}
+.cj-color-british-airways-4{
+  color: $bc-british-airways-4 !important;
+}
+.cj-color-british-airways-5{
+  color: $bc-british-airways-5 !important;
+}
+.cj-color-british-airways-6{
+  color: $bc-british-airways-6 !important;
+}
+.cj-color-british-airways-7{
+  color: $bc-british-airways-7 !important;
+}
+.cj-color-bt{
+  color: $bc-bt !important;
+}
+.cj-color-bt-2{
+  color: $bc-bt-2 !important;
+}
+.cj-color-bt-3{
+  color: $bc-bt-3 !important;
+}
+.cj-color-bt-4{
+  color: $bc-bt-4 !important;
+}
+.cj-color-bt-5{
+  color: $bc-bt-5 !important;
+}
+.cj-color-buffer{
+  color: $bc-buffer !important;
+}
+.cj-color-buffer-2{
+  color: $bc-buffer-2 !important;
+}
+.cj-color-buffer-3{
+  color: $bc-buffer-3 !important;
+}
+.cj-color-buffer-4{
+  color: $bc-buffer-4 !important;
+}
+.cj-color-buffer-5{
+  color: $bc-buffer-5 !important;
+}
+.cj-color-buffer-6{
+  color: $bc-buffer-6 !important;
+}
+.cj-color-buffer-7{
+  color: $bc-buffer-7 !important;
+}
+.cj-color-buffer-8{
+  color: $bc-buffer-8 !important;
+}
+.cj-color-buffer-9{
+  color: $bc-buffer-9 !important;
+}
+.cj-color-burger-king{
+  color: $bc-burger-king !important;
+}
+.cj-color-burger-king-2{
+  color: $bc-burger-king-2 !important;
+}
+.cj-color-burger-king-3{
+  color: $bc-burger-king-3 !important;
+}
+.cj-color-burger-king-4{
+  color: $bc-burger-king-4 !important;
+}
+.cj-color-bynder{
+  color: $bc-bynder !important;
+}
+.cj-color-bynder-2{
+  color: $bc-bynder-2 !important;
+}
+.cj-color-canon{
+  color: $bc-canon !important;
+}
+.cj-color-canon-2{
+  color: $bc-canon-2 !important;
+}
+.cj-color-carbonmade{
+  color: $bc-carbonmade !important;
+}
+.cj-color-carrefour{
+  color: $bc-carrefour !important;
+}
+.cj-color-carrefour-2{
+  color: $bc-carrefour-2 !important;
+}
+.cj-color-carrefour-3{
+  color: $bc-carrefour-3 !important;
+}
+.cj-color-carrefour-4{
+  color: $bc-carrefour-4 !important;
+}
+.cj-color-case-mate{
+  color: $bc-case-mate !important;
+}
+.cj-color-case-mate-2{
+  color: $bc-case-mate-2 !important;
+}
+.cj-color-case-mate-3{
+  color: $bc-case-mate-3 !important;
+}
+.cj-color-case-mate-4{
+  color: $bc-case-mate-4 !important;
+}
+.cj-color-charity-water{
+  color: $bc-charity-water !important;
+}
+.cj-color-charity-water-2{
+  color: $bc-charity-water-2 !important;
+}
+.cj-color-charity-water-3{
+  color: $bc-charity-water-3 !important;
+}
+.cj-color-cheddar{
+  color: $bc-cheddar !important;
+}
+.cj-color-coca-cola{
+  color: $bc-coca-cola !important;
+}
+.cj-color-code-school{
+  color: $bc-code-school !important;
+}
+.cj-color-code-school-2{
+  color: $bc-code-school-2 !important;
+}
+.cj-color-codecademy{
+  color: $bc-codecademy !important;
+}
+.cj-color-codecademy-2{
+  color: $bc-codecademy-2 !important;
+}
+.cj-color-creative-market{
+  color: $bc-creative-market !important;
+}
+.cj-color-crunchbase{
+  color: $bc-crunchbase !important;
+}
+.cj-color-cunard{
+  color: $bc-cunard !important;
+}
+.cj-color-cunard-2{
+  color: $bc-cunard-2 !important;
+}
+.cj-color-cunard-3{
+  color: $bc-cunard-3 !important;
+}
+.cj-color-cunard-4{
+  color: $bc-cunard-4 !important;
+}
+.cj-color-daimler{
+  color: $bc-daimler !important;
+}
+.cj-color-daimler-2{
+  color: $bc-daimler-2 !important;
+}
+.cj-color-daimler-3{
+  color: $bc-daimler-3 !important;
+}
+.cj-color-daimler-4{
+  color: $bc-daimler-4 !important;
+}
+.cj-color-daimler-5{
+  color: $bc-daimler-5 !important;
+}
+.cj-color-delectable{
+  color: $bc-delectable !important;
+}
+.cj-color-delectable-2{
+  color: $bc-delectable-2 !important;
+}
+.cj-color-delectable-3{
+  color: $bc-delectable-3 !important;
+}
+.cj-color-delectable-4{
+  color: $bc-delectable-4 !important;
+}
+.cj-color-delectable-5{
+  color: $bc-delectable-5 !important;
+}
+.cj-color-delectable-6{
+  color: $bc-delectable-6 !important;
+}
+.cj-color-delectable-7{
+  color: $bc-delectable-7 !important;
+}
+.cj-color-delicious{
+  color: $bc-delicious !important;
+}
+.cj-color-delicious-2{
+  color: $bc-delicious-2 !important;
+}
+.cj-color-delicious-3{
+  color: $bc-delicious-3 !important;
+}
+.cj-color-dell{
+  color: $bc-dell !important;
+}
+.cj-color-dell-2{
+  color: $bc-dell-2 !important;
+}
+.cj-color-dell-3{
+  color: $bc-dell-3 !important;
+}
+.cj-color-dell-4{
+  color: $bc-dell-4 !important;
+}
+.cj-color-dell-5{
+  color: $bc-dell-5 !important;
+}
+.cj-color-dell-6{
+  color: $bc-dell-6 !important;
+}
+.cj-color-dell-7{
+  color: $bc-dell-7 !important;
+}
+.cj-color-dell-8{
+  color: $bc-dell-8 !important;
+}
+.cj-color-dell-9{
+  color: $bc-dell-9 !important;
+}
+.cj-color-dell-10{
+  color: $bc-dell-10 !important;
+}
+.cj-color-dell-11{
+  color: $bc-dell-11 !important;
+}
+.cj-color-dell-12{
+  color: $bc-dell-12 !important;
+}
+.cj-color-dental-plans{
+  color: $bc-dental-plans !important;
+}
+.cj-color-dental-plans-2{
+  color: $bc-dental-plans-2 !important;
+}
+.cj-color-designer-news{
+  color: $bc-designer-news !important;
+}
+.cj-color-designmoo{
+  color: $bc-designmoo !important;
+}
+.cj-color-designmoo-2{
+  color: $bc-designmoo-2 !important;
+}
+.cj-color-deviantart{
+  color: $bc-deviantart !important;
+}
+.cj-color-deviantart-2{
+  color: $bc-deviantart-2 !important;
+}
+.cj-color-deviantart-3{
+  color: $bc-deviantart-3 !important;
+}
+.cj-color-devour{
+  color: $bc-devour !important;
+}
+.cj-color-dewalt{
+  color: $bc-dewalt !important;
+}
+.cj-color-dhl{
+  color: $bc-dhl !important;
+}
+.cj-color-dhl-2{
+  color: $bc-dhl-2 !important;
+}
+.cj-color-dhl-3{
+  color: $bc-dhl-3 !important;
+}
+.cj-color-digg{
+  color: $bc-digg !important;
+}
+.cj-color-directv{
+  color: $bc-directv !important;
+}
+.cj-color-directv-2{
+  color: $bc-directv-2 !important;
+}
+.cj-color-directv-3{
+  color: $bc-directv-3 !important;
+}
+.cj-color-disqus{
+  color: $bc-disqus !important;
+}
+.cj-color-django{
+  color: $bc-django !important;
+}
+.cj-color-dominos{
+  color: $bc-dominos !important;
+}
+.cj-color-dominos-2{
+  color: $bc-dominos-2 !important;
+}
+.cj-color-dow{
+  color: $bc-dow !important;
+}
+.cj-color-dow-2{
+  color: $bc-dow-2 !important;
+}
+.cj-color-dow-3{
+  color: $bc-dow-3 !important;
+}
+.cj-color-dow-4{
+  color: $bc-dow-4 !important;
+}
+.cj-color-dow-5{
+  color: $bc-dow-5 !important;
+}
+.cj-color-dow-6{
+  color: $bc-dow-6 !important;
+}
+.cj-color-dow-7{
+  color: $bc-dow-7 !important;
+}
+.cj-color-dribbble{
+  color: $bc-dribbble !important;
+}
+.cj-color-dribbble-2{
+  color: $bc-dribbble-2 !important;
+}
+.cj-color-dribbble-3{
+  color: $bc-dribbble-3 !important;
+}
+.cj-color-dribbble-4{
+  color: $bc-dribbble-4 !important;
+}
+.cj-color-dribbble-5{
+  color: $bc-dribbble-5 !important;
+}
+.cj-color-dribbble-6{
+  color: $bc-dribbble-6 !important;
+}
+.cj-color-dropbox{
+  color: $bc-dropbox !important;
+}
+.cj-color-dropbox-2{
+  color: $bc-dropbox-2 !important;
+}
+.cj-color-dropbox-3{
+  color: $bc-dropbox-3 !important;
+}
+.cj-color-dropbox-4{
+  color: $bc-dropbox-4 !important;
+}
+.cj-color-droplr{
+  color: $bc-droplr !important;
+}
+.cj-color-drupal{
+  color: $bc-drupal !important;
+}
+.cj-color-drupal-2{
+  color: $bc-drupal-2 !important;
+}
+.cj-color-drupal-3{
+  color: $bc-drupal-3 !important;
+}
+.cj-color-dunked{
+  color: $bc-dunked !important;
+}
+.cj-color-dunked-2{
+  color: $bc-dunked-2 !important;
+}
+.cj-color-etrade{
+  color: $bc-etrade !important;
+}
+.cj-color-etrade-2{
+  color: $bc-etrade-2 !important;
+}
+.cj-color-easy-jet{
+  color: $bc-easy-jet !important;
+}
+.cj-color-easy-jet-2{
+  color: $bc-easy-jet-2 !important;
+}
+.cj-color-easy-jet-3{
+  color: $bc-easy-jet-3 !important;
+}
+.cj-color-ebay{
+  color: $bc-ebay !important;
+}
+.cj-color-ebay-2{
+  color: $bc-ebay-2 !important;
+}
+.cj-color-ebay-3{
+  color: $bc-ebay-3 !important;
+}
+.cj-color-ebay-4{
+  color: $bc-ebay-4 !important;
+}
+.cj-color-elance{
+  color: $bc-elance !important;
+}
+.cj-color-ello{
+  color: $bc-ello !important;
+}
+.cj-color-ember{
+  color: $bc-ember !important;
+}
+.cj-color-engadget{
+  color: $bc-engadget !important;
+}
+.cj-color-envato{
+  color: $bc-envato !important;
+}
+.cj-color-ericsson{
+  color: $bc-ericsson !important;
+}
+.cj-color-esl{
+  color: $bc-esl !important;
+}
+.cj-color-esl-2{
+  color: $bc-esl-2 !important;
+}
+.cj-color-esl-3{
+  color: $bc-esl-3 !important;
+}
+.cj-color-esl-4{
+  color: $bc-esl-4 !important;
+}
+.cj-color-espn{
+  color: $bc-espn !important;
+}
+.cj-color-etsy{
+  color: $bc-etsy !important;
+}
+.cj-color-evernote{
+  color: $bc-evernote !important;
+}
+.cj-color-evernote-2{
+  color: $bc-evernote-2 !important;
+}
+.cj-color-fab-com{
+  color: $bc-fab-com !important;
+}
+.cj-color-fab-com-2{
+  color: $bc-fab-com-2 !important;
+}
+.cj-color-facebook{
+  color: $bc-facebook !important;
+}
+.cj-color-famo-us{
+  color: $bc-famo-us !important;
+}
+.cj-color-famo-us-2{
+  color: $bc-famo-us-2 !important;
+}
+.cj-color-fancy{
+  color: $bc-fancy !important;
+}
+.cj-color-fancy-2{
+  color: $bc-fancy-2 !important;
+}
+.cj-color-fedex{
+  color: $bc-fedex !important;
+}
+.cj-color-fedex-2{
+  color: $bc-fedex-2 !important;
+}
+.cj-color-fedex-3{
+  color: $bc-fedex-3 !important;
+}
+.cj-color-fedex-4{
+  color: $bc-fedex-4 !important;
+}
+.cj-color-fedex-5{
+  color: $bc-fedex-5 !important;
+}
+.cj-color-fedex-6{
+  color: $bc-fedex-6 !important;
+}
+.cj-color-fedex-7{
+  color: $bc-fedex-7 !important;
+}
+.cj-color-fiat{
+  color: $bc-fiat !important;
+}
+.cj-color-fiat-2{
+  color: $bc-fiat-2 !important;
+}
+.cj-color-firefox{
+  color: $bc-firefox !important;
+}
+.cj-color-firefox-2{
+  color: $bc-firefox-2 !important;
+}
+.cj-color-firefox-3{
+  color: $bc-firefox-3 !important;
+}
+.cj-color-firefox-4{
+  color: $bc-firefox-4 !important;
+}
+.cj-color-firefox-5{
+  color: $bc-firefox-5 !important;
+}
+.cj-color-firefox-6{
+  color: $bc-firefox-6 !important;
+}
+.cj-color-firefox-7{
+  color: $bc-firefox-7 !important;
+}
+.cj-color-fitbit{
+  color: $bc-fitbit !important;
+}
+.cj-color-fitbit-2{
+  color: $bc-fitbit-2 !important;
+}
+.cj-color-fitbit-3{
+  color: $bc-fitbit-3 !important;
+}
+.cj-color-five-guys{
+  color: $bc-five-guys !important;
+}
+.cj-color-five-guys-2{
+  color: $bc-five-guys-2 !important;
+}
+.cj-color-five-guys-3{
+  color: $bc-five-guys-3 !important;
+}
+.cj-color-five-guys-4{
+  color: $bc-five-guys-4 !important;
+}
+.cj-color-flattr{
+  color: $bc-flattr !important;
+}
+.cj-color-flattr-2{
+  color: $bc-flattr-2 !important;
+}
+.cj-color-flavors-me{
+  color: $bc-flavors-me !important;
+}
+.cj-color-flavors-me-2{
+  color: $bc-flavors-me-2 !important;
+}
+.cj-color-flickr{
+  color: $bc-flickr !important;
+}
+.cj-color-flickr-2{
+  color: $bc-flickr-2 !important;
+}
+.cj-color-flipboard{
+  color: $bc-flipboard !important;
+}
+.cj-color-flixster{
+  color: $bc-flixster !important;
+}
+.cj-color-follr{
+  color: $bc-follr !important;
+}
+.cj-color-follr-2{
+  color: $bc-follr-2 !important;
+}
+.cj-color-follr-3{
+  color: $bc-follr-3 !important;
+}
+.cj-color-follr-4{
+  color: $bc-follr-4 !important;
+}
+.cj-color-follr-5{
+  color: $bc-follr-5 !important;
+}
+.cj-color-forrst{
+  color: $bc-forrst !important;
+}
+.cj-color-foursquare{
+  color: $bc-foursquare !important;
+}
+.cj-color-foursquare-2{
+  color: $bc-foursquare-2 !important;
+}
+.cj-color-foursquare-3{
+  color: $bc-foursquare-3 !important;
+}
+.cj-color-garmin{
+  color: $bc-garmin !important;
+}
+.cj-color-geocaching{
+  color: $bc-geocaching !important;
+}
+.cj-color-ghost{
+  color: $bc-ghost !important;
+}
+.cj-color-ghost-2{
+  color: $bc-ghost-2 !important;
+}
+.cj-color-ghost-3{
+  color: $bc-ghost-3 !important;
+}
+.cj-color-ghost-4{
+  color: $bc-ghost-4 !important;
+}
+.cj-color-ghost-5{
+  color: $bc-ghost-5 !important;
+}
+.cj-color-gibson{
+  color: $bc-gibson !important;
+}
+.cj-color-gibson-2{
+  color: $bc-gibson-2 !important;
+}
+.cj-color-gibson-3{
+  color: $bc-gibson-3 !important;
+}
+.cj-color-gibson-4{
+  color: $bc-gibson-4 !important;
+}
+.cj-color-gimmebar{
+  color: $bc-gimmebar !important;
+}
+.cj-color-github{
+  color: $bc-github !important;
+}
+.cj-color-github-2{
+  color: $bc-github-2 !important;
+}
+.cj-color-github-3{
+  color: $bc-github-3 !important;
+}
+.cj-color-github-4{
+  color: $bc-github-4 !important;
+}
+.cj-color-github-5{
+  color: $bc-github-5 !important;
+}
+.cj-color-github-6{
+  color: $bc-github-6 !important;
+}
+.cj-color-github-7{
+  color: $bc-github-7 !important;
+}
+.cj-color-gittip{
+  color: $bc-gittip !important;
+}
+.cj-color-gittip-2{
+  color: $bc-gittip-2 !important;
+}
+.cj-color-godaddy{
+  color: $bc-godaddy !important;
+}
+.cj-color-godaddy-2{
+  color: $bc-godaddy-2 !important;
+}
+.cj-color-goodreads{
+  color: $bc-goodreads !important;
+}
+.cj-color-google{
+  color: $bc-google !important;
+}
+.cj-color-google-2{
+  color: $bc-google-2 !important;
+}
+.cj-color-google-3{
+  color: $bc-google-3 !important;
+}
+.cj-color-google-4{
+  color: $bc-google-4 !important;
+}
+.cj-color-google-5{
+  color: $bc-google-5 !important;
+}
+.cj-color-google-plus{
+  color: $bc-google-plus !important;
+}
+.cj-color-gravatar{
+  color: $bc-gravatar !important;
+}
+.cj-color-groupon{
+  color: $bc-groupon !important;
+}
+.cj-color-hacker-news{
+  color: $bc-hacker-news !important;
+}
+.cj-color-heineken{
+  color: $bc-heineken !important;
+}
+.cj-color-heineken-2{
+  color: $bc-heineken-2 !important;
+}
+.cj-color-heineken-3{
+  color: $bc-heineken-3 !important;
+}
+.cj-color-hellowallet{
+  color: $bc-hellowallet !important;
+}
+.cj-color-heroku{
+  color: $bc-heroku !important;
+}
+.cj-color-heroku-2{
+  color: $bc-heroku-2 !important;
+}
+.cj-color-hi5{
+  color: $bc-hi5 !important;
+}
+.cj-color-home-depot{
+  color: $bc-home-depot !important;
+}
+.cj-color-hootsuite{
+  color: $bc-hootsuite !important;
+}
+.cj-color-hootsuite-2{
+  color: $bc-hootsuite-2 !important;
+}
+.cj-color-hootsuite-3{
+  color: $bc-hootsuite-3 !important;
+}
+.cj-color-hootsuite-4{
+  color: $bc-hootsuite-4 !important;
+}
+.cj-color-hootsuite-5{
+  color: $bc-hootsuite-5 !important;
+}
+.cj-color-hootsuite-6{
+  color: $bc-hootsuite-6 !important;
+}
+.cj-color-hootsuite-7{
+  color: $bc-hootsuite-7 !important;
+}
+.cj-color-houzz{
+  color: $bc-houzz !important;
+}
+.cj-color-houzz-2{
+  color: $bc-houzz-2 !important;
+}
+.cj-color-hp{
+  color: $bc-hp !important;
+}
+.cj-color-hp-2{
+  color: $bc-hp-2 !important;
+}
+.cj-color-hsbc{
+  color: $bc-hsbc !important;
+}
+.cj-color-html5{
+  color: $bc-html5 !important;
+}
+.cj-color-hulu{
+  color: $bc-hulu !important;
+}
+.cj-color-hulu-2{
+  color: $bc-hulu-2 !important;
+}
+.cj-color-ibm{
+  color: $bc-ibm !important;
+}
+.cj-color-identi-ca{
+  color: $bc-identi-ca !important;
+}
+.cj-color-identi-ca-2{
+  color: $bc-identi-ca-2 !important;
+}
+.cj-color-identi-ca-3{
+  color: $bc-identi-ca-3 !important;
+}
+.cj-color-ifttt{
+  color: $bc-ifttt !important;
+}
+.cj-color-ifttt-2{
+  color: $bc-ifttt-2 !important;
+}
+.cj-color-ifttt-3{
+  color: $bc-ifttt-3 !important;
+}
+.cj-color-iheartradio{
+  color: $bc-iheartradio !important;
+}
+.cj-color-ikea{
+  color: $bc-ikea !important;
+}
+.cj-color-ikea-2{
+  color: $bc-ikea-2 !important;
+}
+.cj-color-imdb{
+  color: $bc-imdb !important;
+}
+.cj-color-imgur{
+  color: $bc-imgur !important;
+}
+.cj-color-indiegogo{
+  color: $bc-indiegogo !important;
+}
+.cj-color-instacart{
+  color: $bc-instacart !important;
+}
+.cj-color-instagram{
+  color: $bc-instagram !important;
+}
+.cj-color-instapaper{
+  color: $bc-instapaper !important;
+}
+.cj-color-instapaper-2{
+  color: $bc-instapaper-2 !important;
+}
+.cj-color-intel{
+  color: $bc-intel !important;
+}
+.cj-color-intuit{
+  color: $bc-intuit !important;
+}
+.cj-color-ios{
+  color: $bc-ios !important;
+}
+.cj-color-ios-2{
+  color: $bc-ios-2 !important;
+}
+.cj-color-ios-3{
+  color: $bc-ios-3 !important;
+}
+.cj-color-ios-4{
+  color: $bc-ios-4 !important;
+}
+.cj-color-ios-5{
+  color: $bc-ios-5 !important;
+}
+.cj-color-ios-6{
+  color: $bc-ios-6 !important;
+}
+.cj-color-ios-7{
+  color: $bc-ios-7 !important;
+}
+.cj-color-ios-8{
+  color: $bc-ios-8 !important;
+}
+.cj-color-jawbone{
+  color: $bc-jawbone !important;
+}
+.cj-color-joyent{
+  color: $bc-joyent !important;
+}
+.cj-color-keeeb{
+  color: $bc-keeeb !important;
+}
+.cj-color-khan-academy{
+  color: $bc-khan-academy !important;
+}
+.cj-color-khan-academy-2{
+  color: $bc-khan-academy-2 !important;
+}
+.cj-color-kia{
+  color: $bc-kia !important;
+}
+.cj-color-kickstarter{
+  color: $bc-kickstarter !important;
+}
+.cj-color-kickstarter-2{
+  color: $bc-kickstarter-2 !important;
+}
+.cj-color-kippt{
+  color: $bc-kippt !important;
+}
+.cj-color-kitkat{
+  color: $bc-kitkat !important;
+}
+.cj-color-kiwipay{
+  color: $bc-kiwipay !important;
+}
+.cj-color-laravel{
+  color: $bc-laravel !important;
+}
+.cj-color-lastfm{
+  color: $bc-lastfm !important;
+}
+.cj-color-linkedin{
+  color: $bc-linkedin !important;
+}
+.cj-color-linkedin-2{
+  color: $bc-linkedin-2 !important;
+}
+.cj-color-linkedin-4{
+  color: $bc-linkedin-4 !important;
+}
+.cj-color-linkedin-5{
+  color: $bc-linkedin-5 !important;
+}
+.cj-color-linkedin-6{
+  color: $bc-linkedin-6 !important;
+}
+.cj-color-linkedin-7{
+  color: $bc-linkedin-7 !important;
+}
+.cj-color-linkedin-8{
+  color: $bc-linkedin-8 !important;
+}
+.cj-color-linkedin-9{
+  color: $bc-linkedin-9 !important;
+}
+.cj-color-livestream{
+  color: $bc-livestream !important;
+}
+.cj-color-livestream-2{
+  color: $bc-livestream-2 !important;
+}
+.cj-color-livestream-3{
+  color: $bc-livestream-3 !important;
+}
+.cj-color-livestream-4{
+  color: $bc-livestream-4 !important;
+}
+.cj-color-livestream-5{
+  color: $bc-livestream-5 !important;
+}
+.cj-color-livestream-6{
+  color: $bc-livestream-6 !important;
+}
+.cj-color-livestream-7{
+  color: $bc-livestream-7 !important;
+}
+.cj-color-lloyds{
+  color: $bc-lloyds !important;
+}
+.cj-color-lloyds-2{
+  color: $bc-lloyds-2 !important;
+}
+.cj-color-lloyds-3{
+  color: $bc-lloyds-3 !important;
+}
+.cj-color-lloyds-4{
+  color: $bc-lloyds-4 !important;
+}
+.cj-color-lloyds-5{
+  color: $bc-lloyds-5 !important;
+}
+.cj-color-lloyds-6{
+  color: $bc-lloyds-6 !important;
+}
+.cj-color-lloyds-7{
+  color: $bc-lloyds-7 !important;
+}
+.cj-color-lloyds-8{
+  color: $bc-lloyds-8 !important;
+}
+.cj-color-lloyds-9{
+  color: $bc-lloyds-9 !important;
+}
+.cj-color-lomo{
+  color: $bc-lomo !important;
+}
+.cj-color-lomo-2{
+  color: $bc-lomo-2 !important;
+}
+.cj-color-lumo{
+  color: $bc-lumo !important;
+}
+.cj-color-lyft{
+  color: $bc-lyft !important;
+}
+.cj-color-lyft-2{
+  color: $bc-lyft-2 !important;
+}
+.cj-color-lyft-3{
+  color: $bc-lyft-3 !important;
+}
+.cj-color-lyft-4{
+  color: $bc-lyft-4 !important;
+}
+.cj-color-lyft-5{
+  color: $bc-lyft-5 !important;
+}
+.cj-color-lyft-6{
+  color: $bc-lyft-6 !important;
+}
+.cj-color-lyft-7{
+  color: $bc-lyft-7 !important;
+}
+.cj-color-mailchimp{
+  color: $bc-mailchimp !important;
+}
+.cj-color-mailchimp-2{
+  color: $bc-mailchimp-2 !important;
+}
+.cj-color-mailchimp-3{
+  color: $bc-mailchimp-3 !important;
+}
+.cj-color-mailchimp-4{
+  color: $bc-mailchimp-4 !important;
+}
+.cj-color-mailchimp-5{
+  color: $bc-mailchimp-5 !important;
+}
+.cj-color-massy-group{
+  color: $bc-massy-group !important;
+}
+.cj-color-massy-group-2{
+  color: $bc-massy-group-2 !important;
+}
+.cj-color-massy-group-3{
+  color: $bc-massy-group-3 !important;
+}
+.cj-color-massy-group-4{
+  color: $bc-massy-group-4 !important;
+}
+.cj-color-mastercard{
+  color: $bc-mastercard !important;
+}
+.cj-color-mastercard-2{
+  color: $bc-mastercard-2 !important;
+}
+.cj-color-mastercard-3{
+  color: $bc-mastercard-3 !important;
+}
+.cj-color-meetup{
+  color: $bc-meetup !important;
+}
+.cj-color-microsoft{
+  color: $bc-microsoft !important;
+}
+.cj-color-microsoft-2{
+  color: $bc-microsoft-2 !important;
+}
+.cj-color-microsoft-3{
+  color: $bc-microsoft-3 !important;
+}
+.cj-color-microsoft-4{
+  color: $bc-microsoft-4 !important;
+}
+.cj-color-microsoft-office{
+  color: $bc-microsoft-office !important;
+}
+.cj-color-mixpanel{
+  color: $bc-mixpanel !important;
+}
+.cj-color-motorola{
+  color: $bc-motorola !important;
+}
+.cj-color-muut{
+  color: $bc-muut !important;
+}
+.cj-color-muut-2{
+  color: $bc-muut-2 !important;
+}
+.cj-color-myspace{
+  color: $bc-myspace !important;
+}
+.cj-color-nbc{
+  color: $bc-nbc !important;
+}
+.cj-color-nbc-2{
+  color: $bc-nbc-2 !important;
+}
+.cj-color-nbc-3{
+  color: $bc-nbc-3 !important;
+}
+.cj-color-nbc-4{
+  color: $bc-nbc-4 !important;
+}
+.cj-color-nbc-5{
+  color: $bc-nbc-5 !important;
+}
+.cj-color-nbc-6{
+  color: $bc-nbc-6 !important;
+}
+.cj-color-nbc-7{
+  color: $bc-nbc-7 !important;
+}
+.cj-color-nest{
+  color: $bc-nest !important;
+}
+.cj-color-nest-2{
+  color: $bc-nest-2 !important;
+}
+.cj-color-netflix{
+  color: $bc-netflix !important;
+}
+.cj-color-netflix-2{
+  color: $bc-netflix-2 !important;
+}
+.cj-color-netflix-3{
+  color: $bc-netflix-3 !important;
+}
+.cj-color-netvibes{
+  color: $bc-netvibes !important;
+}
+.cj-color-new-balance{
+  color: $bc-new-balance !important;
+}
+.cj-color-new-balance-2{
+  color: $bc-new-balance-2 !important;
+}
+.cj-color-new-balance-3{
+  color: $bc-new-balance-3 !important;
+}
+.cj-color-new-balance-4{
+  color: $bc-new-balance-4 !important;
+}
+.cj-color-new-balance-5{
+  color: $bc-new-balance-5 !important;
+}
+.cj-color-new-balance-6{
+  color: $bc-new-balance-6 !important;
+}
+.cj-color-new-balance-7{
+  color: $bc-new-balance-7 !important;
+}
+.cj-color-nextdoor{
+  color: $bc-nextdoor !important;
+}
+.cj-color-nike-football{
+  color: $bc-nike-football !important;
+}
+.cj-color-nike-football-2{
+  color: $bc-nike-football-2 !important;
+}
+.cj-color-nikefuel{
+  color: $bc-nikefuel !important;
+}
+.cj-color-nikefuel-2{
+  color: $bc-nikefuel-2 !important;
+}
+.cj-color-nikefuel-3{
+  color: $bc-nikefuel-3 !important;
+}
+.cj-color-nikefuel-4{
+  color: $bc-nikefuel-4 !important;
+}
+.cj-color-nokia{
+  color: $bc-nokia !important;
+}
+.cj-color-novartis{
+  color: $bc-novartis !important;
+}
+.cj-color-novartis-2{
+  color: $bc-novartis-2 !important;
+}
+.cj-color-novartis-3{
+  color: $bc-novartis-3 !important;
+}
+.cj-color-novartis-4{
+  color: $bc-novartis-4 !important;
+}
+.cj-color-novartis-5{
+  color: $bc-novartis-5 !important;
+}
+.cj-color-novartis-6{
+  color: $bc-novartis-6 !important;
+}
+.cj-color-npm{
+  color: $bc-npm !important;
+}
+.cj-color-nvidia{
+  color: $bc-nvidia !important;
+}
+.cj-color-odnoklassniki{
+  color: $bc-odnoklassniki !important;
+}
+.cj-color-opera{
+  color: $bc-opera !important;
+}
+.cj-color-opera-2{
+  color: $bc-opera-2 !important;
+}
+.cj-color-oracle{
+  color: $bc-oracle !important;
+}
+.cj-color-oracle-2{
+  color: $bc-oracle-2 !important;
+}
+.cj-color-oracle-3{
+  color: $bc-oracle-3 !important;
+}
+.cj-color-oxford-university-press{
+  color: $bc-oxford-university-press !important;
+}
+.cj-color-oxford-university-press-2{
+  color: $bc-oxford-university-press-2 !important;
+}
+.cj-color-oxford-university-press-3{
+  color: $bc-oxford-university-press-3 !important;
+}
+.cj-color-panasonic{
+  color: $bc-panasonic !important;
+}
+.cj-color-panasonic-2{
+  color: $bc-panasonic-2 !important;
+}
+.cj-color-pandora{
+  color: $bc-pandora !important;
+}
+.cj-color-path{
+  color: $bc-path !important;
+}
+.cj-color-paymill{
+  color: $bc-paymill !important;
+}
+.cj-color-paypal{
+  color: $bc-paypal !important;
+}
+.cj-color-paypal-2{
+  color: $bc-paypal-2 !important;
+}
+.cj-color-paypal-3{
+  color: $bc-paypal-3 !important;
+}
+.cj-color-pearson{
+  color: $bc-pearson !important;
+}
+.cj-color-pearson-2{
+  color: $bc-pearson-2 !important;
+}
+.cj-color-pearson-3{
+  color: $bc-pearson-3 !important;
+}
+.cj-color-pearson-4{
+  color: $bc-pearson-4 !important;
+}
+.cj-color-penguin-books{
+  color: $bc-penguin-books !important;
+}
+.cj-color-pepsi{
+  color: $bc-pepsi !important;
+}
+.cj-color-pepsi-2{
+  color: $bc-pepsi-2 !important;
+}
+.cj-color-pfizer{
+  color: $bc-pfizer !important;
+}
+.cj-color-pfizer-2{
+  color: $bc-pfizer-2 !important;
+}
+.cj-color-pfizer-3{
+  color: $bc-pfizer-3 !important;
+}
+.cj-color-pfizer-4{
+  color: $bc-pfizer-4 !important;
+}
+.cj-color-pfizer-5{
+  color: $bc-pfizer-5 !important;
+}
+.cj-color-pfizer-6{
+  color: $bc-pfizer-6 !important;
+}
+.cj-color-pfizer-7{
+  color: $bc-pfizer-7 !important;
+}
+.cj-color-pfizer-8{
+  color: $bc-pfizer-8 !important;
+}
+.cj-color-pfizer-9{
+  color: $bc-pfizer-9 !important;
+}
+.cj-color-pfizer-10{
+  color: $bc-pfizer-10 !important;
+}
+.cj-color-pfizer-11{
+  color: $bc-pfizer-11 !important;
+}
+.cj-color-pfizer-12{
+  color: $bc-pfizer-12 !important;
+}
+.cj-color-pfizer-13{
+  color: $bc-pfizer-13 !important;
+}
+.cj-color-philips{
+  color: $bc-philips !important;
+}
+.cj-color-photobucket{
+  color: $bc-photobucket !important;
+}
+.cj-color-photobucket-2{
+  color: $bc-photobucket-2 !important;
+}
+.cj-color-pinboard{
+  color: $bc-pinboard !important;
+}
+.cj-color-pinterest{
+  color: $bc-pinterest !important;
+}
+.cj-color-pizza-hut{
+  color: $bc-pizza-hut !important;
+}
+.cj-color-pizza-hut-2{
+  color: $bc-pizza-hut-2 !important;
+}
+.cj-color-pizza-hut-3{
+  color: $bc-pizza-hut-3 !important;
+}
+.cj-color-plasso{
+  color: $bc-plasso !important;
+}
+.cj-color-plasso-2{
+  color: $bc-plasso-2 !important;
+}
+.cj-color-plasso-3{
+  color: $bc-plasso-3 !important;
+}
+.cj-color-plasso-4{
+  color: $bc-plasso-4 !important;
+}
+.cj-color-plaxo{
+  color: $bc-plaxo !important;
+}
+.cj-color-playstation{
+  color: $bc-playstation !important;
+}
+.cj-color-pocket{
+  color: $bc-pocket !important;
+}
+.cj-color-pocket-2{
+  color: $bc-pocket-2 !important;
+}
+.cj-color-portfolium{
+  color: $bc-portfolium !important;
+}
+.cj-color-portfolium-2{
+  color: $bc-portfolium-2 !important;
+}
+.cj-color-portfolium-3{
+  color: $bc-portfolium-3 !important;
+}
+.cj-color-portfolium-4{
+  color: $bc-portfolium-4 !important;
+}
+.cj-color-postmates{
+  color: $bc-postmates !important;
+}
+.cj-color-postmates-2{
+  color: $bc-postmates-2 !important;
+}
+.cj-color-prezi{
+  color: $bc-prezi !important;
+}
+.cj-color-priceline{
+  color: $bc-priceline !important;
+}
+.cj-color-product-hunt{
+  color: $bc-product-hunt !important;
+}
+.cj-color-product-hunt-2{
+  color: $bc-product-hunt-2 !important;
+}
+.cj-color-product-hunt-3{
+  color: $bc-product-hunt-3 !important;
+}
+.cj-color-product-hunt-4{
+  color: $bc-product-hunt-4 !important;
+}
+.cj-color-quora{
+  color: $bc-quora !important;
+}
+.cj-color-quote-fm{
+  color: $bc-quote-fm !important;
+}
+.cj-color-razer{
+  color: $bc-razer !important;
+}
+.cj-color-rdio{
+  color: $bc-rdio !important;
+}
+.cj-color-readability{
+  color: $bc-readability !important;
+}
+.cj-color-red-hat{
+  color: $bc-red-hat !important;
+}
+.cj-color-reddit{
+  color: $bc-reddit !important;
+}
+.cj-color-reddit-2{
+  color: $bc-reddit-2 !important;
+}
+.cj-color-reddit-3{
+  color: $bc-reddit-3 !important;
+}
+.cj-color-redfin{
+  color: $bc-redfin !important;
+}
+.cj-color-reverbnation{
+  color: $bc-reverbnation !important;
+}
+.cj-color-rockpack{
+  color: $bc-rockpack !important;
+}
+.cj-color-roku{
+  color: $bc-roku !important;
+}
+.cj-color-rolls-royce{
+  color: $bc-rolls-royce !important;
+}
+.cj-color-rolls-royce-2{
+  color: $bc-rolls-royce-2 !important;
+}
+.cj-color-rolls-royce-3{
+  color: $bc-rolls-royce-3 !important;
+}
+.cj-color-rolls-royce-4{
+  color: $bc-rolls-royce-4 !important;
+}
+.cj-color-roo-kids{
+  color: $bc-roo-kids !important;
+}
+.cj-color-roo-kids-2{
+  color: $bc-roo-kids-2 !important;
+}
+.cj-color-roo-kids-3{
+  color: $bc-roo-kids-3 !important;
+}
+.cj-color-roon{
+  color: $bc-roon !important;
+}
+.cj-color-rounds{
+  color: $bc-rounds !important;
+}
+.cj-color-rss-2{
+  color: $bc-rss-2 !important;
+}
+.cj-color-sainsburys{
+  color: $bc-sainsburys !important;
+}
+.cj-color-salesforce{
+  color: $bc-salesforce !important;
+}
+.cj-color-salesforce-2{
+  color: $bc-salesforce-2 !important;
+}
+.cj-color-samsung{
+  color: $bc-samsung !important;
+}
+.cj-color-samsung-2{
+  color: $bc-samsung-2 !important;
+}
+.cj-color-samsung-3{
+  color: $bc-samsung-3 !important;
+}
+.cj-color-samsung-4{
+  color: $bc-samsung-4 !important;
+}
+.cj-color-samsung-5{
+  color: $bc-samsung-5 !important;
+}
+.cj-color-samsung-6{
+  color: $bc-samsung-6 !important;
+}
+.cj-color-samsung-7{
+  color: $bc-samsung-7 !important;
+}
+.cj-color-samsung-8{
+  color: $bc-samsung-8 !important;
+}
+.cj-color-samsung-9{
+  color: $bc-samsung-9 !important;
+}
+.cj-color-samsung-10{
+  color: $bc-samsung-10 !important;
+}
+.cj-color-samsung-11{
+  color: $bc-samsung-11 !important;
+}
+.cj-color-samsung-12{
+  color: $bc-samsung-12 !important;
+}
+.cj-color-sap{
+  color: $bc-sap !important;
+}
+.cj-color-sap-2{
+  color: $bc-sap-2 !important;
+}
+.cj-color-scribd{
+  color: $bc-scribd !important;
+}
+.cj-color-sherwin-williams{
+  color: $bc-sherwin-williams !important;
+}
+.cj-color-sherwin-williams-2{
+  color: $bc-sherwin-williams-2 !important;
+}
+.cj-color-shopify{
+  color: $bc-shopify !important;
+}
+.cj-color-shopify-2{
+  color: $bc-shopify-2 !important;
+}
+.cj-color-shopify-3{
+  color: $bc-shopify-3 !important;
+}
+.cj-color-shopify-4{
+  color: $bc-shopify-4 !important;
+}
+.cj-color-shopify-5{
+  color: $bc-shopify-5 !important;
+}
+.cj-color-shopify-6{
+  color: $bc-shopify-6 !important;
+}
+.cj-color-skype{
+  color: $bc-skype !important;
+}
+.cj-color-slack{
+  color: $bc-slack !important;
+}
+.cj-color-slack-2{
+  color: $bc-slack-2 !important;
+}
+.cj-color-slack-3{
+  color: $bc-slack-3 !important;
+}
+.cj-color-slack-4{
+  color: $bc-slack-4 !important;
+}
+.cj-color-smashing-magazine{
+  color: $bc-smashing-magazine !important;
+}
+.cj-color-smashing-magazine-2{
+  color: $bc-smashing-magazine-2 !important;
+}
+.cj-color-snagajob{
+  color: $bc-snagajob !important;
+}
+.cj-color-socialbro{
+  color: $bc-socialbro !important;
+}
+.cj-color-socialbro-2{
+  color: $bc-socialbro-2 !important;
+}
+.cj-color-socialbro-3{
+  color: $bc-socialbro-3 !important;
+}
+.cj-color-socialbro-4{
+  color: $bc-socialbro-4 !important;
+}
+.cj-color-socialbro-5{
+  color: $bc-socialbro-5 !important;
+}
+.cj-color-socialbro-6{
+  color: $bc-socialbro-6 !important;
+}
+.cj-color-softonic{
+  color: $bc-softonic !important;
+}
+.cj-color-songkick{
+  color: $bc-songkick !important;
+}
+.cj-color-sonicbids{
+  color: $bc-sonicbids !important;
+}
+.cj-color-sonicbids-2{
+  color: $bc-sonicbids-2 !important;
+}
+.cj-color-soundcloud{
+  color: $bc-soundcloud !important;
+}
+.cj-color-soundcloud-2{
+  color: $bc-soundcloud-2 !important;
+}
+.cj-color-spotify{
+  color: $bc-spotify !important;
+}
+.cj-color-sprint{
+  color: $bc-sprint !important;
+}
+.cj-color-square-cash{
+  color: $bc-square-cash !important;
+}
+.cj-color-squarespace{
+  color: $bc-squarespace !important;
+}
+.cj-color-stackoverflow{
+  color: $bc-stackoverflow !important;
+}
+.cj-color-staples{
+  color: $bc-staples !important;
+}
+.cj-color-staples-2{
+  color: $bc-staples-2 !important;
+}
+.cj-color-staples-3{
+  color: $bc-staples-3 !important;
+}
+.cj-color-starbucks{
+  color: $bc-starbucks !important;
+}
+.cj-color-starbucks-2{
+  color: $bc-starbucks-2 !important;
+}
+.cj-color-status-chart{
+  color: $bc-status-chart !important;
+}
+.cj-color-sterling-hotels{
+  color: $bc-sterling-hotels !important;
+}
+.cj-color-sterling-hotels-2{
+  color: $bc-sterling-hotels-2 !important;
+}
+.cj-color-sterling-hotels-3{
+  color: $bc-sterling-hotels-3 !important;
+}
+.cj-color-sterling-hotels-4{
+  color: $bc-sterling-hotels-4 !important;
+}
+.cj-color-sterling-hotels-5{
+  color: $bc-sterling-hotels-5 !important;
+}
+.cj-color-sterling-hotels-6{
+  color: $bc-sterling-hotels-6 !important;
+}
+.cj-color-sterling-hotels-7{
+  color: $bc-sterling-hotels-7 !important;
+}
+.cj-color-storyful{
+  color: $bc-storyful !important;
+}
+.cj-color-storyful-2{
+  color: $bc-storyful-2 !important;
+}
+.cj-color-storyful-3{
+  color: $bc-storyful-3 !important;
+}
+.cj-color-storyful-4{
+  color: $bc-storyful-4 !important;
+}
+.cj-color-strava{
+  color: $bc-strava !important;
+}
+.cj-color-stripe{
+  color: $bc-stripe !important;
+}
+.cj-color-studyblue{
+  color: $bc-studyblue !important;
+}
+.cj-color-stumbleupon{
+  color: $bc-stumbleupon !important;
+}
+.cj-color-subway-2{
+  color: $bc-subway-2 !important;
+}
+.cj-color-subway-2-2{
+  color: $bc-subway-2-2 !important;
+}
+.cj-color-subway{
+  color: $bc-subway !important;
+}
+.cj-color-subway-2{
+  color: $bc-subway-2 !important;
+}
+.cj-color-subway-3{
+  color: $bc-subway-3 !important;
+}
+.cj-color-sugarcrm{
+  color: $bc-sugarcrm !important;
+}
+.cj-color-sugarcrm-2{
+  color: $bc-sugarcrm-2 !important;
+}
+.cj-color-sugarcrm-3{
+  color: $bc-sugarcrm-3 !important;
+}
+.cj-color-sugarcrm-4{
+  color: $bc-sugarcrm-4 !important;
+}
+.cj-color-swarm{
+  color: $bc-swarm !important;
+}
+.cj-color-swarm-2{
+  color: $bc-swarm-2 !important;
+}
+.cj-color-t-mobile{
+  color: $bc-t-mobile !important;
+}
+.cj-color-tagstr{
+  color: $bc-tagstr !important;
+}
+.cj-color-tagstr-2{
+  color: $bc-tagstr-2 !important;
+}
+.cj-color-technorati{
+  color: $bc-technorati !important;
+}
+.cj-color-tesla{
+  color: $bc-tesla !important;
+}
+.cj-color-the-audience-awards{
+  color: $bc-the-audience-awards !important;
+}
+.cj-color-the-audience-awards-2{
+  color: $bc-the-audience-awards-2 !important;
+}
+.cj-color-the-audience-awards-3{
+  color: $bc-the-audience-awards-3 !important;
+}
+.cj-color-the-next-web{
+  color: $bc-the-next-web !important;
+}
+.cj-color-the-next-web-2{
+  color: $bc-the-next-web-2 !important;
+}
+.cj-color-the-next-web-3{
+  color: $bc-the-next-web-3 !important;
+}
+.cj-color-the-next-web-4{
+  color: $bc-the-next-web-4 !important;
+}
+.cj-color-the-next-web-5{
+  color: $bc-the-next-web-5 !important;
+}
+.cj-color-the-next-web-6{
+  color: $bc-the-next-web-6 !important;
+}
+.cj-color-thomson-reuters{
+  color: $bc-thomson-reuters !important;
+}
+.cj-color-thomson-reuters-2{
+  color: $bc-thomson-reuters-2 !important;
+}
+.cj-color-thomson-reuters-3{
+  color: $bc-thomson-reuters-3 !important;
+}
+.cj-color-thomson-reuters-4{
+  color: $bc-thomson-reuters-4 !important;
+}
+.cj-color-thomson-reuters-5{
+  color: $bc-thomson-reuters-5 !important;
+}
+.cj-color-thomson-reuters-6{
+  color: $bc-thomson-reuters-6 !important;
+}
+.cj-color-thomson-reuters-7{
+  color: $bc-thomson-reuters-7 !important;
+}
+.cj-color-tivo{
+  color: $bc-tivo !important;
+}
+.cj-color-tivo-2{
+  color: $bc-tivo-2 !important;
+}
+.cj-color-tivo-3{
+  color: $bc-tivo-3 !important;
+}
+.cj-color-tivo-4{
+  color: $bc-tivo-4 !important;
+}
+.cj-color-tivo-5{
+  color: $bc-tivo-5 !important;
+}
+.cj-color-tivo-6{
+  color: $bc-tivo-6 !important;
+}
+.cj-color-tivo-7{
+  color: $bc-tivo-7 !important;
+}
+.cj-color-treehouse{
+  color: $bc-treehouse !important;
+}
+.cj-color-treehouse-2{
+  color: $bc-treehouse-2 !important;
+}
+.cj-color-trello{
+  color: $bc-trello !important;
+}
+.cj-color-trello-2{
+  color: $bc-trello-2 !important;
+}
+.cj-color-trello-3{
+  color: $bc-trello-3 !important;
+}
+.cj-color-trello-4{
+  color: $bc-trello-4 !important;
+}
+.cj-color-trello-5{
+  color: $bc-trello-5 !important;
+}
+.cj-color-trello-6{
+  color: $bc-trello-6 !important;
+}
+.cj-color-trello-7{
+  color: $bc-trello-7 !important;
+}
+.cj-color-trello-8{
+  color: $bc-trello-8 !important;
+}
+.cj-color-trello-9{
+  color: $bc-trello-9 !important;
+}
+.cj-color-trello-10{
+  color: $bc-trello-10 !important;
+}
+.cj-color-tripadvisor{
+  color: $bc-tripadvisor !important;
+}
+.cj-color-trulia{
+  color: $bc-trulia !important;
+}
+.cj-color-tumblr{
+  color: $bc-tumblr !important;
+}
+.cj-color-tunngle{
+  color: $bc-tunngle !important;
+}
+.cj-color-tvtag{
+  color: $bc-tvtag !important;
+}
+.cj-color-twitch-tv{
+  color: $bc-twitch-tv !important;
+}
+.cj-color-twitter{
+  color: $bc-twitter !important;
+}
+.cj-color-typekit{
+  color: $bc-typekit !important;
+}
+.cj-color-typepad{
+  color: $bc-typepad !important;
+}
+.cj-color-typo3{
+  color: $bc-typo3 !important;
+}
+.cj-color-ubuntu{
+  color: $bc-ubuntu !important;
+}
+.cj-color-ubuntu-2{
+  color: $bc-ubuntu-2 !important;
+}
+.cj-color-ubuntu-3{
+  color: $bc-ubuntu-3 !important;
+}
+.cj-color-ubuntu-4{
+  color: $bc-ubuntu-4 !important;
+}
+.cj-color-ubuntu-5{
+  color: $bc-ubuntu-5 !important;
+}
+.cj-color-ubuntu-6{
+  color: $bc-ubuntu-6 !important;
+}
+.cj-color-united-way{
+  color: $bc-united-way !important;
+}
+.cj-color-united-way-2{
+  color: $bc-united-way-2 !important;
+}
+.cj-color-united-way-3{
+  color: $bc-united-way-3 !important;
+}
+.cj-color-united-way-4{
+  color: $bc-united-way-4 !important;
+}
+.cj-color-united-way-5{
+  color: $bc-united-way-5 !important;
+}
+.cj-color-united-way-6{
+  color: $bc-united-way-6 !important;
+}
+.cj-color-united-way-7{
+  color: $bc-united-way-7 !important;
+}
+.cj-color-united-way-8{
+  color: $bc-united-way-8 !important;
+}
+.cj-color-united-way-9{
+  color: $bc-united-way-9 !important;
+}
+.cj-color-united-way-10{
+  color: $bc-united-way-10 !important;
+}
+.cj-color-united-way-11{
+  color: $bc-united-way-11 !important;
+}
+.cj-color-united-way-12{
+  color: $bc-united-way-12 !important;
+}
+.cj-color-united-way-13{
+  color: $bc-united-way-13 !important;
+}
+.cj-color-unity{
+  color: $bc-unity !important;
+}
+.cj-color-unity-2{
+  color: $bc-unity-2 !important;
+}
+.cj-color-unity-3{
+  color: $bc-unity-3 !important;
+}
+.cj-color-unity-4{
+  color: $bc-unity-4 !important;
+}
+.cj-color-unity-5{
+  color: $bc-unity-5 !important;
+}
+.cj-color-unity-6{
+  color: $bc-unity-6 !important;
+}
+.cj-color-unity-7{
+  color: $bc-unity-7 !important;
+}
+.cj-color-university-of-oregon{
+  color: $bc-university-of-oregon !important;
+}
+.cj-color-university-of-oregon-2{
+  color: $bc-university-of-oregon-2 !important;
+}
+.cj-color-univision{
+  color: $bc-univision !important;
+}
+.cj-color-ustream{
+  color: $bc-ustream !important;
+}
+.cj-color-verizon{
+  color: $bc-verizon !important;
+}
+.cj-color-verizon-2{
+  color: $bc-verizon-2 !important;
+}
+.cj-color-verizon-3{
+  color: $bc-verizon-3 !important;
+}
+.cj-color-viadeo{
+  color: $bc-viadeo !important;
+}
+.cj-color-viki{
+  color: $bc-viki !important;
+}
+.cj-color-viki-2{
+  color: $bc-viki-2 !important;
+}
+.cj-color-vimeo{
+  color: $bc-vimeo !important;
+}
+.cj-color-vimeo-2{
+  color: $bc-vimeo-2 !important;
+}
+.cj-color-vine{
+  color: $bc-vine !important;
+}
+.cj-color-virb{
+  color: $bc-virb !important;
+}
+.cj-color-virgin-media{
+  color: $bc-virgin-media !important;
+}
+.cj-color-virgin-media-2{
+  color: $bc-virgin-media-2 !important;
+}
+.cj-color-vkontakte{
+  color: $bc-vkontakte !important;
+}
+.cj-color-volvo{
+  color: $bc-volvo !important;
+}
+.cj-color-volvo-2{
+  color: $bc-volvo-2 !important;
+}
+.cj-color-volvo-3{
+  color: $bc-volvo-3 !important;
+}
+.cj-color-volvo-4{
+  color: $bc-volvo-4 !important;
+}
+.cj-color-volvo-5{
+  color: $bc-volvo-5 !important;
+}
+.cj-color-volvo-6{
+  color: $bc-volvo-6 !important;
+}
+.cj-color-walgreens{
+  color: $bc-walgreens !important;
+}
+.cj-color-walgreens-2{
+  color: $bc-walgreens-2 !important;
+}
+.cj-color-walgreens-3{
+  color: $bc-walgreens-3 !important;
+}
+.cj-color-walgreens-4{
+  color: $bc-walgreens-4 !important;
+}
+.cj-color-walgreens-5{
+  color: $bc-walgreens-5 !important;
+}
+.cj-color-walmart{
+  color: $bc-walmart !important;
+}
+.cj-color-walmart-2{
+  color: $bc-walmart-2 !important;
+}
+.cj-color-walmart-3{
+  color: $bc-walmart-3 !important;
+}
+.cj-color-walmart-4{
+  color: $bc-walmart-4 !important;
+}
+.cj-color-walmart-5{
+  color: $bc-walmart-5 !important;
+}
+.cj-color-walmart-6{
+  color: $bc-walmart-6 !important;
+}
+.cj-color-walmart-7{
+  color: $bc-walmart-7 !important;
+}
+.cj-color-wechat{
+  color: $bc-wechat !important;
+}
+.cj-color-wendys{
+  color: $bc-wendys !important;
+}
+.cj-color-wendys-2{
+  color: $bc-wendys-2 !important;
+}
+.cj-color-western-digital{
+  color: $bc-western-digital !important;
+}
+.cj-color-western-digital-2{
+  color: $bc-western-digital-2 !important;
+}
+.cj-color-western-digital-3{
+  color: $bc-western-digital-3 !important;
+}
+.cj-color-western-digital-4{
+  color: $bc-western-digital-4 !important;
+}
+.cj-color-western-digital-5{
+  color: $bc-western-digital-5 !important;
+}
+.cj-color-western-digital-6{
+  color: $bc-western-digital-6 !important;
+}
+.cj-color-whatsapp{
+  color: $bc-whatsapp !important;
+}
+.cj-color-windows{
+  color: $bc-windows !important;
+}
+.cj-color-windows-phone{
+  color: $bc-windows-phone !important;
+}
+.cj-color-wooga{
+  color: $bc-wooga !important;
+}
+.cj-color-wordpress{
+  color: $bc-wordpress !important;
+}
+.cj-color-wordpress-2{
+  color: $bc-wordpress-2 !important;
+}
+.cj-color-wordpress-3{
+  color: $bc-wordpress-3 !important;
+}
+.cj-color-wordpress-com{
+  color: $bc-wordpress-com !important;
+}
+.cj-color-wordpress-com-2{
+  color: $bc-wordpress-com-2 !important;
+}
+.cj-color-wordpress-com-3{
+  color: $bc-wordpress-com-3 !important;
+}
+.cj-color-wordpress-com-4{
+  color: $bc-wordpress-com-4 !important;
+}
+.cj-color-wordpress-com-5{
+  color: $bc-wordpress-com-5 !important;
+}
+.cj-color-wordpress-com-6{
+  color: $bc-wordpress-com-6 !important;
+}
+.cj-color-wordpress-com-7{
+  color: $bc-wordpress-com-7 !important;
+}
+.cj-color-wordpress-com-8{
+  color: $bc-wordpress-com-8 !important;
+}
+.cj-color-wordpress-com-9{
+  color: $bc-wordpress-com-9 !important;
+}
+.cj-color-wordpress-com-10{
+  color: $bc-wordpress-com-10 !important;
+}
+.cj-color-wordpress-com-11{
+  color: $bc-wordpress-com-11 !important;
+}
+.cj-color-wordpress-com-12{
+  color: $bc-wordpress-com-12 !important;
+}
+.cj-color-wordpress-com-13{
+  color: $bc-wordpress-com-13 !important;
+}
+.cj-color-wordpress-com-14{
+  color: $bc-wordpress-com-14 !important;
+}
+.cj-color-wordpress-com-15{
+  color: $bc-wordpress-com-15 !important;
+}
+.cj-color-wordpress-com-16{
+  color: $bc-wordpress-com-16 !important;
+}
+.cj-color-wordpress-com-17{
+  color: $bc-wordpress-com-17 !important;
+}
+.cj-color-wordpress-com-18{
+  color: $bc-wordpress-com-18 !important;
+}
+.cj-color-worldline{
+  color: $bc-worldline !important;
+}
+.cj-color-wunderlist{
+  color: $bc-wunderlist !important;
+}
+.cj-color-xbox{
+  color: $bc-xbox !important;
+}
+.cj-color-xing{
+  color: $bc-xing !important;
+}
+.cj-color-xing-2{
+  color: $bc-xing-2 !important;
+}
+.cj-color-yahoo{
+  color: $bc-yahoo !important;
+}
+.cj-color-yandex{
+  color: $bc-yandex !important;
+}
+.cj-color-yelp{
+  color: $bc-yelp !important;
+}
+.cj-color-yo{
+  color: $bc-yo !important;
+}
+.cj-color-yo-2{
+  color: $bc-yo-2 !important;
+}
+.cj-color-yo-3{
+  color: $bc-yo-3 !important;
+}
+.cj-color-yo-4{
+  color: $bc-yo-4 !important;
+}
+.cj-color-yo-5{
+  color: $bc-yo-5 !important;
+}
+.cj-color-yo-6{
+  color: $bc-yo-6 !important;
+}
+.cj-color-yo-7{
+  color: $bc-yo-7 !important;
+}
+.cj-color-yo-8{
+  color: $bc-yo-8 !important;
+}
+.cj-color-yo-9{
+  color: $bc-yo-9 !important;
+}
+.cj-color-yo-10{
+  color: $bc-yo-10 !important;
+}
+.cj-color-youtube{
+  color: $bc-youtube !important;
+}
+.cj-color-zendesk{
+  color: $bc-zendesk !important;
+}
+.cj-color-zendesk-2{
+  color: $bc-zendesk-2 !important;
+}
+.cj-color-zendesk-3{
+  color: $bc-zendesk-3 !important;
+}
+.cj-color-zerply{
+  color: $bc-zerply !important;
+}
+.cj-color-zillow{
+  color: $bc-zillow !important;
+}
+.cj-color-zopim{
+  color: $bc-zopim !important;
+}

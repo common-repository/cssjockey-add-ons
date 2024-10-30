@@ -1,0 +1,95 @@
+@mixin positive_rfs($size) {
+  @include font-size($size + 0px);
+}
+
+@mixin positive_rlh($size) {
+  line-height: $size + 0px;
+}
+
+@for $i from 0 through 100 {
+  .cj-fs-#{$i} {
+    @if $i % 2 == 0 {
+      @include positive_rfs($i)
+    }
+  }
+  .cj-lh-#{$i} {
+    @if $i % 2 == 0 {
+      @include positive_rlh($i)
+    }
+  }
+}
+
+@include respond-to('xl') {
+  @for $i from 0 through 100 {
+    .cj-fs-#{$i}-xl {
+      @if $i % 2 == 0 {
+        @include positive_rfs($i)
+      }
+    }
+    .cj-lh-#{$i}-xl {
+      @if $i % 2 == 0 {
+        @include positive_rlh($i)
+      }
+    }
+  }
+}
+
+@include respond-to('lg') {
+  @for $i from 0 through 100 {
+    .cj-fs-#{$i}-lg {
+      @if $i % 2 == 0 {
+        @include positive_rfs($i)
+      }
+    }
+    .cj-lh-#{$i}-lg {
+      @if $i % 2 == 0 {
+        @include positive_rlh($i)
+      }
+    }
+  }
+}
+
+@include respond-to('md') {
+  @for $i from 0 through 100 {
+    .cj-fs-#{$i}-md {
+      @if $i % 2 == 0 {
+        @include positive_rfs($i)
+      }
+    }
+    .cj-lh-#{$i}-md {
+      @if $i % 2 == 0 {
+        @include positive_rlh($i)
+      }
+    }
+  }
+}
+
+@include respond-to('sm') {
+  @for $i from 0 through 100 {
+    .cj-fs-#{$i}-sm {
+      @if $i % 2 == 0 {
+        @include positive_rfs($i)
+      }
+    }
+    .cj-lh-#{$i}-sm {
+      @if $i % 2 == 0 {
+        @include positive_rlh($i)
+      }
+    }
+  }
+}
+
+@include respond-to('xs') {
+  @for $i from 0 through 100 {
+    .cj-fs-#{$i}-xs {
+      @if $i % 2 == 0 {
+        @include positive_rfs($i)
+      }
+    }
+    .cj-lh-#{$i}-xs {
+      @if $i % 2 == 0 {
+        @include positive_rlh($i)
+      }
+    }
+  }
+}

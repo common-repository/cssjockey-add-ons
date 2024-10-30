@@ -1,0 +1,52 @@
+@for $i from 0 through 100 {
+  .cj-width-#{$i} {
+    @if $i % 5 == 0 {
+      width: $i + 0% !important;
+    }
+  }
+}
+@include respond-to('xl') {
+  @for $i from 0 through 100 {
+    .cj-width-#{$i}-xl {
+      @if $i % 5 == 0 {
+        width: $i + 0% !important;
+      }
+    }
+  }
+}
+@include respond-to('lg') {
+  @for $i from 0 through 100 {
+    .cj-width-#{$i}-lg {
+      @if $i % 5 == 0 {
+        width: $i + 0% !important;
+      }
+    }
+  }
+}
+@include respond-to('md') {
+  @for $i from 0 through 100 {
+    .cj-width-#{$i}-md {
+      @if $i % 5 == 0 {
+        width: $i + 0% !important;
+      }
+    }
+  }
+}
+@include respond-to('sm') {
+  @for $i from 0 through 100 {
+    .cj-width-#{$i}-sm {
+      @if $i % 5 == 0 {
+        width: $i + 0% !important;
+      }
+    }
+  }
+}
+@include respond-to('xs') {
+  @for $i from 0 through 100 {
+    .cj-width-#{$i}-xs {
+      @if $i % 5 == 0 {
+        width: $i + 0% !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,151 @@
+$primary: #017BFF !default;
+$primary-invert: #ffffff !default;
+$link: #017BFF !default;
+$link-invert: #ffffff !default;
+$success: #28A745 !default;
+$success-invert: #ffffff !default;
+$danger: #DD3545 !default;
+$danger-invert: #ffffff !default;
+$info: #5bc0de !default;
+$info-invert: #ffffff !default;
+$warning: #f0ad4e !default;
+$warning-invert: #ffffff !default;
+$dark: #222222 !default;
+$dark-invert: #ffffff !default;
+$light: #F8F9FA !default;
+$light-invert: #0F0F0F !default;
+$white: #FFFFFF !default;
+$white-ter: hsl(0, 0%, 96%) !default;
+$white-bis: hsl(0, 0%, 98%) !default;
+$white-invert: #000000 !default;
+$black: #000000 !default;
+$black-invert: #FFFFFF !default;
+
+$black-bis: hsl(0, 0%, 7%) !default;
+$black-ter: hsl(0, 0%, 14%) !default;
+$grey-darker: hsl(0, 0%, 21%) !default;
+$grey-dark: hsl(0, 0%, 29%) !default;
+$grey: hsl(0, 0%, 48%) !default;
+$grey-light: hsl(0, 0%, 71%) !default;
+$grey-lighter: hsl(0, 0%, 86%) !default;
+$grey-lightest: hsl(0, 0%, 93%) !default;
+
+//###########################################################################
+$primary-light: lighten($primary, 40%) !default;
+$primary-dark: darken($primary, 10%) !default;
+$info-light: lighten($info, 25%) !default;
+$info-dark: darken($info, 10%) !default;
+$success-light: lighten($success, 40%) !default;
+$success-dark: darken($success, 10%) !default;
+$warning-light: lighten($warning, 25%) !default;
+$warning-dark: darken($warning, 10%) !default;
+$danger-light: lighten($danger, 40%) !default;
+$danger-dark: darken($danger, 10%) !default;
+
+$link-light: lighten($link, 40%) !default;
+$link-dark: darken($link, 10%) !default;
+//###########################################################################
+
+$family-primary: 'Lato' !default;
+$body-family: $family-primary !default;
+$family-code: "Source Code Pro" !default;
+$code-family: "Source Code Pro" !default;
+$body-size: 16px !default;
+$small-font-size: 14px !default;
+$body-line-height: 1.6 !default;
+$family-headings: 'Nunito Sans' !default;
+$weight-headings: bold !default;
+$heading-size-1: 48px !default;
+$heading-size-2: 42px !default;
+$heading-size-3: 36px !default;
+$heading-size-4: 30px !default;
+$heading-size-5: 24px !default;
+$heading-size-6: 18px !default;
+$title-family: 'Nunito Sans' !default;
+$title-weight: bold !default;
+$section-title-size: 48 !default;
+$subtitle-family: 'Lato' !default;
+$subtitle-weight: normal !default;
+$subtitle-opacity: 70 !default;
+$section-subtitle-size: 24 !default;
+
+$radius: 4px !default;
+$radius-small: 3px !default;
+$radius-large: 6px !default;
+$input-radius: 4px !default;
+
+$heading-size-1: 3rem !default;
+$heading-size-2: 2.5rem !default;
+$heading-size-3: 2rem !default;
+$heading-size-4: 1.5rem !default;
+$heading-size-5: 1.25rem !default;
+$heading-size-6: 1rem !default;
+$section-title-size: $heading-size-1 !default;
+$section-subtitle-size: $heading-size-4 !default;
+$weight-headings: bold !default;
+$title-weight: bold !default;
+$subtitle-weight: normal !default;
+$subtitle-opacity: 100 !default;
+
+$size-1: 3rem !default;
+$size-2: 2.5rem !default;
+$size-3: 2rem !default;
+$size-4: 1.5rem !default;
+$size-5: 1.25rem !default;
+$size-6: 1rem !default;
+$size-7: 0.75rem !default;
+$sizes: $size-1 $size-2 $size-3 $size-4 $size-5 $size-6 $size-7 !default;
+$scheme-main: $white !default;
+$scheme-main-bis: $white-bis !default;
+$scheme-main-ter: $white-ter !default;
+$scheme-invert: $black !default;
+$scheme-invert-bis: $black-bis !default;
+$scheme-invert-ter: $black-ter !default;
+$input-background-color: $scheme-main !default;
+
+$gap: 32px !default;
+$tablet: 769px !default;
+$desktop: 960px + 2 * $gap !default;
+$widescreen: 1152px + 2 * $gap !default;
+$widescreen-enabled: true !default;
+$fullhd: 1344px + 2 * $gap !default;
+$fullhd-enabled: true !default;
+
+@import "cjwpbldr";
+@import "../bulma/utilities/initial-variables";
+@import "../bulma/utilities/functions";
+$custom-colors: null !default;
+$custom-shades: null !default;
+$colors: mergeColorMaps((
+        "primary": ($primary, $primary-invert, $primary-light, $primary-dark),
+        "primary-invert":($primary-invert, $primary),
+        "primary-dark":($primary-dark, $primary-invert),
+        "primary-light":($primary-light, $dark),
+        "success":($success, $success-invert, $success-light, $success-dark),
+        "success-invert":($success-invert, $success),
+        "success-dark":($success-dark, $success-invert),
+        "success-light":($success-light, $dark),
+        "danger":($danger, $danger-invert, $danger-light, $danger-dark),
+        "danger-invert":($danger-invert, $danger),
+        "danger-dark":($danger-dark, $danger-invert),
+        "danger-light":($danger-light, $dark),
+        "warning":($warning, $warning-invert, $warning-light, $warning-dark),
+        "warning-invert":($warning-invert, $warning),
+        "warning-dark":($warning-dark, $warning-invert),
+        "warning-light":($warning-light, $dark),
+        "info":($info, $info-invert, $info-light, $info-dark),
+        "info-invert":($info-invert, $info),
+        "info-dark":($info-dark, $info-invert),
+        "info-light":($info-light, $dark),
+        "link":($link, $link-invert, $link-light, $link-dark),
+        "black":($black, $white),
+        "dark":($dark, $dark-invert),
+        "white":($white, $black),
+        "light":($light, $light-invert),
+), $custom-colors) !default;
+@import "mixins";
+@import "../global/all-variables";
+@import "../bulma/utilities/derived-variables";
+@import "../bulma/utilities/animations";
+@import "../bulma/utilities/mixins";
+@import "../bulma/utilities/controls";

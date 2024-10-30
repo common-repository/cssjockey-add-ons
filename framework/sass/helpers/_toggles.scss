@@ -1,0 +1,6 @@
+.cj-toggle-group > div{
+  display: none;
+  &.cj-is-active{
+    display: inherit;
+  }
+}

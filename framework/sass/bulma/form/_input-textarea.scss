@@ -1,0 +1,97 @@
+$textarea-padding: $control-padding-horizontal !default;
+$textarea-max-height: 40em !default;
+$textarea-min-height: 8em !default;
+
+%input-textarea {
+  @extend %input;
+
+  box-shadow: $input-shadow;
+  max-width: 100%;
+  width: 100%;
+
+  &[readonly] {
+    box-shadow: none;
+  }
+
+  // Colors
+  @each $name, $pair in $colors {
+    $color: nth($pair, 1);
+
+    &.cj-is-#{$name} {
+      border-color: $color;
+
+      &:focus,
+      &.cj-is-focused,
+      &:active,
+      &.cj-is-active {
+        box-shadow: $input-focus-box-shadow-size rgba($color, 0.25);
+      }
+    }
+  }
+
+  // Sizes
+  &.cj-is-small {
+    @include control-small;
+  }
+
+  &.cj-is-medium {
+    @include control-medium;
+  }
+
+  &.cj-is-large {
+    @include control-large;
+  }
+
+  // Modifiers
+  &.cj-is-fullwidth {
+    display: block;
+    width: 100%;
+  }
+
+  &.cj-is-inline {
+    display: inline;
+    width: auto;
+  }
+}
+
+.cj-input {
+  @extend %input-textarea;
+
+  &.cj-is-rounded {
+    border-radius: $radius-rounded;
+    padding-left: calc(#{$control-padding-horizontal} + 0.375em);
+    padding-right: calc(#{$control-padding-horizontal} + 0.375em);
+  }
+
+  &.cj-is-static {
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.cj-textarea {
+  @extend %input-textarea;
+
+  display: block;
+  max-width: 100%;
+  min-width: 100%;
+  padding: $textarea-padding;
+  resize: vertical;
+
+  &:not([rows]) {
+    max-height: $textarea-max-height;
+    min-height: $textarea-min-height;
+  }
+
+  &[rows] {
+    height: initial;
+  }
+
+  // Modifiers
+  &.cj-has-fixed-size {
+    resize: none;
+  }
+}
